@@ -14,7 +14,8 @@ urls = [
     "https://fofa.info/result?qbase64=SVBUVue7vOWQiOeuoeeQhuezu%2Be7nw%3D%3D"
     ]
 
-response = requests.get(url) content = response.text
+response = requests.get(url) 
+content = response.text
 
 
 from bs4 import BeautifulSoup 
