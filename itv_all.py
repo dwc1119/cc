@@ -3,6 +3,7 @@ import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import requests
+import beautifulsoup4
 import re
 import os
 import threading
@@ -10,9 +11,7 @@ from queue import Queue
 import eventlet
 eventlet.monkey_patch()
 
-urls = [
-    "https://fofa.info/result?qbase64=SVBUVue7vOWQiOeuoeeQhuezu%2Be7nw%3D%3D"
-    ]
+urls ="https://fofa.info/result?qbase64=SVBUVue7vOWQiOeuoeeQhuezu%2Be7nw%3D%3D"
 
 response = requests.get(urls) 
 content = response.text
