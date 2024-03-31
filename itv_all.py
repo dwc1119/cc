@@ -3,7 +3,7 @@ import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import requests
-from bs4 import BeautifulSoup
+import BeautifulSoup
 import re
 import os
 import threading
