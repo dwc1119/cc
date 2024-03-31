@@ -25,7 +25,7 @@ soup = BeautifulSoup(content, "html.parser")
 live_sources = [] # 通过查找标签提取直播源信息 for tag in soup.find_all("a"): if tag.get("href") and "live_source" in tag.get("href"): live_sources.append(tag.get("href")) # 通过查找属性提取直播源信息 for tag in soup.find_all(attrs={"class": "live-source"}): live_sources.append(tag.get("src"))
 
 
-with open("live_sources.txt", "w") as file: for live_source in live_sources: file.write(live_source + "\n")
+with open("itvlist.txt", "w") as file: for live_source in live_sources: file.write(live_source + "\n")
 
 
 
