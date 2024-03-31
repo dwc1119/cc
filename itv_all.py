@@ -23,7 +23,7 @@ soup = BeautifulSoup(content, "html.parser")
 
 
 live_sources = [] 
-# 通过查找标签提取直播源信息 
+# 通过查找标签提取1直播源信息 
 for tag in soup.find_all("a"): 
     if tag.get("href") and "live_source" in tag.get("href"): 
         live_sources.append(tag.get("href")) 
