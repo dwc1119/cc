@@ -14,7 +14,7 @@ urls = [
     "https://fofa.info/result?qbase64=SVBUVue7vOWQiOeuoeeQhuezu%2Be7nw%3D%3D"
     ]
 
-response = requests.get(url) 
+response = requests.get(urls) 
 content = response.text
 
 
