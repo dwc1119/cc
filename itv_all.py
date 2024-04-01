@@ -10,7 +10,7 @@ from queue import Queue
 import eventlet
 eventlet.monkey_patch()
 
-url ="https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D"
+url = "https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D"
 
 response = requests.get(url) 
 #content = response.text
