@@ -10,7 +10,7 @@ from queue import Queue
 import eventlet
 eventlet.monkey_patch()
 
-urls ="https://fofa.info/result?qbase64=SVBUVue7vOWQiOeuoeeQhuezu%2Be7nw%3D%3D"
+urls ="https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D"
 
 response = requests.get(urls) 
 content = response.text
@@ -20,14 +20,10 @@ from bs4 import BeautifulSoup
 soup = BeautifulSoup(content, "html.parser")
 
 
-live_sources = [] 
+url = [] 
 # 通过查找标签提取1直播源信息 
-for tag in soup.find_all("a"): 
-    if tag.get("href") and "live_source" in tag.get("href"): 
-        live_sources.append(tag.get("href")) 
-    # 通过查找属性提取直播源信息 
-for tag in soup.find_all(attrs={"class": "live-source"}): 
-    live_sources.append(tag.get("src"))
+pattern = r'("^113.9")'
+live_source = re.match(pattern,soup)  
 
 
 with open("itvlist.txt", "w") as file: 
