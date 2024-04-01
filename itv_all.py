@@ -10,10 +10,11 @@ from queue import Queue
 import eventlet
 eventlet.monkey_patch()
 
-urls ="https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D"
+url ="https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D"
 
-response = requests.get(urls) 
+response = requests.get(url) 
 content = response.text
+print （"content"）
 
 
 from bs4 import BeautifulSoup 
