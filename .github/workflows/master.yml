@@ -1,4 +1,4 @@
-name: itvlist
+name: itv
 
 on:
   schedule:
@@ -23,7 +23,7 @@ jobs:
       - name: Install dependencies
         run: pip install selenium requests futures eventlet
 
-      - name: Run itv_all
+      - name: Run itvm_all
         run: python ${{ github.workspace }}/itv_all.py
 
       #- name: Run cctv
@@ -43,5 +43,5 @@ jobs:
           git commit *.txt -m "Add generated file"
           git commit *.m3u -m "Add generated file"
           #git pull --rebase
-          git push 
+          git push f
 
