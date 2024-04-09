@@ -234,6 +234,7 @@ def worker():
             ts_lists = [line.split('/')[-1] for line in lines if line.startswith('#') == False]  # 获取m3u8文件下视频流后缀
             ts_lists_0 = ts_lists[0].rstrip(ts_lists[0].split('.ts')[-1])  # m3u8链接前缀
             ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
+            print (ts_url)
 
             # 多获取的视频数据进行5秒钟限制
             with eventlet.Timeout(5, False):
@@ -296,110 +297,5 @@ results.sort(key=lambda x: channel_key(x[0]))
 
 result_counter = 3  # 每个频道需要的个数
 
-with open("itv.txt", 'w', encoding='utf-8') as file:
-    channel_counters = {}
-    file.write('央视频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
-    file.write('数字频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '天元' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
-    channel_counters = {}
-    file.write('卫视频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '卫视' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
-    channel_counters = {}
-    file.write('其他频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"{channel_name},{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1
-
-with open("itvlist.m3u", 'w', encoding='utf-8') as file:
-    channel_counters = {}
-    file.write('#EXTM3U\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'CCTV' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"#EXTINF:-1 group-title=\"央视频道\",{channel_name}\n")
-                    file.write(f"{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"#EXTINF:-1 group-title=\"央视频道\",{channel_name}\n")
-                file.write(f"{channel_url}\n")
-                channel_counters[channel_name] = 1
-    channel_counters = {}
-    #file.write('卫视频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if '卫视' in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"#EXTINF:-1 group-title=\"卫视频道\",{channel_name}\n")
-                    file.write(f"{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"#EXTINF:-1 group-title=\"卫视频道\",{channel_name}\n")
-                file.write(f"{channel_url}\n")
-                channel_counters[channel_name] = 1
-    channel_counters = {}
-    #file.write('其他频道,#genre#\n')
-    for result in results:
-        channel_name, channel_url, speed = result
-        if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
-            if channel_name in channel_counters:
-                if channel_counters[channel_name] >= result_counter:
-                    continue
-                else:
-                    file.write(f"#EXTINF:-1 group-title=\"其他频道\",{channel_name}\n")
-                    file.write(f"{channel_url}\n")
-                    channel_counters[channel_name] += 1
-            else:
-                file.write(f"#EXTINF:-1 group-title=\"其他频道\",{channel_name}\n")
-                file.write(f"{channel_url}\n")
-                channel_counters[channel_name] = 1
+withchannel_name] = 1
 
