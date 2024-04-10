@@ -231,9 +231,14 @@ def worker():
         try:
             res=se.get(channel,headers=headers,timeout=5,stream=True)      
             if res.status_code==200:          
-                for k in res.iter_content(chunk_size=1048576):              # 这里的chunk_size是1MB，每次读取1MB测试视频流\n                # 如果能获取视频流，则输出读取的时间以及链接\n                
+                for k in res.iter_content(chunk_size=1048576):  # 这里的chunk_size是1MB，每次读取1MB测试视频流  
+                    # 如果能获取视频流，则输出读取的时间以及链接
                     if k:                    
-                        print(f'{time.time()-now:.2f}\\t{channel}')                   break\n    except Exception:\n        # 无法连接并超时的情况下输出“X”\n        print(f'X\\t{i}')
+                        print(f'{time.time()-now:.2f}\\t{channel}') 
+                        break
+        except Exception:
+            # 无法连接并超时的情况下输出“X”
+            print(f'X\\t{channel}')
             #print(ts_url)
 
             # 多获取的视频数据进行5秒钟限制
