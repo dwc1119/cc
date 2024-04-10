@@ -229,26 +229,26 @@ def worker():
         # 从队列中获取一个任务
         channel_name, channel_url = task_queue.get()
         try:
-            channel_url_t = channel_url.rstrip(channel_url.split('/')[-1])  # m3u8链接前缀
-            lines = requests.get(channel_url, timeout = 1).text.strip().split('\n')  # 获取m3u8文件内容
-            ts_lists = [line.split('/')[-1] for line in lines if line.startswith('#') == False]  # 获取m3u8文件下视频流后缀
-            ts_lists_0 = ts_lists[0].rstrip(ts_lists[0].split('.ts')[-1])  # m3u8链接前缀
-            ts_url = channel_url_t + ts_lists[0]  # 拼接单个视频片段下载链接
-            print(ts_url)
+            res=se.get(channel,headers=headers,timeout=5,stream=True)      
+            if res.status_code==200:          
+                for k in res.iter_content(chunk_size=1048576):              # 这里的chunk_size是1MB，每次读取1MB测试视频流\n                # 如果能获取视频流，则输出读取的时间以及链接\n                
+                    if k:                    
+                        print(f'{time.time()-now:.2f}\\t{channel}')                   break\n    except Exception:\n        # 无法连接并超时的情况下输出“X”\n        print(f'X\\t{i}')
+            #print(ts_url)
 
             # 多获取的视频数据进行5秒钟限制
             with eventlet.Timeout(5, False):
                 start_time = time.time()
-                content = requests.get(ts_url, timeout = 1).content
+                content = requests.get(channel, timeout = 1).content
                 end_time = time.time()
                 response_time = (end_time - start_time) * 1
 
             if content:
                 with open(ts_lists_0, 'ab') as f:
                     f.write(content)  # 写入文件
-                file_size = len(content)
+                file_size = len(response_time)
                 # print(f"文件大小：{file_size} 字节")
-                download_speed = file_size / response_time / 1024
+                download_speed = 1 / response_time / 1024
                 # print(f"下载速度：{download_speed:.3f} kB/s")
                 normalized_speed = min(max(download_speed / 1024, 0.001), 100)  # 将速率从kB/s转换为MB/s并限制在1~100之间
                 #print(f"标准化后的速率：{normalized_speed:.3f} MB/s")
