@@ -218,7 +218,7 @@ for result in results:
 task_queue = Queue()
 
 # 线程安全的列表，用于存储结果
-results = []
+works = []
 
 error_channels = []
 headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'}
@@ -242,17 +242,17 @@ def worker():
                     # 如果能获取视频流，则输出读取的时间以及链接
                     if k: 
                         download_speed = 1 / response_time 
-                        result = channel_name, channel_url,f"{time.time()-now:.2f}" 
-                        results.append(result)
-                        numberx = (len(results) + len(error_channels)) / len(channels) * 100
-                        print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+                        work = channel_name, channel_url,f"{time.time()-now:.2f}" 
+                        works.append(work)
+                        numberx = (len(works) + len(error_channels)) / len(channels) * 100
+                        print(f"可用频道：{len(works)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
                         break
           except Exception:
             # 无法连接并超时的情况下输出“X”
              error_channel = channel_name, channel_url
              error_channels.append(error_channel)
-             numberx = (len(results) + len(error_channels)) / len(channels) * 100
-             print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+             numberx = (len(works) + len(error_channels)) / len(channels) * 100
+             print(f"可用频道：{len(works)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
             #print(f'X\\t{channel}')
             #print(ts_url)
 
@@ -311,15 +311,15 @@ def channel_key(channel_name):
         return float('inf')  # 返回一个无穷大的数字作为关键字
 
 # 对频道进行排序
-results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
-results.sort(key=lambda x: channel_key(x[0]))
+works.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
+works.sort(key=lambda x: channel_key(x[0]))
 
 
 result_counter = 3  # 每个频道需要的个数
 with open("itv.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视频道,#genre#\n')
-    for result in results:
+    for work in works:
         channel_name, channel_url, speed = result
         if 'CCTV' in channel_name:
             if channel_name in channel_counters:
@@ -332,7 +332,7 @@ with open("itv.txt", 'w', encoding='utf-8') as file:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
     file.write('数字频道,#genre#\n')
-    for result in results:
+    for work in works:
         channel_name, channel_url, speed = result
         if '天元' in channel_name:
             if channel_name in channel_counters:
