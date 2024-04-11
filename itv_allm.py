@@ -221,7 +221,7 @@ task_queue = Queue()
 results = []
 
 error_channels = []
-
+headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'}\nse=requests.Session()
 
 # 定义工作线程函数
 def worker():
@@ -229,46 +229,58 @@ def worker():
         # 从队列中获取一个任务
         channel_name, channel_url = task_queue.get()
         try:
-            res=se.get(channel,headers=headers,timeout=5,stream=True)      
+            res=se.get(channel,headers=headers,timeout=5,stream=True) 
+            start_time = time.time()
+            content = requests.get(channel, timeout = 1).content
+            end_time = time.time()
+            response_time = (end_time - start_time) * 1
             if res.status_code==200:          
                 for k in res.iter_content(chunk_size=1048576):  # 这里的chunk_size是1MB，每次读取1MB测试视频流  
                     # 如果能获取视频流，则输出读取的时间以及链接
-                    if k:                    
-                        print(f'{time.time()-now:.2f}\\t{channel}') 
+                    if k: 
+                        download_speed = 1 / response_time 
+                        result = channel_name, channel_url,f"{time.time()-now:.2f}" 
+                        results.append(result)
+                        numberx = (len(results) + len(error_channels)) / len(channels) * 100
+                        print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
                         break
         except Exception:
             # 无法连接并超时的情况下输出“X”
-            print(f'X\\t{channel}')
-            #print(ts_url)
-
-            # 多获取的视频数据进行5秒钟限制
-            with eventlet.Timeout(5, False):
-                start_time = time.time()
-                content = requests.get(channel, timeout = 1).content
-                end_time = time.time()
-                response_time = (end_time - start_time) * 1
-
-            if content:
-                with open(ts_lists_0, 'ab') as f:
-                    f.write(content)  # 写入文件
-                file_size = len(response_time)
-                # print(f"文件大小：{file_size} 字节")
-                download_speed = 1 / response_time / 1024
-                # print(f"下载速度：{download_speed:.3f} kB/s")
-                normalized_speed = min(max(download_speed / 1024, 0.001), 100)  # 将速率从kB/s转换为MB/s并限制在1~100之间
-                #print(f"标准化后的速率：{normalized_speed:.3f} MB/s")
-
-                # 删除下载的文件
-                os.remove(ts_lists_0)
-                result = channel_name, channel_url, f"{normalized_speed:.3f} MB/s"
-                results.append(result)
-                numberx = (len(results) + len(error_channels)) / len(channels) * 100
-                print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
-        except:
             error_channel = channel_name, channel_url
             error_channels.append(error_channel)
             numberx = (len(results) + len(error_channels)) / len(channels) * 100
             print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+            #print(f'X\\t{channel}')
+            #print(ts_url)
+
+            # 多获取的视频数据进行5秒钟限制
+            #with eventlet.Timeout(5, False):
+                #start_time = time.time()
+                #content = requests.get(channel, timeout = 1).content
+                #end_time = time.time()
+               # response_time = (end_time - start_time) * 1
+
+            #if content:
+                #with open(ts_lists_0, 'ab') as f:
+                    #f.write(content)  # 写入文件
+                #file_size = len(response_time)
+                # print(f"文件大小：{file_size} 字节")
+                #download_speed = 1 / response_time / 1024
+                # print(f"下载速度：{download_speed:.3f} kB/s")
+                #normalized_speed = min(max(download_speed / 1024, 0.001), 100)  # 将速率从kB/s转换为MB/s并限制在1~100之间
+                #print(f"标准化后的速率：{normalized_speed:.3f} MB/s")
+
+                # 删除下载的文件
+                #os.remove(ts_lists_0)
+                #result = channel_name, channel_url, f"{normalized_speed:.3f} MB/s"
+               # results.append(result)
+                #numberx = (len(results) + len(error_channels)) / len(channels) * 100
+               # print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+        #except:
+            #error_channel = channel_name, channel_url
+            #error_channels.append(error_channel)
+            #numberx = (len(results) + len(error_channels)) / len(channels) * 100
+            #print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
 
         # 标记任务完成
         task_queue.task_done()
