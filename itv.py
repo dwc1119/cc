@@ -2,7 +2,7 @@ import time
 import requests
  
 # ll是电视直播源的链接列表
-ll=['http://........','https://.......']
+ll=['http://110.52.99.109:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0','http://110.52.99.109:85/tsfile/live/1000_1.m3u8?key=txiptv&playlive=1&authid=0']
 headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'}
 se=requests.Session()
  
