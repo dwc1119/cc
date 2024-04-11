@@ -231,7 +231,7 @@ def worker():
        channel_name, channel_url = task_queue.get()
        for channel in channels:
           now=time.time()
-        try:
+          try:
             res=se.get(channel,headers=headers,timeout=5,stream=True) 
             start_time = time.time()
             content = requests.get(channel, timeout = 1).content
