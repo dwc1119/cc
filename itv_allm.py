@@ -228,7 +228,7 @@ se=requests.Session()
 def worker():
     while True:
         # 从队列中获取一个任务
-        channel_name, channel_url = task_queue.get()
+       channel_name, channel_url = task_queue.get()
        for channel in channels:
           now=time.time()
         try:
@@ -237,8 +237,8 @@ def worker():
             content = requests.get(channel, timeout = 1).content
             end_time = time.time()
             response_time = (end_time - start_time) * 1
-            if res.status_code==200:          
-                for k in res.iter_content(chunk_size=1048576):  # 这里的chunk_size是1MB，每次读取1MB测试视频流  
+            if res.status_code==200:
+               for k in res.iter_content(chunk_size=1048576):  # 这里的chunk_size是1MB，每次读取1MB测试视频流  
                     # 如果能获取视频流，则输出读取的时间以及链接
                     if k: 
                         download_speed = 1 / response_time 
