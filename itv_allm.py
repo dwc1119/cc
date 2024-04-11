@@ -221,7 +221,8 @@ task_queue = Queue()
 results = []
 
 error_channels = []
-headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'}\nse=requests.Session()
+headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'}
+se=requests.Session()
 
 # 定义工作线程函数
 def worker():
