@@ -286,7 +286,7 @@ def worker():
             #print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
 
         # 标记任务完成
-        task_queue.task_done()
+task_queue.task_done()
 
 
 # 创建多个工作线程
