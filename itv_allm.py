@@ -233,9 +233,9 @@ def worker():
        for channel in channels:
           now=time.time()
           try:
-            res=se.get(channel,headers=headers,timeout=5,stream=True) 
+            res=se.get(channel_url,headers=headers,timeout=5,stream=True) 
             start_time = time.time()
-            content = requests.get(channel, timeout = 1).content
+            content = requests.get(channel_url, timeout = 1).content
             end_time = time.time()
             response_time = (end_time - start_time) * 1
             if res.status_code==200:
