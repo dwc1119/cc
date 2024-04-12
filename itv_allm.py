@@ -238,7 +238,7 @@ def worker():
             content = requests.get(channel_url, timeout = 1).content
             end_time = time.time()
             response_time = (end_time - start_time) * 1
-            if res.status_code==200:
+            if res.status_code == 200:
                work = channel_name, channel_url,f"{time.time()-now:.2f}" 
                works.append(work)
                numberx = (len(works) + len(error_channels)) / len(channels) * 100
