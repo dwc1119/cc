@@ -249,12 +249,13 @@ def worker():
                         download_speed = 1 / response_time 
                      
                         break
-          except Exception:
+          except:
             # 无法连接并超时的情况下输出“X”
              error_channel = channel_name, channel_url
              error_channels.append(error_channel)
              numberx = (len(works) + len(error_channels)) / len(channels) * 100
              print(f"可用频道：{len(works)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+          task_queue.task_done
             #print(f'X\\t{channel}')
             #print(ts_url)
 
@@ -288,7 +289,7 @@ def worker():
             #print(f"可用频道：{len(results)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
 
         # 标记任务完成
-          task_queue.task_done()
+          #task_queue.task_done()
 
 
 # 创建多个工作线程
