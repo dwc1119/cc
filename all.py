@@ -194,9 +194,21 @@ for url in urls:
                 continue
         except:
             continue
-results = set(results)   # 去重得到唯一的URL列表
-results = sorted(results)
-with open("itv.txt", 'w') as file:
+result_counter = 8  # 每个频道需要的个数
+
+with open("itvlist.txt", 'w', encoding='utf-8') as file:
+    channel_counters = {}
+    file.write('央视频道,#genre#\n')
     for result in results:
-        file.write(result + "\n")
+        channel_name, channel_url, speed = result
+        if 'CCTV' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
         print(result)
