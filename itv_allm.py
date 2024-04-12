@@ -8,6 +8,8 @@ import os
 import threading
 from queue import Queue
 import eventlet
+import sys
+sys.setrecursionlimit(10000) 
 eventlet.monkey_patch()
 
 urls = [
