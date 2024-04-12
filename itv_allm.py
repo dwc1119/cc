@@ -240,9 +240,9 @@ def worker():
             response_time = (end_time - start_time) * 1
             if res.status_code==200:
                work = channel_name, channel_url,f"{time.time()-now:.2f}" 
-                        works.append(work)
-                        numberx = (len(works) + len(error_channels)) / len(channels) * 100
-                        print(f"可用频道：{len(works)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
+               works.append(work)
+               numberx = (len(works) + len(error_channels)) / len(channels) * 100
+               print(f"可用频道：{len(works)} 个 , 不可用频道：{len(error_channels)} 个 , 总频道：{len(channels)} 个 ,总进度：{numberx:.2f} %。")
                for k in res.iter_content(chunk_size=1048576):  # 这里的chunk_size是1MB，每次读取1MB测试视频流  
                     # 如果能获取视频流，则输出读取的时间以及链接
                     if k: 
