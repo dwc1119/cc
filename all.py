@@ -118,6 +118,7 @@ for url in urls:
     for url in valid_urls:
         print(url)
     # 遍历网址列表，获取JSON文件并解析
+    works = []
     for url in valid_urls:
         try:
             # 发送GET请求获取JSON文件，设置超时时间为0.5秒
@@ -191,24 +192,24 @@ for url in urls:
                             name = name.replace("CCTV5+体育赛视", "CCTV5+")
                             name = name.replace("CCTV5+体育赛事", "CCTV5+")
                             name = name.replace("CCTV5+体育", "CCTV5+")
-                            results.append(f"{name},{urld}")
+                            works.append(f"{name},{urld}")
             except:
                 continue
         except:
             continue
 channels = []
 
-for result in results:
-    line = result.strip()
-    if result:
-        channel_name, channel_url = result.split(',')
+for work in works:
+    line = work.strip()
+    if work:
+        channel_name, channel_url = work.split(',')
         channels.append((channel_name, channel_url))
 result_counter = 8  # 每个频道需要的个数
 
 with open("itv.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视频道,#genre#\n')
-    for result in results:
+    for work in works:
         channel_name, channel_url
         if 'CCTV' in channel_name:
             if channel_name in channel_counters:
@@ -220,4 +221,4 @@ with open("itv.txt", 'w', encoding='utf-8') as file:
             else:
                 file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
-        print(result)
+        print(work)
