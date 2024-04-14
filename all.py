@@ -7,6 +7,8 @@ import re
 import os
 import threading
 from queue import Queue
+import sys
+sys.setrecursionlimit(6000)
 import eventlet
 eventlet.monkey_patch()
 
