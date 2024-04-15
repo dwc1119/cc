@@ -39,6 +39,7 @@ jobs:
         run: |
 
           git push origin
+          git fetch origin
           git config --local user.email "dwc1119@163.com"
           git config --local user.name "dwc1119"
           git add .
