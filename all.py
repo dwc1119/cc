@@ -203,6 +203,19 @@ for url in urls:
                 continue
         except:
             continue
+channels = []
+
+for result in results:
+    line = result.strip()
+    if result:
+        channel_name, channel_url = result.split(',')
+        channels.append((channel_name, channel_url))
+        
+
+
+
+
+
 with open("f.txt", "w", encoding="utf-8") as file:
     for result in results:
         file.write(result + "\n")
