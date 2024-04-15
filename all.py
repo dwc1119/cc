@@ -205,7 +205,7 @@ for url in urls:
             continue
 def save_results(results, itv):
     # 将结果保存到文本文件
-    with open(itv.txt, "w", encoding="utf-8") as file:
+    with open(itv, "w", encoding="utf-8") as file:
         for result in results:
             file.write(result + "\n")
             print(result)
