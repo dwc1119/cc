@@ -216,7 +216,20 @@ for result in results:
 
 
 
-with open("f.txt", "w", encoding="utf-8") as file:
-    for result in results:
-        file.write(result + "\n")
-        print(result)
+result_counter = 3  # 每个频道需要的个数
+with open("itv.txt", 'w', encoding='utf-8') as file:
+    channel_counters = {}
+    file.write('央视频道,#genre#\n')
+    for work in works:
+        channel_name, channel_url
+        if 'CCTV' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+    
