@@ -125,9 +125,9 @@ for url in urls:
                             if name and urld:
                                 # 删除特定文字
                                 name = name.replace("cctv", "CCTV")
-                                name = name.replace("CCTV教育", "CETV")
+                                
                                 name = name.replace("中央", "CCTV")
-                                name = name.replace("央视", "CCTV")
+                                name = name.replace("w", "")
                                 name = name.replace("高清", "")
                                 name = name.replace("超高", "")
                                 name = name.replace("HD", "")
@@ -142,6 +142,7 @@ for url in urls:
                                 name = re.sub(r"CCTV(\d+)台", r"CCTV\1", name)
                                 name = name.replace("CCTV1综合", "CCTV1")
                                 name = name.replace("CCTV2财经", "CCTV2")
+                                name = name.replace("CCTV教育", "CETV")
                                 name = name.replace("CCTV3综艺", "CCTV3")
                                 name = name.replace("CCTV4国际", "CCTV4")
                                 name = name.replace("CCTV4中文国际", "CCTV4")
