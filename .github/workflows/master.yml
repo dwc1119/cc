@@ -38,7 +38,7 @@ jobs:
       - name: 提交更改
         run: |
 
-          git status
+          git pull origin
           git push origin
           git config --local user.email "dwc1119@163.com"
           git config --local user.name "dwc1119"
