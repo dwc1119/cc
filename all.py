@@ -125,6 +125,7 @@ for url in urls:
                             if name and urld:
                                 # 删除特定文字
                                 name = name.replace("cctv", "CCTV")
+                                name = name.replace("CCTV教育", "CETV")
                                 name = name.replace("中央", "CCTV")
                                 name = name.replace("央视", "CCTV")
                                 name = name.replace("高清", "")
