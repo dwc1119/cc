@@ -38,13 +38,11 @@ jobs:
       - name: 提交更改
         run: |
 
-          git pull origin
-          git push origin
-          git config --local user.email "dwc1119@163.com"
-          git config --local user.name "dwc1119"
-          git add itv.txt
+          git config --local user.email "ssili@126.com"
+          git config --local user.name "ssili126"
+          git add .
           git commit *.txt -m "Add generated file"
           git commit *.m3u -m "Add generated file"
-          git pull --rebase
+          #git pull --rebase
           git push -f
 
