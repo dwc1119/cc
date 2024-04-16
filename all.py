@@ -13,6 +13,7 @@ eventlet.monkey_patch()
 ###urls城市根据自己所处地理位置修改
 urls = [
     "https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D",
+    "http://tonkiang.us/",
     "https://fofa.info/result?qbase64=Iue9kee7nFRW566h55CG57O757ufIg%3D%3D"
 ]
 
