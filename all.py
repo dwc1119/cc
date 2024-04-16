@@ -10,7 +10,7 @@ from queue import Queue
 import eventlet
 eventlet.monkey_patch()
 
-###urls城市根据自己所处地理位置修改
+###urls城市根据自己所处的地理位置修改
 urls = [
     "https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D",
     "http://tonkiang.us/",
