@@ -42,7 +42,7 @@ jobs:
           git push origin
           git config --local user.email "dwc1119@163.com"
           git config --local user.name "dwc1119"
-          git add .
+          git add itv.txt
           git commit *.txt -m "Add generated file"
           git commit *.m3u -m "Add generated file"
           git pull --rebase
