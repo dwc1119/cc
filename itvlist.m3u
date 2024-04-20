@@ -1,3 +1,31 @@
 #EXTM3U
-#EXTINF:-1 group-title="央视频道",CCTV6测试
-http://183.11.239.36:808/hls/94/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV1
+http://113.118.13.196:808/hls/19/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV3测试
+http://113.118.13.196:808/hls/91/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV4
+http://113.118.13.196:808/hls/22/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV4
+http://113.118.13.196:808/hls/67/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV5测试
+http://113.118.13.196:808/hls/93/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV5测试
+http://113.118.13.196:808/hls/93/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV7
+http://113.118.13.196:808/hls/25/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV9
+http://113.118.13.196:808/hls/27/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV10
+http://113.118.13.196:808/hls/28/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV11
+http://113.118.13.196:808/hls/29/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV12
+http://113.118.13.196:808/hls/30/index.m3u8
+#EXTINF:-1 group-title="央视频道",“CCTV13
+http://113.118.13.196:808/hls/31/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV14
+http://113.118.13.196:808/hls/32/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV15
+http://113.118.13.196:808/hls/102/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV16
+http://113.118.13.196:808/hls/169/index.m3u8
