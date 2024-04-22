@@ -26,8 +26,8 @@ jobs:
      # - name: Run itv_allm
        # run: python ${{ github.workspace }}/itv_allm.py
 
-      - name: Run all
-        run: python ${{ github.workspace }}/all.py
+      - name: Run itv
+        run: python ${{ github.workspace }}/itv.py
         
       #- name: Run weishi
         #run: python ${{ github.workspace }}/weishi.py
