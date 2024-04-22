@@ -1,1 +1,5 @@
-txt
+央视频道,#genre#
+数字频道,#genre#
+卫视频道,#genre#
+其他频道,#genre#
+CGTN俄语,http://183.11.239.36:808/hls/85/index.m3u8
