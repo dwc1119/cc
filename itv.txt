@@ -1,5 +1,5 @@
 天元围棋,http://113.9.150.118:88/hls/128/index.m3u8
-天元围棋,http://bxny.667789.cn:88/hls/128/index.m3u8
+天元天围棋,http://bxny.667789.cn:88/hls/128/index.m3u8
 CCTV1,http://120.7.86.31:808/hls/1/index.m3u8
 CCTV1,http://121.24.98.3:8090/hls/9/index.m3u8
 CCTV2,http://120.7.86.31:808/hls/2/index.m3u8
