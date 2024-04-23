@@ -1,6 +1,4 @@
 央视频道,#genre#
 数字频道,#genre#
-天元天围棋,http://bxny.667789.cn:88/hls/128/index.m3u8
 卫视频道,#genre#
 其他频道,#genre#
-天元天围棋,http://bxny.667789.cn:88/hls/128/index.m3u8
