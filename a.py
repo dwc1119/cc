@@ -21,18 +21,10 @@ urls = [
 
 def modify_urls(url):
     modified_urls = []
-    ip_start_index = url.find("//") + 2
-    ip_end_index = url.find(":", ip_start_index)
-    base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url[ip_start_index:ip_end_index]
-    port = url[ip_end_index:]
     ip_end = "/rtp/239.254.201.152:7205"
-    for i in range(1, 256):
-        modified_ip = f"{ip_address[:-1]}{i}"
-        modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
-        modified_urls.append(modified_url)
-        print(modified_url)
-
+    modified_url = f"{url}{ip_end}"
+    modified_urls.append(modified_url)
+   
     return modified_urls
     
 
