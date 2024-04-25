@@ -19,29 +19,6 @@ urls = [
     #"https://fofa.info/result?qbase64=Iue9kee7nFRW566h55CG57O757ufIg%3D%3D"
 ]
 
-def modify_urls(url):
-    ip_start_index = url.find("//") + 2
-    ip_end_index = url.find(":", ip_start_index)
-    base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url[ip_start_index:ip_end_index]
-    port = url[ip_end_index:]
-    ip_end = "/rtp/239.254.201.152:7205"
-    modified_ip = f"{ip_address}"
-    modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
-    modified_urls.append(modified_url)
-    print(modified_url)
-   
-    
-
-
-def is_url_accessible(url):
-    try:
-        response = requests.get(url, timeout=1)
-        if response.status_code == 200:
-            return url
-    except requests.exceptions.RequestException:
-        pass
-    return None
 
 results = []
 
@@ -79,7 +56,7 @@ for url in urls:
             base_url = url[:ip_start_index]  # http:// or https://
             ip_address = url[ip_start_index:ip_dot_three]
             port = url[ip_end_index:]
-            ip_end = "1"
+            ip_end = "/rtp/239.254.201.152:7205"
             modified_ip = f"{ip_address}{ip_end}"
             x_url = f"{base_url}{modified_ip}{port}"
             x_urls.append(x_url)
