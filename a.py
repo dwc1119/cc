@@ -105,4 +105,6 @@ for url in urls:
     
         for url in valid_urls:
             print(url)
+    except:
+        continue
         
