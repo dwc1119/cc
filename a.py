@@ -33,6 +33,7 @@ def modify_urls(url):
         modified_urls.append(modified_url)
 
     return modified_urls
+    print(modified_urls)
 
 
 def is_url_accessible(url):
@@ -40,7 +41,7 @@ def is_url_accessible(url):
         response = requests.get(url, timeout=1)
         if response.status_code == 200:
             return url
-            print(url）
+            print(url)
     except requests.exceptions.RequestException:
         pass
     return None
