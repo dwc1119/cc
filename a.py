@@ -15,7 +15,7 @@ urls = [
     #"https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D",
     #"http://tonkiang.us/",
     #"https://fofa.info/result?qbase64=IuS6v%2BmUi%2BeOi%2BWdpCI%3D",
-    "https://fofa.info/result?qbase64=IuWFrOaYjuaWsOWbtOenkea6kOe9kee7nCI%3D",#深圳
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
     #"https://fofa.info/result?qbase64=Iue9kee7nFRW566h55CG57O757ufIg%3D%3D"
 ]
 
@@ -26,7 +26,7 @@ def modify_urls(url):
     base_url = url[:ip_start_index]  # http:// or https://
     ip_address = url[ip_start_index:ip_end_index]
     port = url[ip_end_index:]
-    ip_end = "/ZHGXTV/Public/json/live_interface.txt"
+    ip_end = "/status"
     for i in range(1, 256):
         modified_ip = f"{ip_address[:-1]}{i}"
         modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
@@ -89,3 +89,19 @@ for url in urls:
     
         valid_urls = []
         #   多线程获取可用url
+        with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+            futures = []
+            for url in urls:
+                url = url.strip()
+                modified_urls = modify_urls(url)
+                for modified_url in modified_urls:
+                    futures.append(executor.submit(is_url_accessible, modified_url))
+    
+            for future in concurrent.futures.as_completed(futures):
+                result = future.result()
+                if result:
+                    valid_urls.append(result)
+    
+        for url in valid_urls:
+            print(url)
+        
