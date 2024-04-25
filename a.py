@@ -31,6 +31,7 @@ def modify_urls(url):
         modified_ip = f"{ip_address[:-1]}{i}"
         modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
         modified_urls.append(modified_url)
+        print(modified_url)
 
     return modified_urls
     
