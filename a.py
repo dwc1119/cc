@@ -79,7 +79,7 @@ for url in urls:
             ip_dot_second = url.find(".", ip_dot_start) + 1
             ip_dot_three = url.find(".", ip_dot_second) + 1
             base_url = url[:ip_start_index]  # http:// or https://
-            ip_address = url[ip_start_index:ip_dot_three]
+            ip_address = url[ip_start_index:ip_end_index]
             port = url[ip_end_index:]
             ip_end = ip_end_index
             modified_ip = f"{ip_address}{ip_end}"
