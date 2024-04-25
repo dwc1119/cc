@@ -82,7 +82,7 @@ for url in urls:
             ip_address = url[ip_start_index:ip_end_index]
             port = url[ip_end_index:]
             ip_end = ip_end_index
-            modified_ip = f"{ip_address}{ip_end}"
+            modified_ip = ip_address
             x_url = f"{base_url}{modified_ip}{port}"
             x_urls.append(x_url)
         urls = set(x_urls)  # 去重得到唯一的URL列表
