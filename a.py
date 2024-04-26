@@ -128,8 +128,9 @@ for udpxy_url in udpxy_urls:
             line = line.strip()
             if line:
                 channel_name, channel_url = line.split(',')
-                channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
-                results.append(f"{channel_name},{channel_url}/n")
+                channel_udpxy_url=f"{udpxy_url}{channel_url}"
+                #channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
+                results.append(f"{channel_name},{channel_udpxy_url}")
                 for result in results:
                     print(result)
                     
