@@ -27,7 +27,7 @@ def modify_urls(url):
     port = url[ip_end_index:]
     ip_end = "/rtp/239.254.201.156:6270"
     for i in range(1, 256):
-        modified_ip = f"{ip_address}{i}"
+        modified_ip = f"{ip_address}"
         modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
         modified_urls.append(modified_url)
         print(modified_url)
