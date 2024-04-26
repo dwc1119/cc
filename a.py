@@ -121,18 +121,18 @@ for url in valid_urls:
             
 for udpxy_url in udpxy_urls:
     print(udpxy_url)
-    results=[]
-    with open("iptv.txt", 'r', encoding='utf-8') as file:
-        lines = file.readlines()
-        for line in lines:
-            line = line.strip()
-            if line:
-                channel_name, channel_url = line.split(',')
-                channel_udpxy_url=f"{udpxy_url}{channel_url}"
+results=[]
+with open("iptv.txt", 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+    for line in lines:
+        line = line.strip()
+        if line:
+            channel_name, channel_url = line.split(',')
+            channel_udpxy_url=f"{udpxy_url}{channel_url}"
                 #channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
-                results.append(f"{channel_name},{channel_udpxy_url}")
-                for result in results:
-                    print(result)
+            results.append(f"{channel_name},{channel_udpxy_url}")
+            for result in results:
+                print(result)
                     
 results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
