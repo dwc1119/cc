@@ -1,43 +1,5 @@
-import time
-import concurrent.futures
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-import requests
-import re
-import os
-import threading
-from queue import Queue
-import eventlet
-eventlet.monkey_patch()
-
-urls = [
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImxhbmdmYW5nIg%3D%3D",  # 
-    "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0i5rmW5Y2XIg%3D%3D"  # 湖南
-    ]
-
-for url in urls:
-    # 创建一个Chrome WebDriver实例
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-
-    driver = webdriver.Chrome(options=chrome_options)
-    # 使用WebDriver访问网页
-    driver.get(url)  # 将网址替换为你要访问的网页地址
-    time.sleep(10)
-    # 获取网页内容
-    page_content = driver.page_source
-
-    # 关闭WebDriver
-    driver.quit()
-
-    # 查找所有符合指定格式的网址
-    pattern = r"http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+"  # 设置匹配的格式，如http://8.8.8.8:8888
-    urls_all = re.findall(pattern, page_content)
-    # urls = list(set(urls_all))  # 去重得到唯一的URL列表
-    urls.append(urls_all)
-    for url in urls:
-        url = url.strip()
-        print(url)
-
+import re 
+url = 'https://113.215.20.136:9011/113.215.6.77/c3pr90ntcya0/youku/6981496DC9913B8321BFE4A4E73/0300010E0C51F10D86F80703BAF2B1ADC67C80-E0F6-4FF8-B570-7DC5603F9F40.flv'
+pattern = 'http://(.*?):9011/'
+out = re.sub(pattern, 'http://127.0.0.1:9091/', url)
+print out
