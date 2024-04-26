@@ -130,17 +130,12 @@ for udpxy_url in udpxy_urls:
                 channel_name, channel_url = line.split(',')
                 channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
                 results.append(f"{channel_name},{channel_url}")
-                for result in results:
-                    print(result)
+                #for result in results:
+                    #print(result)
 
-channels = []
 
-for result in results:
-   # line = result.strip()
-    if result:
-        channel_name, channel_url = result.split(',')
-        results.append((channel_name, channel_url))
-        
+ for result in results:
+     print(result)       
         
 
 result_counter = 3  # 每个频道需要的个数
