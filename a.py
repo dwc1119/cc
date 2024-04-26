@@ -85,6 +85,7 @@ for url in urls:
             modified_ip = f"{ip_address}{ip_end}"
             x_url = f"{base_url}{modified_ip}{port}"
             x_urls.append(x_url)
+            print(x_url)
         urls = set(x_urls)  # 去重得到唯一的URL列表
     
         valid_urls = []
