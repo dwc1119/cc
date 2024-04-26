@@ -82,6 +82,7 @@ for url in urls:
             ip_address = url[ip_start_index:ip_dot_three]
             port = url[ip_end_index:]
             ip_end = url.find(":", ip_dot_three)
+            print(ip_end)
             modified_ip = f"{ip_address}"
             x_url = f"{base_url}{modified_ip}{port}"
             x_urls.append(x_url)
