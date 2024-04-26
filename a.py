@@ -128,11 +128,10 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
         line = line.strip()
         if line:
             channel_name, channel_url = line.split(',')
-            if 'http://111.227.237.82:4022' in channel_url:
-                channel_url = re.sub(r"http://111.227.237.82:4022", udpxy)
-                results.append(f"{channel_name},{channel_url}")
-                for result in results:
-                    print(result)
+            channel_url = re.sub("http://111.227.237.82:4022", udpxy，channel_url)
+            results.append(f"{channel_name},{channel_url}")
+            for result in results:
+                 print(result)
 
 
                 
