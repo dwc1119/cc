@@ -38,5 +38,6 @@ for url in urls:
     # urls = list(set(urls_all))  # 去重得到唯一的URL列表
     urls.append(urls_all)
     for url in urls:
+        url = url.strip()
         print(url)
 
