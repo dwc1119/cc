@@ -133,7 +133,7 @@ for udpxy_url in udpxy_urls:
                 for result in results:
                     print(result)
 
-#channels = []
+channels = []
 
 for result in results:
     line = result.strip()
