@@ -140,6 +140,8 @@ for result in results:
     if result:
         channel_name, channel_url = result.split(',')
         channels.append((channel_name, channel_url))
+        results.append(result)
+        
 
 result_counter = 3  # 每个频道需要的个数
 
