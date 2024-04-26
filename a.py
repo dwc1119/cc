@@ -133,13 +133,13 @@ for udpxy_url in udpxy_urls:
                 for result in results:
                     print(result)
 
-channels = []
+#channels = []
 
-for result in results:
-    line = result.strip()
-    if result:
-        channel_name, channel_url = result.split(',')
-        channels.append((channel_name, channel_url))
+#for result in results:
+    #line = result.strip()
+    #if result:
+        #channel_name, channel_url = result.split(',')
+        #channels.append((channel_name, channel_url))
 
 result_counter = 3  # 每个频道需要的个数
 
