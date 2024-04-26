@@ -120,5 +120,13 @@ for url in valid_urls:
     udpxy_urls.append(udpxy_url)
             
 for udpxy_url in udpxy_urls:
-    print(udpxy_url)
+    #print(udpxy_url)
+with open("iptv.txt", 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+    for line in lines:
+        line = line.strip()
+        if line:
+            channel_name, channel_url = line.split(',')
+            if 'http://111.227.237.82:4022' in channel_url:
+                channels.append((channel_name, channel_url))
 
