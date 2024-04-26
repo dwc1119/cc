@@ -30,7 +30,7 @@ def modify_urls(url):
     modified_ip = f"{ip_address}"
     modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
     modified_urls.append(modified_url)
-    print(modified_url)
+    #print(modified_url)
 
     return modified_urls
 
@@ -116,7 +116,7 @@ for url in valid_urls:
     base_url = url[:ip_start_index]  # http:// or https://
     ip_address = url[ip_start_index:ip_index_second]
     url_x = f"{base_url}{ip_address}"
-    udpxy_url = f"{url}"
+    udpxy_url = f"{url_x}"
     udpxy_urls.append(udpxy_url)
             
 for udpxy_url in udpxy_urls:
