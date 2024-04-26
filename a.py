@@ -107,4 +107,70 @@ for url in urls:
             print(url)
     except:
         continue
+udpxy_urls=[]
+        for url in valid_urls:
+            # 修改文件转发地址
+            ip_start_index = url.find("//") + 2
+            ip_dot_start = url.find(".") + 1
+            ip_index_second = url.find("/", ip_dot_start)
+            base_url = url[:ip_start_index]  # http:// or https://
+            ip_address = url[ip_start_index:ip_index_second]
+            url_x = f"{base_url}{ip_address}"
+
+            udpxy_url = f"{url}"
+            udpxy_urls.append(udpxy_url)
+            
+for udpxy_url in udpxy_urls:
+    print(udpxy_url)
+
+
+
+            try:
+                # 解析JSON文件，获取name和url字段
+                for item in json_data['data']:
+                    if isinstance(item, dict):
+                        name = item.get('name')
+                        urlx = item.get('url')
+                        if ',' in urlx:
+                            urlx=f"aaaaaaaa"
+                        #if 'http' in urlx or 'udp' in urlx or 'rtp' in urlx:
+                        if 'http' in urlx:
+                            urld = f"{urlx}"
+                        else:
+                            urld = f"{url_x}{urlx}"
+
+                        if name and urlx:
+                            # 删除特定文字
+                            name = name.replace("cctv", "CCTV")
+                            name = name.replace("中央", "CCTV")
+                            name = name.replace("央视", "CCTV")
+                            name = name.replace("高清", "")
+                            name = name.replace("超高", "")
+                            name = name.replace("K1", "")
+                            name = name.replace("K2", "")
+                            name = name.replace("W", "")
+                            name = name.replace("B1", "") 
+                            name = name.replace("B2", "") 
+                            name = name.replace("CCTV15音乐", "CCTV15") 
+                            name = name.replace("CCTV音乐", "CCTV15") 
+                            name = name.replace("奥运", "") 
+                            name = name.replace("国防", "") 
+                            name = name.replace("B3", "") 
+                            name = name.replace("B8", "") 
+                            name = name.replace("B6", "") 
+                            name = name.replace("B5", "") 
+                            name = name.replace("B9", "") 
+                            name = name.replace("上海卫视", "东方卫视") 
+                            name = name.replace("付费", "") 
+                            name = name.replace("B12", "") 
+                            name = name.replace("B14", "") 
+                            name = name.replace("HD", "")
+                            name = name.replace("标清", "")
+                            name = name.replace("频道", "")
+                            name = name.replace("-", "")
+                            name = name.replace(" ", "")
+                            name = name.replace("PLUS", "+")
+                            name = name.replace("＋", "+")
+                            name = name.replace("(", "")
+                            name =
         
