@@ -73,8 +73,7 @@ for url in urls:
         x_urls = []
         for url in urls:  # 对urls进行处理，ip第四位修改为1，并去重
             url = url.strip()
-            ip_start_index = url.find("//") + 1
-            print(ip_start_index)
+            ip_start_index = url.find("//") + 2
             ip_end_index = url.find(":", ip_start_index)
             ip_dot_start = url.find(".") + 1
             ip_dot_second = url.find(".", ip_dot_start) + 1
@@ -82,8 +81,8 @@ for url in urls:
             base_url = url[:ip_start_index]  # http:// or https://
             ip_address = url[ip_start_index:ip_dot_three]
             port = url[ip_end_index:]
-            ip_end = url.find(":", ip_dot_three)
-            #print(ip_end)
+            ip_end = url[ip_dot_three:ip_end_index]
+            print(ip_end)
             modified_ip = f"{ip_address}"
             x_url = f"{base_url}{modified_ip}{port}"
             x_urls.append(x_url)
