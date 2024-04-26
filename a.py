@@ -133,9 +133,8 @@ for udpxy_url in udpxy_urls:
                 #for result in results:
                     #print(result)
 
-
- for result in results:
-     print(result)       
+for result in results:
+    print(result)       
         
 
 result_counter = 3  # 每个频道需要的个数
