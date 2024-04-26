@@ -73,7 +73,7 @@ for url in urls:
         x_urls = []
         for url in urls:  # 对urls进行处理，ip第四位修改为1，并去重
             url = url.strip()
-            ip_start_index = url.find("//") + 2
+            ip_start_index = url.find("//") + 1
             ip_end_index = url.find(":", ip_start_index)
             ip_dot_start = url.find(".") + 1
             ip_dot_second = url.find(".", ip_dot_start) + 1
