@@ -82,8 +82,8 @@ for url in urls:
             ip_address = url[ip_start_index:ip_end_index]
             port = url[ip_end_index:]
             #ip_end = url.find(":", ip_dot_three) + 1
-            modified_ip = f"{ip_address}"
-            x_url = f"{base_url}{modified_ip}{port}"
+            #modified_ip = f"{ip_address}"
+            x_url = f"{base_url}{ip_address}{port}"
             x_urls.append(x_url)
         urls = set(x_urls)  # 去重得到唯一的URL列表
     
