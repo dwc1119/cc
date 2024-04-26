@@ -131,15 +131,15 @@ for udpxy_url in udpxy_urls:
                 channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
                 results.append(f"{channel_name},{channel_url}/n")
                 for result in results:
-                    with open("itvlist.txt", 'w', encoding='utf-8') as file:
-                        file.write(result)
+                    print(result)
                     
-                #for result in results:
-                    #print(result)
+results = set(results)   # 去重得到唯一的URL列表
+results = sorted(results)
+with open("itvlist.txt", 'w', encoding='utf-8') as file:
+    for result in results:
+        file.write(result + "\n")
 
-#for result in results:
-    #print(result)       
-        
+
 
 #result_counter = 3  # 每个频道需要的个数
 
