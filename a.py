@@ -149,7 +149,7 @@ def channel_key(channel_name):
         return float('inf')  # 返回一个无穷大的数字作为关键字
 
 # 对频道进行排序
-#results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
+results.sort(key=lambda x: (x[0], -float(x[2].split()[0])))
 results.sort(key=lambda x: channel_key(x[0]))
 
 
@@ -161,6 +161,20 @@ with open("itvlist.txt", 'w', encoding='utf-8') as file:
     for result in results:
         channel_name, channel_url
         if 'CCTV' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+    channel_counters = {}   
+    file.write('数字频道,#genre#\n')
+    for result in results:
+        channel_name, channel_url, speed = result
+        if '天元' in channel_name or '风云' in channel_name or '球' in channel_name or '影' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
                     continue
