@@ -25,7 +25,7 @@ def modify_urls(url):
     base_url = url[:ip_start_index]  # http:// or https://
     ip_address = url[ip_start_index:ip_end_index]
     port = url[ip_end_index:]
-    ip_end = "/rtp/239.254.201.156:6270"
+    ip_end = "status"
 
     modified_ip = f"{ip_address}"
     modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
