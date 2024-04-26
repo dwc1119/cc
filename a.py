@@ -132,7 +132,7 @@ for udpxy_url in udpxy_urls:
                 results.append(f"{channel_name},{channel_url}")
                 for result in results:
                     with open("itvlist.txt", 'w', encoding='utf-8') as file:
-                        file.write(result\n)
+                        file.write(result)
                     
                 #for result in results:
                     #print(result)
