@@ -130,8 +130,8 @@ for udpxy_url in udpxy_urls:
                 channel_name, channel_url = line.split(',')
                 channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
                 results.append(f"{channel_name},{channel_url}")
-                for result in results
-                with open("itvlist.txt", 'w', encoding='utf-8') as file:
+                for result in results:
+                    with open("itvlist.txt", 'w', encoding='utf-8') as file:
                     file.write(result/n)
                     
                 #for result in results:
