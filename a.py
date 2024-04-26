@@ -136,7 +136,7 @@ for udpxy_url in udpxy_urls:
 channels = []
 
 for result in results:
-    line = result.strip()
+   # line = result.strip()
     if result:
         channel_name, channel_url = result.split(',')
         results.append((channel_name, channel_url))
