@@ -161,7 +161,7 @@ with open("itvlist.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}   
     file.write('数字频道,#genre#\n')
     for result in results:
-        channel_name, channel_url, speed = result
+        channel_name, channel_url
         if '天元' in channel_name or '风云' in channel_name or '球' in channel_name or '影' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
