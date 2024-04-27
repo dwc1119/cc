@@ -138,10 +138,10 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
                 
                 
 for channel in results:
-    if channel
-    channel_name, channel_url = channel.split(',')
-    result = channel_name, channel_url
-    results.append(result)
+    if channel:
+        channel_name, channel_url = channel.split(',')
+        result = channel_name, channel_url
+        results.append(result)
 
 results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
