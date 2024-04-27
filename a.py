@@ -130,8 +130,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
         channel = line.strip()
         channel = channel.replace("http","udpxy_url")
         results.append(channel)
-        for result in results:
-            print(result)
+        
                     
                     #channel_udpxy_url= f"{udpxy_url}{channel_url}"
                     #channel_udpxy_urls.append(channel_udpxy_url)
@@ -144,7 +143,7 @@ results = sorted(results)
 file = open("itvlist.txt", 'w', encoding='utf-8') 
 for result in results:
     file.write(result + "\n")
-    file.close
+    print(result)
 
 
 
