@@ -116,6 +116,9 @@ if urls:
                         with open("ip.txt", 'w', encoding='utf-8') as file:
                             for udpxy_url in udpxy_urls:
                                 file.write(udpxy_url + "\n")
+                        with open("itvlist.m3u", 'w', encoding='utf-8') as file:
+                            for udpxy_url in udpxy_urls:
+                                file.write(udpxy_url + "\n")
                      
     
 for udpxy_url in udpxy_urls:
