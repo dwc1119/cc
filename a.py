@@ -127,16 +127,16 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         #print(line)
-        channel = line.strip()
+        result = line.strip()
         for udpxy_url in udpxy_urls:
-            channel = channel.replace("http://111.227.237.82:4022",udpxy_url)
-            results.append(channel)
+            result = result.replace("http://111.227.237.82:4022",udpxy_url)
+            results.append(result)
         
                     
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
-    for channel in results:
-        file.write(channel + "\n")
+    for result in results:
+        file.write(result + "\n")
 with open("itvlist.m3u", 'w', encoding='utf-8') as file:
     for channel in results:
-        file.write(channel + "\n")
+        file.write(result + "\n")
     
