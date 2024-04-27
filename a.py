@@ -113,6 +113,9 @@ if urls:
                         url_x = f"{base_url}{ip_address}"
                         udpxy_url = f"{url_x}"
                         udpxy_urls.append(udpxy_url)
+                        with open("ip.txt", 'w', encoding='utf-8') as file:
+                            for udpxy_url in udpxy_urls:
+                                file.write(udpxy_url + "\n")
                      
     
 for udpxy_url in udpxy_urls:
