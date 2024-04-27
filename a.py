@@ -128,11 +128,10 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
     for line in lines:
         #print(line)
         channel = line.strip()
-        if channel:
-            channel = channel.replace("http",f"[{udpxy_url}]")
-            results.append(channel)
-            for result in results:
-                print(result)
+        channel = channel.replace("http",f"[{udpxy_url}]")
+        results.append(channel)
+        for result in results:
+            print(result)
                     
                     #channel_udpxy_url= f"{udpxy_url}{channel_url}"
                     #channel_udpxy_urls.append(channel_udpxy_url)
