@@ -142,7 +142,7 @@ results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
 file = open("itvlist.txt", 'w', encoding='utf-8') 
 for result in results:
-    file.write(result + "\n")
+    file.write(result+"\n")
     print(result)
 
 
