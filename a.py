@@ -112,11 +112,11 @@ if urls:
                 print(url)
             udpxy_urls = []
             # 修改文件转发地址
-            ip_start_index = result.find("//") + 2
-            ip_dot_start = result.find(".") + 1
-            ip_index_second = result.find("/", ip_dot_start)
-            base_url = result[:ip_start_index]  # http:// or https://
-            ip_address = result[ip_start_index:ip_index_second]
+            ip_start_index = url.find("//") + 2
+            ip_dot_start = url.find(".") + 1
+            ip_index_second = url.find("/", ip_dot_start)
+            base_url = url[:ip_start_index]  # http:// or https://
+            ip_address = url[ip_start_index:ip_index_second]
             url_x = f"{base_url}{ip_address}"
             udpxy_url = f"{url_x}"
             udpxy_urls.append(udpxy_url)
