@@ -104,6 +104,10 @@ if urls:
                     valid_urls.append(result)
 
         for result in valid_urls:
+            with open("ip.txt", 'w', encoding='utf-8') as file:
+                file.write(result + "\n")
+            with open("itvlist.m3u", 'w', encoding='utf-8') as file:
+                file.write(result + "\n")
             print(result)
             udpxy_urls = []
             # 修改文件转发地址
