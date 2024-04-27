@@ -134,15 +134,6 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
         
                     
                     
- with open("itvlist.txt", 'w', encoding='utf-8') as file:
-     
-                
-for channel in results:
-    print(channel)
-    if channel:
-        channel_name, channel_url = channel.split(',')
-        result = channel_name, channel_url
-        results.append(result)
 
 results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
