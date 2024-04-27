@@ -104,10 +104,10 @@ if urls:
                     valid_urls.append(result)
 
         with open("ip.txt", 'w', encoding='utf-8') as file:
-            for result in valid_urls
+            for result in valid_urls:
                 file.write(result + "\n")
         with open("itvlist.m3u", 'w', encoding='utf-8') as file:
-            for result in valid_urls
+            for result in valid_urls:
                 file.write(result + "\n")
                 print(result)
             udpxy_urls = []
