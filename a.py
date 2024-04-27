@@ -103,12 +103,13 @@ if urls:
                 if result:
                     valid_urls.append(result)
 
-        for result in valid_urls:
-            with open("ip.txt", 'w', encoding='utf-8') as file:
+        with open("ip.txt", 'w', encoding='utf-8') as file:
+            for result in valid_urls
                 file.write(result + "\n")
-            with open("itvlist.m3u", 'w', encoding='utf-8') as file:
+        with open("itvlist.m3u", 'w', encoding='utf-8') as file:
+            for result in valid_urls
                 file.write(result + "\n")
-            print(result)
+                print(result)
             udpxy_urls = []
             # 修改文件转发地址
             ip_start_index = result.find("//") + 2
