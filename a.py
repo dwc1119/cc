@@ -131,9 +131,9 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
         if line:
             channel_name,channel_url = result.split(",")
             for udpxy_url in udpxy_urls:
-            channel_udpxy_url = f"{udpxy_url}{channel_url}"
-            result=f"{channel_name}{channel_udpxy_url}"
-            results.append(result)
+                channel_udpxy_url = f"{udpxy_url}{channel_url}"
+                result=f"{channel_name}{channel_udpxy_url}"
+                results.append(result)
         
                     
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
