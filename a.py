@@ -103,8 +103,8 @@ if urls:
                 if result:
                     valid_urls.append(result)
 
-for result in valid_urls:
-    print(result)
+        for result in valid_urls:
+            print(result)
     udpxy_urls = []
     # 修改文件转发地址
     ip_start_index = result.find("//") + 2
