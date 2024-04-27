@@ -137,16 +137,14 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
                     #channel_udpxy_urls.append(channel_udpxy_url)
                 
                 
-                
-                
-results = set(results)   # 去重得到唯一的URL列表
-results = sorted(results)
- 
 for channel in results:
+    if channel
     channel_name, channel_url = channel.split(',')
     result = channel_name, channel_url
     results.append(result)
 
+results = set(results)   # 去重得到唯一的URL列表
+results = sorted(results)
 
 result_counter = 3  # 每个频道需要的个数
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
