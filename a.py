@@ -120,7 +120,7 @@ for url in valid_urls:
     udpxy_urls.append(udpxy_url)
             
 for udpxy_url in udpxy_urls:
-    print(udpxy_url)
+    #print(udpxy_url)
 results = []
 channel_udpxy_urls = []
 with open("iptv.txt", 'r', encoding='utf-8') as file:
@@ -128,8 +128,9 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
     for line in lines:
         #print(line)
         channel = line.strip()
-        channel = channel.replace("http",udpxy_url)
-        results.append(channel)
+        for udpxy_url in udpxy_urls:
+            channel = channel.replace("http://111.227.237.82:4022",udpxy_url)
+            results.append(channel)
         
                     
                     #channel_udpxy_url= f"{udpxy_url}{channel_url}"
