@@ -129,7 +129,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
         #print(line)
         result = line.strip()
         for udpxy_url in udpxy_urls:
-            result = result.replace("http://111.227.237.82:4022",udpxy_url)
+            result = result.replace("http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d{1,4}",udpxy_url)
             results.append(result)
         
                     
