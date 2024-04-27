@@ -148,12 +148,13 @@ for result in results:
 file = open("itvlist.m3u", 'w', encoding='utf-8') 
 for result in results:
     file.write(result+"\n")
-
+results = []
 for result in results:
     line = result.strip()
     if result:
         channel_name, channel_url = result.split(',')
-        results.append(f"{channel_name}, {channel_url}")
+        result = channel_name, channel_url
+        results.append(result)
 
 
 result_counter = 3  # 每个频道需要的个数
