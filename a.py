@@ -119,8 +119,8 @@ for url in valid_urls:
     udpxy_url = f"{url_x}"
     udpxy_urls.append(udpxy_url)
             
-#for udpxy_url in udpxy_urls:
-    #print(udpxy_url)
+for udpxy_url in udpxy_urls:
+    print(udpxy_url)
 results = []
 channel_udpxy_urls = []
 with open("iptv.txt", 'r', encoding='utf-8') as file:
@@ -131,7 +131,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
         if line:
             channel_name,channel_url = result.split(",")
             for udpxy_url in udpxy_urls:
-                print(udpxy_url)
+                #print(udpxy_url)
                 channel_udpxy_url = f"{udpxy_url}{channel_url}"
                 result=f"{channel_name},{channel_udpxy_url}"
                 results.append(result)
