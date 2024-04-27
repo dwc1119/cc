@@ -132,7 +132,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
             if udpxy_url in udpxy_urls:
                 try:
                     channel_udpxy_url=f"{udpxy_url}{channel_url}"
-                    channel_udpxy_urls=channel_udpxy_urls.append(channel_udpxy_url)
+                    channel_udpxy_urls.append(channel_udpxy_url)
                 except:
                     continue
                 for channel_udpxy_url in channel_udpxy_urls:
