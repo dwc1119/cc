@@ -131,13 +131,14 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
             channel_name, channel_url = line.split(',')
             for udpxy_url in udpxy_urls:
                 try:
-                    channel_udpxy_url=f"{udpxy_url}{channel_url}"
-                    channel_udpxy_urls.append(channel_udpxy_url)
+                    channel_name, channel_udpxy_url = f"{channel_name},{udpxy_url}{channel_url}"
+                    #channel_udpxy_url = f"{udpxy_url}{channel_url}"
+                    #channel_udpxy_urls.append(channel_udpxy_url)
                 except:
                     continue
                 
                 #channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
-                results.append((channel_name),(channel_udpxy_url))
+                results.append((channel_name,channel_udpxy_url))
                 for result in results:
                     print(result)
                     
