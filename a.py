@@ -141,8 +141,8 @@ results = sorted(results)
 result_counter = 3  # 每个频道需要的个数
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
     for channel in results:
-        file.write(channel)
+        file.write(channel + "\n")
 with open("itvlist.m3u", 'w', encoding='utf-8') as file:
     for channel in results:
-        file.write(channel)
+        file.write(channel + "\n")
     
