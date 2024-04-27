@@ -104,6 +104,7 @@ if urls:
                     valid_urls.append(result)
     
         for url in valid_urls:
+            udpxy_urls = []
             # 修改文件转发地址
             ip_start_index = url.find("//") + 2
             ip_dot_start = url.find(".") + 1
@@ -115,7 +116,7 @@ if urls:
             udpxy_urls.append(udpxy_url)
             
     
-udpxy_urls = []           
+        
 for udpxy_url in udpxy_urls:
     print(udpxy_url)
 results = []
