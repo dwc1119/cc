@@ -133,12 +133,6 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
             results.append(channel)
         
                     
-                    
-
-results = set(results)   # 去重得到唯一的URL列表
-results = sorted(results)
-
-result_counter = 3  # 每个频道需要的个数
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
     for channel in results:
         file.write(channel + "\n")
