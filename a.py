@@ -143,7 +143,7 @@ results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
  
 for channel in results:
-    channel_name, channel_url = result.split(',')
+    channel_name, channel_url = channel.split(',')
     result = channel_name, channel_url
     results.append(result)
 
