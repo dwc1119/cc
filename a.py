@@ -46,7 +46,7 @@ def is_url_accessible(url):
 
 
 results = []
-
+if url:
     for url in urls:
     
         # 创建一个Chrome WebDriver实例
