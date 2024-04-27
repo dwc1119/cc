@@ -142,11 +142,10 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
 results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
  
-for result in results:
-    if result:
-        channel_name, channel_url = result.split(',')
-        result = channel_name, channel_url
-        results.append(result)
+for channel in results:
+    channel_name, channel_url = result.split(',')
+    result = channel_name, channel_url
+    results.append(result)
 
 
 result_counter = 3  # 每个频道需要的个数
