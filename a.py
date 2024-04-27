@@ -119,7 +119,7 @@ for url in valid_urls:
     udpxy_url = f"{url_x}"
     udpxy_urls.append(udpxy_url)
             
-for udpxy_url in udpxy_urls:
+#for udpxy_url in udpxy_urls:
     #print(udpxy_url)
 results = []
 channel_udpxy_urls = []
