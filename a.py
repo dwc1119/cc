@@ -144,6 +144,9 @@ file = open("itvlist.txt", 'w', encoding='utf-8')
 for result in results:
     file.write(result+"\n")
     print(result)
+file = open("itvlist.m3u", 'w', encoding='utf-8') 
+for result in results:
+    file.write(result+"\n")
 
 
 
