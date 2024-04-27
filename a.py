@@ -114,7 +114,7 @@ for url in valid_urls:
     #ip_dot_start = url.find(".") + 1
     #ip_index_second = url.find("/", ip_dot_start)
     #base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url.find(http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d{1,4})
+    ip_address = url.find("http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d{1,4}")
     #url_x = f"{ip_address}"
     udpxy_url = f"{ip_address}"
     udpxy_urls.append(udpxy_url)
