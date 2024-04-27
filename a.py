@@ -141,9 +141,10 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
                 
 results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
-open("itvlist.txt", 'w', encoding='utf-8') as file:
+file = open("itvlist.txt", 'w', encoding='utf-8') 
 for result in results:
     file.write(result + "\n")
+    file.close
 
 
 
