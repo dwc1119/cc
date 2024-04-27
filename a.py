@@ -102,6 +102,8 @@ if urls:
                 result = future.result()
                 if result:
                     valid_urls.append(result)
+                    for url in valid_urls:
+                        print(url)
     
         for url in valid_urls:
             print(url)
