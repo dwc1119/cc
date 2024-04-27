@@ -47,8 +47,8 @@ def is_url_accessible(url):
 
 results = []
 
-for url in urls:
-    try:
+    for url in urls:
+    
         # 创建一个Chrome WebDriver实例
         chrome_options = Options()
         chrome_options.add_argument('--headless')
@@ -105,8 +105,7 @@ for url in urls:
     
         for url in valid_urls:
             print(url)
-    except:
-        continue
+    
 udpxy_urls = []
 for url in valid_urls:
     print(url)
