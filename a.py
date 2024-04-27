@@ -103,20 +103,21 @@ for url in urls:
                 if result:
                     valid_urls.append(result)
     
-        for url in valid_urls:
-            print(url)
+        #for url in valid_urls:
+            #print(url)
     except:
         continue
 udpxy_urls = []
 for url in valid_urls:
+    print(url)
     # 修改文件转发地址
-    #ip_start_index = url.find("//") + 2
-    #ip_dot_start = url.find(".") + 1
-    #ip_index_second = url.find("/", ip_dot_start)
-    #base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url.find("http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d{1,4}")
-    #url_x = f"{ip_address}"
-    udpxy_url = f"{ip_address}"
+    ip_start_index = url.find("//") + 2
+    ip_dot_start = url.find(".") + 1
+    ip_index_second = url.find("/", ip_dot_start)
+    base_url = url[:ip_start_index]  # http:// or https://
+    ip_address = url[ip_start_index:ip_index_second]
+    url_x = f"{base_url}{ip_address}"
+    udpxy_url = f"{url_x}"
     udpxy_urls.append(udpxy_url)
             
 for udpxy_url in udpxy_urls:
