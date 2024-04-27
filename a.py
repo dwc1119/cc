@@ -126,6 +126,7 @@ channel_udpxy_urls = []
 with open("iptv.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
+        print(line)
         channel = line.strip()
         if channel:
             for udpxy_url in udpxy_urls:
