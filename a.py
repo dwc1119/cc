@@ -128,20 +128,18 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
     for line in lines:
         line = line.strip()
         if line:
-            channel_name, channel_url = line.split(',')
+            channel = line.read()
             for udpxy_url in udpxy_urls:
-                try:
-                    channel_name, channel_udpxy_url = f"{channel_name},{udpxy_url}{channel_url}"
-                    results.append((channel_name,channel_udpxy_url))
-                    for result in results:
-                        print(result)
+                channel_udpxy = re.sub("http://111.227.237.82:4022",udpxy_url,channel)
+                results.append(channel_udpxy)
+                for result in results:
+                    print(result)
                     
                     #channel_udpxy_url= f"{udpxy_url}{channel_url}"
                     #channel_udpxy_urls.append(channel_udpxy_url)
-                except:
-                    continue
                 
-                #channel_url = re.sub("http://111.227.237.82:4022",udpxy_url,channel_url)
+                
+                
                 
 results = set(results)   # 去重得到唯一的URL列表
 results = sorted(results)
