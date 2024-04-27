@@ -90,7 +90,7 @@ if urls:
     
         valid_urls = []
         #   多线程获取可用url
-        with concurrent.futures.ThreadPoolExecutor(max_workers=1000) as executor:
+        with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
             futures = []
             for url in urls:
                 url = url.strip()
