@@ -108,7 +108,8 @@ for url in urls:
     for url in valid_urls:
         print(f"可用url:{url}")
         with open("ip.txt", 'w', encoding='utf-8') as file:
-            file.write(url + "n")
+            for url in valid_urls:
+                file.write(url + "\n")
         ip_start_index = url.find("//") + 2
         ip_dot_start = url.find(".") + 1
         ip_index_second = url.find("/", ip_dot_start)
