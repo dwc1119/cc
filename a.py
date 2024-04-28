@@ -116,14 +116,15 @@ for url in urls:
         udpxy_url = f"{url_x}"
         udpxy_urls.append(udpxy_url)
         print(f"可用udpxy_url:{udpxy_url}")
+read = []
 results = []
 channel_udpxy_urls = []
 with open("iptv.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
-        result = line.strip()
+        read = line.strip()
         if line:
-            channel_name,channel_url = result.split(",")
+            channel_name,channel_url = read.split(",")
             for udpxy_url in udpxy_urls:
                 try:
                     print(udpxy_url)
