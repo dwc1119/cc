@@ -153,6 +153,7 @@ with open("itvlist.txt", 'w', encoding='utf-8') as file:
                     channel_counters[channel_name] += 1
             else:
                 file.write(result + "\n")
+                channel_counters[channel_name] = 1
     channel_counters = {}  
     file.write('数字频道,#genre#\n')
     for result in results:
@@ -166,8 +167,7 @@ with open("itvlist.txt", 'w', encoding='utf-8') as file:
                     channel_counters[channel_name] += 1
             else:
                 file.write(f"{channel_name},{channel_url}\n")
-                channel_counters[channel_name] = 1          channel_counters[channel_name] = 1
-    
+                channel_counters[channel_name] = 1
     channel_counters = {}
     file.write('卫视频道,#genre#\n')
     for result in results:
