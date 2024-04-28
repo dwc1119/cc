@@ -125,12 +125,13 @@ for url in urls:
             if line:
                 channel_name,channel_url = result.split(",")
                 for udpxy_url in udpxy_urls:
-                    if udpxy_url:
+                    try:
                         print(udpxy_url)
-                        channel_name,channel_url = result.split(",")
                         channel_udpxy_url = f"{udpxy_url}/{channel_url}"
                         result = f"{channel_name},{channel_udpxy_url}"
                         results.append(result)
+                    except:
+                        continue
         
 result_counter = 3  # 每个频道需要的个数
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
