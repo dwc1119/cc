@@ -98,8 +98,8 @@ for url in urls:
 
                 
         for future in concurrent.futures.as_completed(futures):
-            work = future.work()
-            if result:
+            work = future.result()
+            if work:
                 mvalid_urls.append(work)
 
     valid_urls = []
