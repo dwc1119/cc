@@ -119,12 +119,12 @@ for url in urls:
                      
     results = []
     channel_udpxy_urls = []
-    for udpxy_url in udpxy_urls:
+    
         with open("iptv.txt", 'r', encoding='utf-8') as file:
             lines = file.readlines()
             for line in lines:
                 result = line.strip()
-                if line:
+                for udpxy_url in udpxy_urls:
                     channel_name,channel_url = result.split(",")
                     channel_udpxy_url = f"{udpxy_url}/{channel_url}"
                     result = f"{channel_name},{channel_udpxy_url}"
