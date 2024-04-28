@@ -101,7 +101,7 @@ for url in urls:
             result = future.result()
             if result:
                 mvalid_urls.append(result)
-if y:
+
     valid_urls = []
     valid_urls = set(mvalid_urls)
     udpxy_urls = []# 修改文件转发地址
