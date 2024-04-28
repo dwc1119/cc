@@ -131,7 +131,7 @@ with open("iptv2.txt", 'r', encoding='utf-8') as file:
                 result = f"{channel_name},{channel_udpxy_url}"
                 results.append(result)
         
-result_counter = 3  # 每个频道需要的个数
+result_counter = 4  # 每个频道需要的个数
 with open("itvlist.txt", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视频道联通线路,#genre#\n')
