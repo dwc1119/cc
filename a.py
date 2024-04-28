@@ -46,7 +46,7 @@ def is_url_accessible(url):
 
 
 results = []
-
+works = []
 for url in urls:
     # 创建一个Chrome WebDriver实例
     chrome_options = Options()
@@ -98,9 +98,9 @@ for url in urls:
 
                 
         for future in concurrent.futures.as_completed(futures):
-            result = future.result()
+            work = future.work()
             if result:
-                mvalid_urls.append(result)
+                mvalid_urls.append(work)
 
     valid_urls = []
     valid_urls = set(mvalid_urls)
