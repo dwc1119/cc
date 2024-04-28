@@ -69,26 +69,26 @@ for url in urls:
     urls_all = re.findall(pattern, page_content)
     # urls = list(set(urls_all))  # 去重得到唯一的URL列表
     urls = set(urls_all)  # 去重得到唯一的URL列表
-x_urls = []
-for url in urls:  # 对urls进行处理，ip第四位修改为1，并去重
-    url = url.strip()
-    ip_start_index = url.find("//") + 2
-    ip_end_index = url.find(":", ip_start_index)
-    ip_dot_start = url.find(".") + 1
-    ip_dot_second = url.find(".", ip_dot_start) + 1
-    ip_dot_three = url.find(".", ip_dot_second) + 1
-    base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url[ip_start_index:ip_dot_three]
-    port = url[ip_end_index:]
-    ip_end = url[ip_dot_three:ip_end_index]
-    modified_ip = f"{ip_address}{ip_end}"
-    x_url = f"{base_url}{modified_ip}{port}"
-    x_urls.append(x_url)
-    #print(x_url)
-    urls = set(x_urls)  # 去重得到唯一的URL列表
+    x_urls = []
+    for url in urls:  # 对urls进行处理
+        url = url.strip()
+        ip_start_index = url.find("//") + 2
+        ip_end_index = url.find(":", ip_start_index)
+        ip_dot_start = url.find(".") + 1
+        ip_dot_second = url.find(".", ip_dot_start) + 1
+        ip_dot_three = url.find(".", ip_dot_second) + 1
+        base_url = url[:ip_start_index]  # http:// or https://
+        ip_address = url[ip_start_index:ip_dot_three]
+        port = url[ip_end_index:]
+        ip_end = url[ip_dot_three:ip_end_index]
+        modified_ip = f"{ip_address}{ip_end}"
+        x_url = f"{base_url}{modified_ip}{port}"
+        x_urls.append(x_url)
+        #print(x_url)
+        urls = set(x_urls)  # 去重得到唯一的URL列表
     
-    valid_urls = []
-        #   多线程获取可用url
+valid_urls = []
+#   多线程获取可用url
 with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
     futures = []
     for url in urls:
