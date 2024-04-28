@@ -12,7 +12,7 @@ eventlet.monkey_patch()
 
 ###urls城市根据自己所处的地理位置修改
 urls = [
-    #"https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D",
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQ4MzciICYmIGNpdHk9ImhhbmRhbiI%3D",#邯郸联通
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQ4MzciICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山联通
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQ4MzciICYmIHJlZ2lvbj0iSGViZWki",#河北联通
@@ -131,7 +131,7 @@ with open("iptv2.txt", 'r', encoding='utf-8') as file:
                 result = f"{channel_name},{channel_udpxy_url}"
                 results.append(result)
         
-result_counter = 5  # 每个频道需要的个数
+result_counter = 10  # 每个频道需要的个数
 with open("itvlist.txt", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视频道联通线路,#genre#\n')
