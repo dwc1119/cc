@@ -13,8 +13,8 @@ eventlet.monkey_patch()
 ###urls城市根据自己所处的地理位置修改
 urls = [
     #"https://fofa.info/result?qbase64=572R57ucVFbnrqHnkIbns7vnu58%3D",
-    #"http://tonkiang.us/",
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
     #"https://fofa.info/result?qbase64=Iue9kee7nFRW566h55CG57O757ufIg%3D%3D"
 ]
@@ -134,7 +134,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
             channel_name,channel_url = result.split(",")
             for udpxy_url in udpxy_urls:
                 #print(udpxy_url)
-                channel_udpxy_url = f"{udpxy_url}{channel_url}"
+                channel_udpxy_url = f"{udpxy_url}/{channel_url}"
                 result=f"{channel_name},{channel_udpxy_url}"
                 results.append(result)
         
