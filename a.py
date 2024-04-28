@@ -92,14 +92,14 @@ for url in urls:  # 对urls进行处理，ip第四位修改为1，并去重
 with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
     futures = []
     for url in urls:
-    url = url.strip()
-    modified_urls = modify_urls(url)
-    for modified_url in modified_urls:
-        futures.append(executor.submit(is_url_accessible, modified_url))
-        for future in concurrent.futures.as_completed(futures):
-            result = future.result()
-            if result:
-                valid_urls.append(result)
+        url = url.strip()
+        modified_urls = modify_urls(url)
+        for modified_url in modified_urls:
+            futures.append(executor.submit(is_url_accessible, modified_url))
+            for future in concurrent.futures.as_completed(futures):
+                result = future.result()
+                if result:
+                    valid_urls.append(result)
 with open("ip.txt", 'w', encoding='utf-8') as file:
     for url in valid_urls:
         file.write(url + "\n")
