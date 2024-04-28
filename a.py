@@ -102,15 +102,9 @@ with concurrent.futures.ThreadPoolExecutor(max_workers=1) as executor:
                     mvalid_urls.append(result)
 valid_urls = []
 valid_urls = set(mvalid_urls)
-with open("ip.txt", 'w', encoding='utf-8') as file:
-    for url in valid_urls:
-        file.write(url + "\n")
-with open("itvlist.m3u", 'w', encoding='utf-8') as file:
-    for url in valid_urls:
-        file.write(url + "\n")
-        print(f"可用url:{url}")
 udpxy_urls = []# 修改文件转发地址
 for url in valid_urls:
+    print(f"可用url:{url}")
     ip_start_index = url.find("//") + 2
     ip_dot_start = url.find(".") + 1
     ip_index_second = url.find("/", ip_dot_start)
