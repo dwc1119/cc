@@ -11,13 +11,14 @@ import eventlet
 eventlet.monkey_patch()
 
 ###urls城市根据自己所处的地理位置修改
-urls = [
+sourse_urls = [
     #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
     #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki"#河北
 ]
+urls = []
 def modify_urls(url):
     modified_urls = []
     ip_start_index = url.find("//") + 2
@@ -47,7 +48,7 @@ def is_url_accessible(url):
 
 results = []
 works = []
-for url in urls:
+for sourse_url in sourse_urls:
     # 创建一个Chrome WebDriver实例
     chrome_options = Options()
     chrome_options.add_argument('--headless')
@@ -56,7 +57,7 @@ for url in urls:
     
     driver = webdriver.Chrome(options=chrome_options)
     # 使用WebDriver访问网页
-    driver.get(url)  # 将网址替换为你要访问的网页地址
+    driver.get(sourse_url)  # 将网址替换为你要访问的网页地址
     time.sleep(10)
     # 获取网页内容
     page_content = driver.page_source
