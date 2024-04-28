@@ -107,9 +107,6 @@ for url in urls:
     udpxy_urls = []# 修改文件转发地址
     for url in valid_urls:
         print(f"可用url:{url}")
-        with open("ip.txt", 'w', encoding='utf-8') as file:
-            for url in valid_urls:
-                file.write(url + "\n")
         ip_start_index = url.find("//") + 2
         ip_dot_start = url.find(".") + 1
         ip_index_second = url.find("/", ip_dot_start)
@@ -118,6 +115,7 @@ for url in urls:
         url_x = f"{base_url}{ip_address}"
         udpxy_url = f"{url_x}"
         udpxy_urls.append(udpxy_url)
+        print(udpxy_url)
                      
     
 
