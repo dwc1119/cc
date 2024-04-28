@@ -115,9 +115,9 @@ for url in urls:
         url_x = f"{base_url}{ip_address}"
         udpxy_url = f"{url_x}"
         udpxy_urls.append(udpxy_url)
-        print(udpxy_url)
-    results = []
-    channel_udpxy_urls = []
+        print(f"可用udpxy_url:{udpxy_url}")
+results = []
+channel_udpxy_urls = []
 with open("iptv.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
