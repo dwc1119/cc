@@ -123,6 +123,7 @@ for url in urls:
         for line in lines:
             result = line.strip()
             for udpxy_url in udpxy_urls:
+                print(udpxy_url)
                 channel_name,channel_url = result.split(",")
                 channel_udpxy_url = f"{udpxy_url}/{channel_url}"
                 result = f"{channel_name},{channel_udpxy_url}"
