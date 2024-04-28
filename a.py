@@ -116,17 +116,17 @@ for url in urls:
         udpxy_url = f"{url_x}"
         udpxy_urls.append(udpxy_url)
         print(udpxy_url)
-        results = []
-        channel_udpxy_urls = []
-        with open("iptv.txt", 'r', encoding='utf-8') as file:
-            lines = file.readlines()
-            for line in lines:
-                result = line.strip()
-                for udpxy_url in udpxy_urls:
-                    channel_name,channel_url = result.split(",")
-                    channel_udpxy_url = f"{udpxy_url}/{channel_url}"
-                    result = f"{channel_name},{channel_udpxy_url}"
-                    results.append(result)
+    results = []
+    channel_udpxy_urls = []
+    with open("iptv.txt", 'r', encoding='utf-8') as file:
+        lines = file.readlines()
+        for line in lines:
+            result = line.strip()
+            for udpxy_url in udpxy_urls:
+                channel_name,channel_url = result.split(",")
+                channel_udpxy_url = f"{udpxy_url}/{channel_url}"
+                result = f"{channel_name},{channel_udpxy_url}"
+                results.append(result)
         
 result_counter = 3  # 每个频道需要的个数
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
