@@ -30,7 +30,7 @@ def modify_urls(url):
     modified_ip = f"{ip_address}"
     modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
     modified_urls.append(modified_url)
-    #print(modified_url)
+    print(modified_url)
 
     return modified_urls
 
@@ -109,7 +109,7 @@ if urls:
         with open("itvlist.m3u", 'w', encoding='utf-8') as file:
             for url in valid_urls:
                 file.write(url + "\n")
-                print(url)
+                print(f"可用url:{url}")
             udpxy_urls = []
             # 修改文件转发地址
             ip_start_index = url.find("//") + 2
