@@ -114,16 +114,15 @@ for url in urls:
                 ip_address = url[ip_start_index:ip_index_second]
                 url_x = f"{base_url}{ip_address}"
                 udpxy_url = f"{url_x}"
-                udpxy_urls.append(udpxy_url)
+                results.append(udpxy_url)
                 
             except:
                 continue      
     except:
         continue
-results = []
 channel_udpxy_urls = []
 with open("ip.txt", 'w', encoding='utf-8') as file:
-    for udpxy_url in udpxy_urls:
+    for udpxy_url in results:
         file.write(udpxy_url + "\n")
                     
                         
