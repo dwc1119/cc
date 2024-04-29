@@ -135,11 +135,11 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
 
 with open("itvlist.m3u", 'w', encoding='utf-8') as file:
     for channel in channels:
-        file.write(result + "\n")
+        file.write(channel + "\n")
 
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
     for channel in channels:
-        file.write(result + "\n")
+        file.write(channel + "\n")
                     
                         
                      
