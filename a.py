@@ -100,8 +100,144 @@ for url in urls:
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             if result:
-                valid_urls.append(result)
+    udpxy_urls = []# 修改文件转发地址
+    for url in valid_urls:
+        print(f"可用url:{url}")
+        ip_start_index = url.find("//") + 2
+        ip_dot_start = url.find(".") + 1
+        ip_index_second = url.find("/", ip_dot_start)
+        base_url = url[:ip_start_index]  # http:// or https://
+        ip_address = url[ip_start_index:ip_index_second]
+        url_x = f"{base_url}{ip_address}"
+        udpxy_url = f"{url_x}"
+        udpxy_urls.append(udpxy_url)
+                     
+    
 
+results = []
+channel_udpxy_urls = []
+with open("iptv2.txt", 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+    for line in lines:
+        #print(line)
+        result = line.strip()
+        if line:
+            channel_name,channel_url = result.split(",")
+            for udpxy_url in udpxy_urls:
+                #print(udpxy_url)
+                channel_udpxy_url = f"{udpxy_url}/{channel_url}"
+                result = f"{channel_name},{channel_udpxy_url}"
+                results.append(result)
+        
+result_counter = 10  # 每个频道需要的个数
+with open("itvlist.txt", 'a', encoding='utf-8') as file:
+    channel_counters = {}
+    file.write('央视频道联通线路,#genre#\n')
+    for result in results:
+        channel_name,channel_url = result.split(",")
+        if 'CCTV' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(result + "\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(result + "\n")
+                channel_counters[channel_name] = 1
+    channel_counters = {}  
+    file.write('数字频道联通线路,#genre#\n')
+    for result in results:
+        channel_name, channel_url = result.split(",")
+        if '天元' in channel_name or '风云' in channel_name or '球' in channel_name or '影' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"{channel_name},{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"{channel_name},{channel_url}\n")
+                channel_counters[channel_name] = 1
+    channel_counters = {}
+    file.write('卫视频道联通线路,#genre#\n')
+    for result in results:
+        channel_name,channel_url = result.split(",")
+        if '卫视' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(result + "\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(result + "\n")
+                channel_counters[channel_name] = 1
+    channel_counters = {}
+    file.write('其他频道联通线路,#genre#\n')
+    for result in results:
+        channel_name,channel_url = result.split(",")
+        if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(result + "\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(result + "\n")
+                channel_counters[channel_name] = 1
+
+with open("itvlist.m3u", 'a', encoding='utf-8') as file:
+    channel_counters = {}
+    file.write('#EXTM3U\n')
+    for result in results:
+        channel_name,channel_url = result.split(",")
+        if 'CCTV' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"#EXTINF:-1 group-title=\"央视频道\",{channel_name}\n")
+                    file.write(f"{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"#EXTINF:-1 group-title=\"央视频道\",{channel_name}\n")
+                file.write(f"{channel_url}\n")
+                channel_counters[channel_name] = 1
+    channel_counters = {}
+    #file.write('卫视频道,#genre#\n')
+    for result in results:
+        channel_name,channel_url = result.split(",")
+        if '卫视' in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"#EXTINF:-1 group-title=\"卫视频道\",{channel_name}\n")
+                    file.write(f"{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"#EXTINF:-1 group-title=\"卫视频道\",{channel_name}\n")
+                file.write(f"{channel_url}\n")
+                channel_counters[channel_name] = 1
+    channel_counters = {}
+    #file.write('其他频道,#genre#\n')
+    for result in results:
+        channel_name,channel_url = result.split(",")
+        if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
+            if channel_name in channel_counters:
+                if channel_counters[channel_name] >= result_counter:
+                    continue
+                else:
+                    file.write(f"#EXTINF:-1 group-title=\"其他频道\",{channel_name}\n")
+                    file.write(f"{channel_url}\n")
+                    channel_counters[channel_name] += 1
+            else:
+                file.write(f"#EXTINF:-1 group-title=\"其他频道\",{channel_name}\n")
+                file.write(f"{channel_url}\n")
+                channel_counters[channel_name] = 1                    valid_urls.append(result)
+    
     for url in valid_urls:
         print(url)
         
