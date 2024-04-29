@@ -101,39 +101,39 @@ for url in urls:
                     result = future.result()
                     if result:
                         valid_urls.append(result)
-    #valid_urls = []
-    valid_urls = set(valid_urls)
-    udpxy_urls = []# 修改文件转发地址
-    for url in valid_urls:
-        print(f"可用url:{url}")
-        ip_start_index = url.find("//") + 2
-        ip_dot_start = url.find(".") + 1
-        ip_index_second = url.find("/", ip_dot_start)
-        base_url = url[:ip_start_index]  # http:// or https://
-        ip_address = url[ip_start_index:ip_index_second]
-        url_x = f"{base_url}{ip_address}"
-        udpxy_url = f"{url_x}"
-        udpxy_urls.append(udpxy_url)
+        #valid_urls = []
+        valid_urls = set(valid_urls)
+        udpxy_urls = []# 修改文件转发地址
+        for url in valid_urls:
+            print(f"可用url:{url}")
+            ip_start_index = url.find("//") + 2
+            ip_dot_start = url.find(".") + 1
+            ip_index_second = url.find("/", ip_dot_start)
+            base_url = url[:ip_start_index]  # http:// or https://
+            ip_address = url[ip_start_index:ip_index_second]
+            url_x = f"{base_url}{ip_address}"
+            udpxy_url = f"{url_x}"
+            udpxy_urls.append(udpxy_url)
                      
     
 
-        results = []
-        channel_udpxy_urls = []
-        with open("iptv2.txt", 'r', encoding='utf-8') as file:
-            lines = file.readlines()
-            for line in lines:
-                #print(line)
-                result = line.strip()
-                if line:
-                    channel_name,channel_url = result.split(",")
-                    for udpxy_url in udpxy_urls:
-                        #print(udpxy_url)
-                        channel_udpxy_url = f"{udpxy_url}/{channel_url}"
-                        result = f"{channel_name},{channel_udpxy_url}"
-                        results.append(result)
-                        with open("udp.txt", 'w', encoding='utf-8') as file:
-                            for result in results:
-                                file.write(result + "\n")
+            results = []
+            channel_udpxy_urls = []
+            with open("iptv2.txt", 'r', encoding='utf-8') as file:
+                lines = file.readlines()
+                for line in lines:
+                    #print(line)
+                    result = line.strip()
+                    if line:
+                        channel_name,channel_url = result.split(",")
+                        for udpxy_url in udpxy_urls:
+                            #print(udpxy_url)
+                            channel_udpxy_url = f"{udpxy_url}/{channel_url}"
+                            result = f"{channel_name},{channel_udpxy_url}"
+                            results.append(result)
+                            with open("udp.txt", 'w', encoding='utf-8') as file:
+                                for result in results:
+                                    file.write(result + "\n")
                             
                         
         
