@@ -60,7 +60,6 @@ x_urls = []
 for modified_url in modified_urls:
     response = requests.get(modified_url, timeout=0.5)
     if response.status_code == 200:
-        return modified_url
         url = modified_url.strip()
         ip_start_index = url.find("//") + 2
         ip_end_index = url.find(":", ip_start_index)
@@ -74,39 +73,10 @@ for modified_url in modified_urls:
         modified_ip = f"{ip_address}{ip_end}"
         x_url = f"{base_url}{modified_ip}{port}"
         x_urls.append(x_url)
-        #print(x_url)
+        print(x_url)
         valid_urls = set(x_urls)  # 去重得到唯一的URL列表
     else:
         pass
         
         
-udpxy_urls = []# 修改文件转发地址
-for url in valid_urls:
-    print(f"可用url:{url}")
-    ip_start_index = url.find("//") + 2
-    ip_dot_start = url.find(".") + 1
-    ip_index_second = url.find("/", ip_dot_start)
-    base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url[ip_start_index:ip_index_second]
-    url_x = f"{base_url}{ip_address}"
-    udpxy_url = f"{url_x}"
-    udpxy_urls.append(udpxy_url)
-                     
-results = []
-channel_udpxy_urls = []
-with open("iptv2.txt", 'r', encoding='utf-8') as file:
-    lines = file.readlines()
-    for line in lines:
-        #print(line)
-        result = line.strip()
-        if line:
-            channel_name,channel_url = result.split(",")
-            for udpxy_url in udpxy_urls:
-                #print(udpxy_url)
-                channel_udpxy_url = f"{udpxy_url}/{channel_url}"
-                result = f"{channel_name},{channel_udpxy_url}"
-                results.append(result)
-                with open("udp.txt", 'w', encoding='utf-8') as file:
-                    for result in results:
-                        file.write(result + "\n")    
 
