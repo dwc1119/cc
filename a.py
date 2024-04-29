@@ -18,7 +18,7 @@ sourse_urls = [
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki"#河北
 ]
-urls = []
+
 def modify_urls(url):
     modified_urls = []
     ip_start_index = url.find("//") + 2
@@ -47,8 +47,8 @@ def is_url_accessible(url):
 
 
 results = []
-works = []
-for sourse_url in sourse_urls:
+
+for url in urls:
     # 创建一个Chrome WebDriver实例
     chrome_options = Options()
     chrome_options.add_argument('--headless')
@@ -57,7 +57,7 @@ for sourse_url in sourse_urls:
     
     driver = webdriver.Chrome(options=chrome_options)
     # 使用WebDriver访问网页
-    driver.get(sourse_url)  # 将网址替换为你要访问的网页地址
+    driver.get(url)  # 将网址替换为你要访问的网页地址
     time.sleep(10)
     # 获取网页内容
     page_content = driver.page_source
@@ -87,53 +87,50 @@ for sourse_url in sourse_urls:
         x_urls.append(x_url)
         #print(x_url)
         urls = set(x_urls)  # 去重得到唯一的URL列表
-    mvalid_urls = []
-    #   多线程获取可用url
-    with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
-        futures = []
-        for url in urls:
-            url = url.strip()
-            modified_urls = modify_urls(url)
-            for modified_url in modified_urls:
-                futures.append(executor.submit(is_url_accessible, modified_url))
+    
+mvalid_urls = []
+#   多线程获取可用url
+with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+    futures = []
+    for url in urls:
+        url = url.strip()
+        modified_urls = modify_urls(url)
+        for modified_url in modified_urls:
+            futures.append(executor.submit(is_url_accessible, modified_url))
+            for future in concurrent.futures.as_completed(futures):
+                result = future.result()
+                if result:
+                    mvalid_urls.append(result)
+valid_urls = []
+valid_urls = set(mvalid_urls)
+udpxy_urls = []# 修改文件转发地址
+for url in valid_urls:
+    print(f"可用url:{url}")
+    ip_start_index = url.find("//") + 2
+    ip_dot_start = url.find(".") + 1
+    ip_index_second = url.find("/", ip_dot_start)
+    base_url = url[:ip_start_index]  # http:// or https://
+    ip_address = url[ip_start_index:ip_index_second]
+    url_x = f"{base_url}{ip_address}"
+    udpxy_url = f"{url_x}"
+    udpxy_urls.append(udpxy_url)
+                     
+    
 
-                
-        for future in concurrent.futures.as_completed(futures):
-            work = future.result()
-            if work:
-                mvalid_urls.append(work)
-
-    valid_urls = []
-    valid_urls = set(mvalid_urls)
-    udpxy_urls = []# 修改文件转发地址
-    for work in valid_urls:
-        print(f"可用url:{url}")
-        ip_start_index = url.find("//") + 2
-        ip_dot_start = url.find(".") + 1
-        ip_index_second = url.find("/", ip_dot_start)
-        base_url = url[:ip_start_index]  # http:// or https://
-        ip_address = url[ip_start_index:ip_index_second]
-        url_x = f"{base_url}{ip_address}"
-        udpxy_url = f"{url_x}"
-        udpxy_urls.append(udpxy_url)
-        print(f"可用udpxy_url:{udpxy_url}")
-read = []
 results = []
 channel_udpxy_urls = []
-with open("iptv.txt", 'r', encoding='utf-8') as file:
+with open("iptv2.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
-        read = line.strip()
+        #print(line)
+        result = line.strip()
         if line:
-            channel_name,channel_url = read.split(",")
+            channel_name,channel_url = result.split(",")
             for udpxy_url in udpxy_urls:
-                try:
-                    print(udpxy_url)
-                    channel_udpxy_url = f"{udpxy_url}/{channel_url}"
-                    result = f"{channel_name},{channel_udpxy_url}"
-                    results.append(result)
-                except:
-                    continue
+                #print(udpxy_url)
+                channel_udpxy_url = f"{udpxy_url}/{channel_url}"
+                result = f"{channel_name},{channel_udpxy_url}"
+                results.append(result)
         
 result_counter = 3  # 每个频道需要的个数
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
