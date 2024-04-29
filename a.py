@@ -36,13 +36,12 @@ for url in urls:
     # 关闭WebDriver
     driver.quit()
 
-
- # 查找所有符合指定格式的网址
-    pattern = r"http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+"  # 设置匹配的格式，如http://8.8.8.8:8888
-    urls_all = re.findall(pattern, page_content)
-    # urls = list(set(urls_all))  # 去重得到唯一的URL列表
-    urls = set(urls_all)  # 去重得到唯一的URL列表
-    modified_urls = []
+# 查找所有符合指定格式的网址
+pattern = r"http://\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}:\d+"  # 设置匹配的格式，如http://8.8.8.8:8888
+urls_all = re.findall(pattern, page_content)
+# urls = list(set(urls_all))  # 去重得到唯一的URL列表
+urls = set(urls_all)  # 去重得到唯一的URL列表
+modified_urls = []
 for url in urls:
     ip_start_index = url.find("//") + 2
     ip_end_index = url.find(":", ip_start_index)
