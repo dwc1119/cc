@@ -88,7 +88,7 @@ for url in urls:
         #print(x_url)
         urls = set(x_urls)  # 去重得到唯一的URL列表
     
-    mvalid_urls = []
+    valid_urls = []
     #   多线程获取可用url
     with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
         futures = []
@@ -100,9 +100,9 @@ for url in urls:
                 for future in concurrent.futures.as_completed(futures):
                     result = future.result()
                     if result:
-                        mvalid_urls.append(result)
-    valid_urls = []
-    valid_urls = set(mvalid_urls)
+                        valid_urls.append(result)
+    #valid_urls = []
+    valid_urls = set(valid_urls)
     udpxy_urls = []# 修改文件转发地址
     for url in valid_urls:
         print(f"可用url:{url}")
