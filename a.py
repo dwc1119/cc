@@ -117,23 +117,23 @@ for url in urls:
                      
     
 
-    results = []
-    channel_udpxy_urls = []
-    with open("iptv2.txt", 'r', encoding='utf-8') as file:
-        lines = file.readlines()
-        for line in lines:
-            #print(line)
-            result = line.strip()
-            if line:
-                channel_name,channel_url = result.split(",")
-                for udpxy_url in udpxy_urls:
-                    #print(udpxy_url)
-                    channel_udpxy_url = f"{udpxy_url}/{channel_url}"
-                    result = f"{channel_name},{channel_udpxy_url}"
-                    results.append(result)
-                    with open("udp.txt", 'w', encoding='utf-8') as file:
-                        for result in results:
-                            file.write(result + "\n")
+        results = []
+        channel_udpxy_urls = []
+        with open("iptv2.txt", 'r', encoding='utf-8') as file:
+            lines = file.readlines()
+            for line in lines:
+                #print(line)
+                result = line.strip()
+                if line:
+                    channel_name,channel_url = result.split(",")
+                    for udpxy_url in udpxy_urls:
+                        #print(udpxy_url)
+                        channel_udpxy_url = f"{udpxy_url}/{channel_url}"
+                        result = f"{channel_name},{channel_udpxy_url}"
+                        results.append(result)
+                        with open("udp.txt", 'w', encoding='utf-8') as file:
+                            for result in results:
+                                file.write(result + "\n")
                             
                         
         
