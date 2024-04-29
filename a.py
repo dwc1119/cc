@@ -129,7 +129,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
         if line:
             for udpxy_url in results:
                 #print(udpxy_url)
-                channel = f"{line}/{udpxy_url}"
+                channel = f"{udpxy_url}/{line}"
                 results.append(channel)
                 
 for channel in result:
