@@ -60,6 +60,7 @@ x_urls = []
 for modified_url in modified_urls:
     response = requests.get(modified_url, timeout=0.5)
     if response.status_code == 200:
+        return modified_url
         url = modified_url.strip()
         ip_start_index = url.find("//") + 2
         ip_end_index = url.find(":", ip_start_index)
