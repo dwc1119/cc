@@ -120,11 +120,20 @@ for url in urls:
                 continue      
     except:
         continue
-channel_udpxy_urls = []
-with open("ip.txt", 'w', encoding='utf-8') as file:
-    for udpxy_url in results:
-        for i in (1,2,3,4,5):
-            file.write(f"{udpxy_url}{i}" + "\n")
+channels = []
+with open("iptv.txt", 'r', encoding='utf-8') as file:
+    lines = file.readlines()
+    for line in lines:
+        #print(line)
+        line = line.strip()
+        if line:
+            channel_name,channel_url = line.split(",")
+            for udpxy_url in results:
+                #print(udpxy_url)
+                channel_udpxy_url = f"{udpxy_url}/{channel_url}"
+                channel = f"{channel_name},{channel_udpxy_url}"
+                results.append(channel)
+                print(result)
 with open("itvlist.m3u", 'w', encoding='utf-8') as file:
     for udpxy_url in results:
         file.write(udpxy_url + "\n")
