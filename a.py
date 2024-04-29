@@ -20,6 +20,7 @@ urls = [
 ]
 
 for url in urls:
+    print(url)
     # 创建一个Chrome WebDriver实例
     chrome_options = Options()
     chrome_options.add_argument('--headless')
