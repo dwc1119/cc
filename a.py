@@ -104,9 +104,9 @@ for url in urls:
                     valid_urls.append(result)    
         
         for url in valid_urls:
-            udpxy_urls = []# 修改文件转发地址
             print(f"可用url:{url}")
             try:
+                udpxy_urls = []# 修改文件转发地址
                 ip_start_index = url.find("//") + 2
                 ip_dot_start = url.find(".") + 1
                 ip_index_second = url.find("/", ip_dot_start)
