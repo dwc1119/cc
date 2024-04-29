@@ -102,8 +102,9 @@ for url in urls:
                 result = future.result()
                 if result:
                     valid_urls.append(result)    
-        udpxy_urls = []# 修改文件转发地址
+        
         for url in valid_urls:
+            udpxy_urls = []# 修改文件转发地址
             print(f"可用url:{url}")
             try:
                 ip_start_index = url.find("//") + 2
