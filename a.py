@@ -133,8 +133,8 @@ for url in urls:
                     continue   
             except:
                 continue      
-        except:
-            continue
+    except:
+        continue
                      
     
 
