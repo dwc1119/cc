@@ -122,7 +122,7 @@ with open("iptv2.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         #print(line)
-        reads = line.strip()
+        read = line.strip()
         if line:
             channel_name,channel_url = reads.split(",")
             for udpxy_url in results:
