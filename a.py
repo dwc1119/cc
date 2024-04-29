@@ -116,7 +116,7 @@ for url in urls:
             try:
                 results = []
                 channel_udpxy_urls = []
-                with open("iptv2.txt", 'r', encoding='utf-8') as file:
+                with open("iptv.txt", 'r', encoding='utf-8') as file:
                     lines = file.readlines()
                     for line in lines:
                         #print(line)
