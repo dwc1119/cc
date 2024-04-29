@@ -123,7 +123,8 @@ for url in urls:
 channel_udpxy_urls = []
 with open("ip.txt", 'w', encoding='utf-8') as file:
     for udpxy_url in results:
-        file.write(udpxy_url + "\n")
+        for i in。(1,2,3,4,5)
+        file.write(f"{udpxy_url}{i}" + "\n")
 with open("itvlist.m3u", 'w', encoding='utf-8') as file:
     for udpxy_url in results:
         file.write(udpxy_url + "\n")
