@@ -44,16 +44,16 @@ for url in urls:
     urls = set(urls_all)  # 去重得到唯一的URL列表
     modified_urls = []
     for url in urls:
-    ip_start_index = url.find("//") + 2
-    ip_end_index = url.find(":", ip_start_index)
-    base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url[ip_start_index:ip_end_index]
-    port = url[ip_end_index:]
-    ip_end = "/status"
-    modified_ip = f"{ip_address}"
-    modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
-    modified_urls.append(modified_url)
-    print(modified_url)
+        ip_start_index = url.find("//") + 2
+        ip_end_index = url.find(":", ip_start_index)
+        base_url = url[:ip_start_index]  # http:// or https://
+        ip_address = url[ip_start_index:ip_end_index]
+        port = url[ip_end_index:]
+        ip_end = "/status"
+        modified_ip = f"{ip_address}"
+        modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
+        modified_urls.append(modified_url)
+        print(modified_url)
 
 valid_urls = []        
         
@@ -75,7 +75,7 @@ for modified_url in modified_urls:
             x_urls.append(x_url)
             #print(x_url)
             valid_urls = set(x_urls)  # 去重得到唯一的URL列表
- udpxy_urls = []# 修改文件转发地址
+udpxy_urls = []# 修改文件转发地址
 for url in valid_urls:
     print(f"可用url:{url}")
     ip_start_index = url.find("//") + 2
