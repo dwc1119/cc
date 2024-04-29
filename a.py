@@ -130,10 +130,10 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
             for udpxy_url in results:
                 #print(udpxy_url)
                 channel = f"{udpxy_url}/{line}"
-                results.append(channel)
+                channels.append(channel)
 
 with open("itvlist.m3u", 'w', encoding='utf-8') as file:
-    for channel in results:
+    for channel in channels:
         file.write(channel + "\n")
                     
                         
