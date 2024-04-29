@@ -75,6 +75,10 @@ for modified_url in modified_urls:
         x_urls.append(x_url)
         #print(x_url)
         valid_urls = set(x_urls)  # 去重得到唯一的URL列表
+    else:
+        pass
+        
+        
 udpxy_urls = []# 修改文件转发地址
 for url in valid_urls:
     print(f"可用url:{url}")
