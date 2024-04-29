@@ -58,25 +58,26 @@ for url in urls:
 valid_urls = []        
 x_urls = []        
 for modified_url in modified_urls:
-    response = requests.get(modified_url, timeout=0.5)
-    if response.status_code == 200:
-        url = modified_url.strip()
-        ip_start_index = url.find("//") + 2
-        ip_end_index = url.find(":", ip_start_index)
-        ip_dot_start = url.find(".") + 1
-        ip_dot_second = url.find(".", ip_dot_start) + 1
-        ip_dot_three = url.find(".", ip_dot_second) + 1
-        base_url = url[:ip_start_index]  # http:// or https://
-        ip_address = url[ip_start_index:ip_dot_three]
-        port = url[ip_end_index:]
-        ip_end = url[ip_dot_three:ip_end_index]
-        modified_ip = f"{ip_address}{ip_end}"
-        x_url = f"{base_url}{modified_ip}{port}"
-        x_urls.append(x_url)
-        print(x_url)
-        valid_urls = set(x_urls)  # 去重得到唯一的URL列表
-    else:
-        pass
+    try:
+        response = requests.get(modified_url, timeout=0.5)
+        if response.status_code == 200:
+            url = modified_url.strip()
+            ip_start_index = url.find("//") + 2
+            ip_end_index = url.find(":", ip_start_index)
+            ip_dot_start = url.find(".") + 1
+            ip_dot_second = url.find(".", ip_dot_start) + 1
+            ip_dot_three = url.find(".", ip_dot_second) + 1
+            base_url = url[:ip_start_index]  # http:// or https://
+            ip_address = url[ip_start_index:ip_dot_three]
+            port = url[ip_end_index:]
+            ip_end = url[ip_dot_three:ip_end_index]
+            modified_ip = f"{ip_address}{ip_end}"
+            x_url = f"{base_url}{modified_ip}{port}"
+            x_urls.append(x_url)
+            print(x_url)
+            valid_urls = set(x_urls)  # 去重得到唯一的URL列表
+    except:
+        continue
         
         
 
