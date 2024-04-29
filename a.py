@@ -100,6 +100,7 @@ for url in urls:
         for future in concurrent.futures.as_completed(futures):
             result = future.result()
             if result:
+                valid_urls.append(result)    
     udpxy_urls = []# 修改文件转发地址
     for url in valid_urls:
         print(f"可用url:{url}")
@@ -238,7 +239,6 @@ with open("itvlist.m3u", 'a', encoding='utf-8') as file:
                 file.write(f"{channel_url}\n")
                 channel_counters[channel_name] = 1                    valid_urls.append(result)
     
-    for url in valid_urls:
-        print(url)
+
         
 
