@@ -29,8 +29,8 @@ jobs:
       - name: Run a
         run: python ${{ github.workspace }}/a.py
         
-      - name: Run b
-        run: python ${{ github.workspace }}/b.py
+      #- name: Run b
+        #run: python ${{ github.workspace }}/b.py
         
       #- name: Run qita
         #run: python ${{ github.workspace }}/qita.py
