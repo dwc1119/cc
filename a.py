@@ -128,9 +128,8 @@ for url in urls:
                                 channel_udpxy_url = f"{udpxy_url}/{channel_url}"
                                 result = f"{channel_name},{channel_udpxy_url}"
                                 results.append(result)
-              except:
+            except:
                 continue      
-                
         except:
             continue
                      
