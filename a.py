@@ -44,6 +44,7 @@ urls_all = re.findall(pattern, page_content)
 urls = set(urls_all)  # 去重得到唯一的URL列表
 modified_urls = []
 for url in urls:
+    print(url)
     ip_start_index = url.find("//") + 2
     ip_end_index = url.find(":", ip_start_index)
     base_url = url[:ip_start_index]  # http:// or https://
