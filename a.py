@@ -123,7 +123,7 @@ results = []
 channel_udpxy_urls = []
 with open("ip.txt", 'w', encoding='utf-8') as file:
     for udpxy_url in udpxy_urls:
-        write(udpxy_url + "\n")
+        file.write(udpxy_url + "\n")
                     
                         
                      
