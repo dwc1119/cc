@@ -124,7 +124,7 @@ with open("iptv2.txt", 'r', encoding='utf-8') as file:
         #print(line)
         reads = line.strip()
         if line:
-            channel_name,channel_url = read.split(",")
+            channel_name,channel_url = reads.split(",")
             for udpxy_url in results:
                 #print(udpxy_url)
                 channel_udpxy_url = f"{udpxy_url}/{channel_url}"
