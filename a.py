@@ -56,7 +56,7 @@ for url in urls:
         print(modified_url)
 
 valid_urls = []        
-        
+x_urls = []        
 for modified_url in modified_urls:
     response = requests.get(modified_url, timeout=0.5)
     if response.status_code == 200:
