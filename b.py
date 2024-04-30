@@ -129,13 +129,13 @@ with open("iptv2.txt", 'r', encoding='utf-8') as file:
                 #print(udpxy_url)
                 channel_udpxy_url = f"{udpxy_url}/{channel_url}"
                 channel = f"{channel_name},{channel_udpxy_url}"
-                results.append(channel)
+                channels.append(channel)
         
-result_counter = 10  # 每个频道需要的个数
+result_counter = 3  # 每个频道需要的个数
 with open("itvlist.txt", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视(联通),#genre#\n')
-    for result in results:
+    for channel in channels:
         channel_name,channel_url = result.split(",")
         if 'CCTV' in channel_name:
             if channel_name in channel_counters:
@@ -149,7 +149,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
     channel_counters = {}  
     file.write('数字(联通),#genre#\n')
-    for result in results:
+    for channel in channels:
         channel_name, channel_url = result.split(",")
         if '天元' in channel_name or '风云' in channel_name or '球' in channel_name or '影' in channel_name:
             if channel_name in channel_counters:
@@ -163,7 +163,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
     channel_counters = {}
     file.write('卫视(联通),#genre#\n')
-    for result in results:
+    for channel in channels:
         channel_name,channel_url = result.split(",")
         if '卫视' in channel_name:
             if channel_name in channel_counters:
@@ -177,7 +177,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
     channel_counters = {}
     file.write('其他(联通),#genre#\n')
-    for result in results:
+    for channel in channels:
         channel_name,channel_url = result.split(",")
         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
             if channel_name in channel_counters:
@@ -193,7 +193,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
 with open("itvlist.m3u", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('#EXTM3U\n')
-    for result in results:
+    for channel in channels:
         channel_name,channel_url = result.split(",")
         if 'CCTV' in channel_name:
             if channel_name in channel_counters:
@@ -209,7 +209,7 @@ with open("itvlist.m3u", 'a', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
     channel_counters = {}
     #file.write('卫视频道,#genre#\n')
-    for result in results:
+    for channel in channels:
         channel_name,channel_url = result.split(",")
         if '卫视' in channel_name:
             if channel_name in channel_counters:
@@ -225,7 +225,7 @@ with open("itvlist.m3u", 'a', encoding='utf-8') as file:
                 channel_counters[channel_name] = 1
     channel_counters = {}
     #file.write('其他频道,#genre#\n')
-    for result in results:
+    for channel in channels:
         channel_name,channel_url = result.split(",")
         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
             if channel_name in channel_counters:
