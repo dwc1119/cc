@@ -136,7 +136,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视(联通),#genre#\n')
     for channel in channels:
-        channel_name,channel_url = result.split(",")
+        channel_name,channel_url = channel.split(",")
         if 'CCTV' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -150,7 +150,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
     channel_counters = {}  
     file.write('数字(联通),#genre#\n')
     for channel in channels:
-        channel_name, channel_url = result.split(",")
+        channel_name, channel_url = channel.split(",")
         if '天元' in channel_name or '风云' in channel_name or '球' in channel_name or '影' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -164,7 +164,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('卫视(联通),#genre#\n')
     for channel in channels:
-        channel_name,channel_url = result.split(",")
+        channel_name,channel_url = channel.split(",")
         if '卫视' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -178,7 +178,7 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('其他(联通),#genre#\n')
     for channel in channels:
-        channel_name,channel_url = result.split(",")
+        channel_name,channel_url = channel.split(",")
         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -194,7 +194,7 @@ with open("itvlist.m3u", 'a', encoding='utf-8') as file:
     channel_counters = {}
     file.write('#EXTM3U\n')
     for channel in channels:
-        channel_name,channel_url = result.split(",")
+        channel_name,channel_url = channel.split(",")
         if 'CCTV' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -210,7 +210,7 @@ with open("itvlist.m3u", 'a', encoding='utf-8') as file:
     channel_counters = {}
     #file.write('卫视频道,#genre#\n')
     for channel in channels:
-        channel_name,channel_url = result.split(",")
+        channel_name,channel_url = channel.split(",")
         if '卫视' in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
@@ -226,7 +226,7 @@ with open("itvlist.m3u", 'a', encoding='utf-8') as file:
     channel_counters = {}
     #file.write('其他频道,#genre#\n')
     for channel in channels:
-        channel_name,channel_url = result.split(",")
+        channel_name,channel_url = channel.split(",")
         if 'CCTV' not in channel_name and '卫视' not in channel_name and '测试' not in channel_name:
             if channel_name in channel_counters:
                 if channel_counters[channel_name] >= result_counter:
