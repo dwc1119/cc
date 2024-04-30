@@ -142,10 +142,10 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
                 if channel_counters[channel_name] >= result_counter:
                     continue
                 else:
-                    file.write(result + "\n")
+                    file.write(f"{channel_name},{channel_url}\n")
                     channel_counters[channel_name] += 1
             else:
-                file.write(result + "\n")
+                file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
     channel_counters = {}  
     file.write('数字(联通),#genre#\n')
@@ -170,10 +170,10 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
                 if channel_counters[channel_name] >= result_counter:
                     continue
                 else:
-                    file.write(result + "\n")
+                    file.write(f"{channel_name},{channel_url}\n")
                     channel_counters[channel_name] += 1
             else:
-                file.write(result + "\n")
+                file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
     channel_counters = {}
     file.write('其他(联通),#genre#\n')
@@ -184,10 +184,10 @@ with open("itvlist.txt", 'a', encoding='utf-8') as file:
                 if channel_counters[channel_name] >= result_counter:
                     continue
                 else:
-                    file.write(result + "\n")
+                    file.write(f"{channel_name},{channel_url}\n")
                     channel_counters[channel_name] += 1
             else:
-                file.write(result + "\n")
+                file.write(f"{channel_name},{channel_url}\n")
                 channel_counters[channel_name] = 1
 
 with open("itvlist.m3u", 'a', encoding='utf-8') as file:
