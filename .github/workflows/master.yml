@@ -1,11 +1,11 @@
-name: itv
+#name: itv
 
-on:
-  schedule:
-    - cron: '0 9,21 * * *'
-  push:
-    branches:
-      - cc
+#on:
+  #schedule:
+   # - cron: '0 9,21 * * *'
+  #push:
+   # branches:
+     # - cc
 
 jobs:
   build:
