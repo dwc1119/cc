@@ -14,7 +14,7 @@ eventlet.monkey_patch()
 urls = [
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQ4NDciICYmIGNpdHk9ImJlaWppbmci",#beijing
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQ4NDciICYmIGNpdHk9IkJlaWppbmci",#唐山
-    #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
     #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
     #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki"#河北
 ]
