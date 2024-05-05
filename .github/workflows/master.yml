@@ -36,7 +36,7 @@ jobs:
       #  run: python ${{ github.workspace }}/c.py
 
       - name: Run d
-        run: python ${{ github.workspace }}/c.py
+        run: python ${{ github.workspace }}/d.py
         
       - name: 提交更改
         run: |
