@@ -1,6 +1,4 @@
 #EXTM3U
-#EXTINF:-1 group-title="央视频道",CCTV4
-http://113.9.155.125:88/hls/4/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV5+
 http://113.9.155.125:88/hls/16/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV6
@@ -11,8 +9,8 @@ http://113.9.155.125:88/hls/7/index.m3u8
 http://113.9.155.125:88/hls/8/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV9
 http://113.9.155.125:88/hls/9/index.m3u8
-#EXTINF:-1 group-title="央视频道",CCTV12
-http://113.9.155.125:88/hls/12/index.m3u8
+#EXTINF:-1 group-title="央视频道",CCTV10
+http://113.9.155.125:88/hls/10/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV13
 http://113.9.155.125:88/hls/13/index.m3u8
 #EXTINF:-1 group-title="央视频道",CCTV14
@@ -35,6 +33,8 @@ http://113.9.155.125:88/hls/57/index.m3u8
 http://113.9.155.125:88/hls/55/index.m3u8
 #EXTINF:-1 group-title="卫视频道",北京卫视
 http://113.9.155.125:88/hls/31/index.m3u8
+#EXTINF:-1 group-title="卫视频道",吉林卫视
+http://113.9.155.125:88/hls/26/index.m3u8
 #EXTINF:-1 group-title="卫视频道",四川卫视
 http://113.9.155.125:88/hls/44/index.m3u8
 #EXTINF:-1 group-title="卫视频道",大湾区卫视
@@ -107,12 +107,16 @@ http://113.9.155.125:88/hls/74/index.m3u8
 http://113.9.155.125:88/hls/65/index.m3u8
 #EXTINF:-1 group-title="其他频道",齐齐哈尔公共2
 http://113.9.155.125:88/hls/92/index.m3u8
+#EXTINF:-1 group-title="其他频道",CGTN3
+http://113.9.155.125:88/hls/75/index.m3u8
 #EXTINF:-1 group-title="其他频道",新闻综合3
 http://113.9.155.125:88/hls/66/index.m3u8
 #EXTINF:-1 group-title="其他频道",CETV4
 http://113.9.155.125:88/hls/96/index.m3u8
 #EXTINF:-1 group-title="其他频道",CGTN4
 http://113.9.155.125:88/hls/76/index.m3u8
+#EXTINF:-1 group-title="其他频道",欢笑剧场4K
+http://113.9.155.125:88/hls/27/index.m3u8
 #EXTINF:-1 group-title="其他频道",CGTN5
 http://113.9.155.125:88/hls/77/index.m3u8
 #EXTINF:-1 group-title="其他频道",CGTN6
@@ -159,6 +163,8 @@ http://113.9.155.125:88/hls/70/index.m3u8
 http://113.9.155.125:88/hls/86/index.m3u8
 #EXTINF:-1 group-title="其他频道",国学频道
 http://113.9.155.125:88/hls/104/index.m3u8
+#EXTINF:-1 group-title="其他频道",天元围棋
+http://113.9.155.125:88/hls/128/index.m3u8
 #EXTINF:-1 group-title="其他频道",天元围棋
 http://113.9.155.125:88/hls/128/index.m3u8
 #EXTINF:-1 group-title="其他频道",央广文化精品
@@ -221,8 +227,6 @@ http://113.9.155.125:88/hls/80/index.m3u8
 http://113.9.155.125:88/hls/82/index.m3u8
 #EXTINF:-1 group-title="其他频道",金鹰卡通
 http://113.9.155.125:88/hls/67/index.m3u8
-#EXTINF:-1 group-title="其他频道",风云足球
-http://113.9.155.125:88/hls/156/index.m3u8
 #EXTINF:-1 group-title="其他频道",风云足球
 http://113.9.155.125:88/hls/156/index.m3u8
 #EXTINF:-1 group-title="其他频道",风云音乐
