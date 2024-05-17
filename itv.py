@@ -20,7 +20,7 @@ results = []
 channels = []
 error_channels = []
 
-with open("itv.txt", 'r', encoding='utf-8') as file:
+with open("itvlist.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
@@ -102,7 +102,7 @@ results.sort(key=lambda x: channel_key(x[0]))
 now_today = datetime.date.today()
 
 result_counter = 3  # 每个频道需要的个数
-with open("itvlist.txt", 'a', encoding='utf-8') as file:
+with open("udp.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视（城通）,#genre#\n')
     for result in results:
