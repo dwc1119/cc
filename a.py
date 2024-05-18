@@ -134,7 +134,7 @@ with open("iptv.txt", 'r', encoding='utf-8') as file:
                 channels.append(channel)
 
 
-result_counter = 3  # 每个频道需要的个数
+result_counter = 10  # 每个频道需要的个数
 with open("itvlist.txt", 'w', encoding='utf-8') as file:
     channel_counters = {}
     file.write('央视(电信),#genre#\n')
