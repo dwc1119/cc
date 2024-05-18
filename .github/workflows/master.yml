@@ -2,7 +2,7 @@ name: itv
 
 on:
   schedule:
-    - cron: '0 16 * * *'
+    - cron: '0 10,16 * * *'
   push:
     branches:
       - cc
@@ -35,8 +35,8 @@ jobs:
       #- name: Run c
       #  run: python ${{ github.workspace }}/c.py
 
-      - name: Run itv
-        run: python ${{ github.workspace }}/itv.py
+      #- name: Run itv
+        #run: python ${{ github.workspace }}/itv.py
         
       - name: 提交更改
         run: |
