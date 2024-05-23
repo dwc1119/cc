@@ -14,7 +14,7 @@ eventlet.monkey_patch()
 
 urls = [
    # "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # Hebei (河北)
-    "http://111.227.204.111:4022/status",  # Beijing (北京)
+    "http://111.227.194.117:4022/status",  # Beijing (北京)
     ]
 for url in urls:
     # 创建一个Chrome WebDriver实例
@@ -34,7 +34,7 @@ for url in urls:
     driver.quit()
 
     # 查找所有符合指定格式的网址
-    if "<td>1</td>" in page_content:
+    if "<td>0</td>" in page_content:
        print(url)
    
    
