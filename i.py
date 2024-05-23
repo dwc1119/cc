@@ -15,6 +15,14 @@ eventlet.monkey_patch()
 urls = [
    # "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # Hebei (河北)
     "http://111.227.194.117:4022/status",  # Beijing (北京)
+    "http://111.227.194.117:4022/status"
+     "http://111.227.194.117:4022/status"
+     "http://111.227.204.111:4022/status"
+     "http://106.116.2.100:8890/status"
+     "http://123.180.177.20:16000/status"
+     "http://106.8.126.232:4022/status"
+     "http://139.189.80.76:4022/status"
+      "http://111.227.204.111:4022/status"
     ]
 for url in urls:
     # 创建一个Chrome WebDriver实例
