@@ -34,7 +34,10 @@ for url in urls:
     driver.quit()
 
     # 查找所有符合指定格式的网址
-    if
+    if "<td>0</td>" in page_content
+   
+   
+   
     
 
 
