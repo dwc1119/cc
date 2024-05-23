@@ -123,7 +123,7 @@ for url in urls:
         
             # 查找所有符合指定格式的网址
             #if "<td>1</td>" or "<td>2</td>" or "<td>3</td>" or "<td>4</td>"  or "<td>5</td>" or "<td>6</td>" or "<td>7</td>" or "<td>8</td>" in page_content:
-            if "<td>0</td>" in page_content:
+            if "<td>0.0.0.0:\d+</td>" in page_content:
                 continue
             else:
                 print(url) 
