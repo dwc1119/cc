@@ -209,9 +209,9 @@ with open("itvlist.txt", 'w', encoding='utf-8') as file:
                 file.write(channel + "\n")
                 channel_counters[channel_name] = 1
 
-with open("itvlist.m3u", 'a', encoding='utf-8') as file:
+with open("itvlist.m3u", 'w', encoding='utf-8') as file:
     channel_counters = {}
-    file.write('#EXTM3U\n')
+    file.write('#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"\n')
     for channel in channels:
         channel_name,channel_url = channel.split(",")
         if 'CCTV' in channel_name:
