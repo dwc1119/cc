@@ -16,7 +16,7 @@ urls = [
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImxhbmdmYW5nIg%3D%3D",#廊坊
-    #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki"#河北
+    "https://site.ip138.com/mail.petzhu.top/"#河北
 ]
 
 
@@ -123,7 +123,7 @@ for url in urls:
         
             # 查找所有符合指定格式的网址
             #if "<td>1</td>" or "<td>2</td>" or "<td>3</td>" or "<td>4</td>"  or "<td>5</td>" or "<td>6</td>" or "<td>7</td>" or "<td>8</td>" in page_content:
-            if "0.0" in page_content and "1042" not in page_content:
+            if "0.0" in page_content and "1024" not in page_content:
                 print(url)
                 udpxy_urls = []# 修改文件转发地址
                 ip_start_index = url.find("//") + 2
