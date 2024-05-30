@@ -6,7 +6,11 @@ http://111.227.194.105:4022/rtp/239.254.200.45:8008
 #EXTINF:-1 tvg-name=CCTV1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道",CCTV1
 http://27.190.25.109:11001/rtp/239.254.200.45:8008
 #EXTINF:-1 tvg-name=CCTV1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道",CCTV1
+http://27.190.25.109:11001/rtp/239.254.200.45:8008
+#EXTINF:-1 tvg-name=CCTV1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道",CCTV1
 http://106.8.126.225:4022/rtp/239.254.200.45:8008
+#EXTINF:-1 tvg-name=CCTV1 tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视频道",CCTV1
+http://27.189.127.201:4022/rtp/239.254.200.45:8008
 #EXTINF:-1 group-title="央视频道",CCTV2
 http://111.227.191.152:4000/rtp/239.254.200.158:6000
 #EXTINF:-1 tvg-name=CCTV2 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV2
@@ -14,7 +18,11 @@ http://111.227.194.105:4022/rtp/239.254.200.158:6000
 #EXTINF:-1 tvg-name=CCTV2 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV2
 http://27.190.25.109:11001/rtp/239.254.200.158:6000
 #EXTINF:-1 tvg-name=CCTV2 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV2
+http://27.190.25.109:11001/rtp/239.254.200.158:6000
+#EXTINF:-1 tvg-name=CCTV2 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV2
 http://106.8.126.225:4022/rtp/239.254.200.158:6000
+#EXTINF:-1 tvg-name=CCTV2 tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视频道",CCTV2
+http://27.189.127.201:4022/rtp/239.254.200.158:6000
 #EXTINF:-1 group-title="央视频道",CCTV3
 http://111.227.191.152:4000/rtp/239.254.200.13:6000
 #EXTINF:-1 tvg-name=CCTV3 tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV3
@@ -22,7 +30,11 @@ http://111.227.194.105:4022/rtp/239.254.200.13:6000
 #EXTINF:-1 tvg-name=CCTV3 tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV3
 http://27.190.25.109:11001/rtp/239.254.200.13:6000
 #EXTINF:-1 tvg-name=CCTV3 tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV3
+http://27.190.25.109:11001/rtp/239.254.200.13:6000
+#EXTINF:-1 tvg-name=CCTV3 tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV3
 http://106.8.126.225:4022/rtp/239.254.200.13:6000
+#EXTINF:-1 tvg-name=CCTV3 tvg-logo="https://live.fanmingming.com/tv/CCTV3.png" group-title="央视频道",CCTV3
+http://27.189.127.201:4022/rtp/239.254.200.13:6000
 #EXTINF:-1 group-title="央视频道",CCTV4
 http://111.227.191.152:4000/rtp/239.254.200.190:6307
 #EXTINF:-1 tvg-name=CCTV4 tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV4
@@ -30,7 +42,11 @@ http://111.227.194.105:4022/rtp/239.254.200.190:6307
 #EXTINF:-1 tvg-name=CCTV4 tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV4
 http://27.190.25.109:11001/rtp/239.254.200.190:6307
 #EXTINF:-1 tvg-name=CCTV4 tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV4
+http://27.190.25.109:11001/rtp/239.254.200.190:6307
+#EXTINF:-1 tvg-name=CCTV4 tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV4
 http://106.8.126.225:4022/rtp/239.254.200.190:6307
+#EXTINF:-1 tvg-name=CCTV4 tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视频道",CCTV4
+http://27.189.127.201:4022/rtp/239.254.200.190:6307
 #EXTINF:-1 group-title="央视频道",CCTV5
 http://111.227.191.152:4000/rtp/239.254.200.14:6000
 #EXTINF:-1 tvg-name=CCTV5 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV5
@@ -38,7 +54,11 @@ http://111.227.194.105:4022/rtp/239.254.200.14:6000
 #EXTINF:-1 tvg-name=CCTV5 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV5
 http://27.190.25.109:11001/rtp/239.254.200.14:6000
 #EXTINF:-1 tvg-name=CCTV5 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV5
+http://27.190.25.109:11001/rtp/239.254.200.14:6000
+#EXTINF:-1 tvg-name=CCTV5 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV5
 http://106.8.126.225:4022/rtp/239.254.200.14:6000
+#EXTINF:-1 tvg-name=CCTV5 tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视频道",CCTV5
+http://27.189.127.201:4022/rtp/239.254.200.14:6000
 #EXTINF:-1 group-title="央视频道",CCTV5高清
 http://111.227.191.152:4000/rtp/239.254.201.153:7206
 #EXTINF:-1 tvg-name=CCTV5高清 tvg-logo="https://live.fanmingming.com/tv/CCTV5高清.png" group-title="央视频道",CCTV5高清
@@ -46,7 +66,11 @@ http://111.227.194.105:4022/rtp/239.254.201.153:7206
 #EXTINF:-1 tvg-name=CCTV5高清 tvg-logo="https://live.fanmingming.com/tv/CCTV5高清.png" group-title="央视频道",CCTV5高清
 http://27.190.25.109:11001/rtp/239.254.201.153:7206
 #EXTINF:-1 tvg-name=CCTV5高清 tvg-logo="https://live.fanmingming.com/tv/CCTV5高清.png" group-title="央视频道",CCTV5高清
+http://27.190.25.109:11001/rtp/239.254.201.153:7206
+#EXTINF:-1 tvg-name=CCTV5高清 tvg-logo="https://live.fanmingming.com/tv/CCTV5高清.png" group-title="央视频道",CCTV5高清
 http://106.8.126.225:4022/rtp/239.254.201.153:7206
+#EXTINF:-1 tvg-name=CCTV5高清 tvg-logo="https://live.fanmingming.com/tv/CCTV5高清.png" group-title="央视频道",CCTV5高清
+http://27.189.127.201:4022/rtp/239.254.201.153:7206
 #EXTINF:-1 group-title="央视频道",CCTV5+
 http://111.227.191.152:4000/rtp/239.254.200.46:8004
 #EXTINF:-1 tvg-name=CCTV5+ tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视频道",CCTV5+
@@ -54,7 +78,11 @@ http://111.227.194.105:4022/rtp/239.254.200.46:8004
 #EXTINF:-1 tvg-name=CCTV5+ tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视频道",CCTV5+
 http://27.190.25.109:11001/rtp/239.254.200.46:8004
 #EXTINF:-1 tvg-name=CCTV5+ tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视频道",CCTV5+
+http://27.190.25.109:11001/rtp/239.254.200.46:8004
+#EXTINF:-1 tvg-name=CCTV5+ tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视频道",CCTV5+
 http://106.8.126.225:4022/rtp/239.254.200.46:8004
+#EXTINF:-1 tvg-name=CCTV5+ tvg-logo="https://live.fanmingming.com/tv/CCTV5+.png" group-title="央视频道",CCTV5+
+http://27.189.127.201:4022/rtp/239.254.200.46:8004
 #EXTINF:-1 group-title="央视频道",CCTV6
 http://111.227.191.152:4000/rtp/239.254.200.15:6000
 #EXTINF:-1 tvg-name=CCTV6 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV6
@@ -62,7 +90,11 @@ http://111.227.194.105:4022/rtp/239.254.200.15:6000
 #EXTINF:-1 tvg-name=CCTV6 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV6
 http://27.190.25.109:11001/rtp/239.254.200.15:6000
 #EXTINF:-1 tvg-name=CCTV6 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV6
+http://27.190.25.109:11001/rtp/239.254.200.15:6000
+#EXTINF:-1 tvg-name=CCTV6 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV6
 http://106.8.126.225:4022/rtp/239.254.200.15:6000
+#EXTINF:-1 tvg-name=CCTV6 tvg-logo="https://live.fanmingming.com/tv/CCTV6.png" group-title="央视频道",CCTV6
+http://27.189.127.201:4022/rtp/239.254.200.15:6000
 #EXTINF:-1 group-title="央视频道",CCTV6高清
 http://111.227.191.152:4000/rtp/239.254.201.154:7207
 #EXTINF:-1 tvg-name=CCTV6高清 tvg-logo="https://live.fanmingming.com/tv/CCTV6高清.png" group-title="央视频道",CCTV6高清
@@ -70,7 +102,11 @@ http://111.227.194.105:4022/rtp/239.254.201.154:7207
 #EXTINF:-1 tvg-name=CCTV6高清 tvg-logo="https://live.fanmingming.com/tv/CCTV6高清.png" group-title="央视频道",CCTV6高清
 http://27.190.25.109:11001/rtp/239.254.201.154:7207
 #EXTINF:-1 tvg-name=CCTV6高清 tvg-logo="https://live.fanmingming.com/tv/CCTV6高清.png" group-title="央视频道",CCTV6高清
+http://27.190.25.109:11001/rtp/239.254.201.154:7207
+#EXTINF:-1 tvg-name=CCTV6高清 tvg-logo="https://live.fanmingming.com/tv/CCTV6高清.png" group-title="央视频道",CCTV6高清
 http://106.8.126.225:4022/rtp/239.254.201.154:7207
+#EXTINF:-1 tvg-name=CCTV6高清 tvg-logo="https://live.fanmingming.com/tv/CCTV6高清.png" group-title="央视频道",CCTV6高清
+http://27.189.127.201:4022/rtp/239.254.201.154:7207
 #EXTINF:-1 group-title="央视频道",CCTV7
 http://111.227.191.152:4000/rtp/239.254.200.159:6000
 #EXTINF:-1 tvg-name=CCTV7 tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道",CCTV7
@@ -78,7 +114,11 @@ http://111.227.194.105:4022/rtp/239.254.200.159:6000
 #EXTINF:-1 tvg-name=CCTV7 tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道",CCTV7
 http://27.190.25.109:11001/rtp/239.254.200.159:6000
 #EXTINF:-1 tvg-name=CCTV7 tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道",CCTV7
+http://27.190.25.109:11001/rtp/239.254.200.159:6000
+#EXTINF:-1 tvg-name=CCTV7 tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道",CCTV7
 http://106.8.126.225:4022/rtp/239.254.200.159:6000
+#EXTINF:-1 tvg-name=CCTV7 tvg-logo="https://live.fanmingming.com/tv/CCTV7.png" group-title="央视频道",CCTV7
+http://27.189.127.201:4022/rtp/239.254.200.159:6000
 #EXTINF:-1 group-title="央视频道",CCTV8
 http://111.227.191.152:4000/rtp/239.254.200.16:6000
 #EXTINF:-1 tvg-name=CCTV8 tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV8
@@ -86,7 +126,11 @@ http://111.227.194.105:4022/rtp/239.254.200.16:6000
 #EXTINF:-1 tvg-name=CCTV8 tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV8
 http://27.190.25.109:11001/rtp/239.254.200.16:6000
 #EXTINF:-1 tvg-name=CCTV8 tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV8
+http://27.190.25.109:11001/rtp/239.254.200.16:6000
+#EXTINF:-1 tvg-name=CCTV8 tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV8
 http://106.8.126.225:4022/rtp/239.254.200.16:6000
+#EXTINF:-1 tvg-name=CCTV8 tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视频道",CCTV8
+http://27.189.127.201:4022/rtp/239.254.200.16:6000
 #EXTINF:-1 group-title="央视频道",CCTV8高清
 http://111.227.191.152:4000/rtp/239.254.201.155:7208
 #EXTINF:-1 tvg-name=CCTV8高清 tvg-logo="https://live.fanmingming.com/tv/CCTV8高清.png" group-title="央视频道",CCTV8高清
@@ -94,7 +138,11 @@ http://111.227.194.105:4022/rtp/239.254.201.155:7208
 #EXTINF:-1 tvg-name=CCTV8高清 tvg-logo="https://live.fanmingming.com/tv/CCTV8高清.png" group-title="央视频道",CCTV8高清
 http://27.190.25.109:11001/rtp/239.254.201.155:7208
 #EXTINF:-1 tvg-name=CCTV8高清 tvg-logo="https://live.fanmingming.com/tv/CCTV8高清.png" group-title="央视频道",CCTV8高清
+http://27.190.25.109:11001/rtp/239.254.201.155:7208
+#EXTINF:-1 tvg-name=CCTV8高清 tvg-logo="https://live.fanmingming.com/tv/CCTV8高清.png" group-title="央视频道",CCTV8高清
 http://106.8.126.225:4022/rtp/239.254.201.155:7208
+#EXTINF:-1 tvg-name=CCTV8高清 tvg-logo="https://live.fanmingming.com/tv/CCTV8高清.png" group-title="央视频道",CCTV8高清
+http://27.189.127.201:4022/rtp/239.254.201.155:7208
 #EXTINF:-1 group-title="央视频道",CCTV9
 http://111.227.191.152:4000/rtp/239.254.200.59:8112
 #EXTINF:-1 tvg-name=CCTV9 tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视频道",CCTV9
@@ -102,7 +150,11 @@ http://111.227.194.105:4022/rtp/239.254.200.59:8112
 #EXTINF:-1 tvg-name=CCTV9 tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视频道",CCTV9
 http://27.190.25.109:11001/rtp/239.254.200.59:8112
 #EXTINF:-1 tvg-name=CCTV9 tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视频道",CCTV9
+http://27.190.25.109:11001/rtp/239.254.200.59:8112
+#EXTINF:-1 tvg-name=CCTV9 tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视频道",CCTV9
 http://106.8.126.225:4022/rtp/239.254.200.59:8112
+#EXTINF:-1 tvg-name=CCTV9 tvg-logo="https://live.fanmingming.com/tv/CCTV9.png" group-title="央视频道",CCTV9
+http://27.189.127.201:4022/rtp/239.254.200.59:8112
 #EXTINF:-1 group-title="央视频道",CCTV10
 http://111.227.191.152:4000/rtp/239.254.200.160:6000
 #EXTINF:-1 tvg-name=CCTV10 tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视频道",CCTV10
@@ -110,7 +162,11 @@ http://111.227.194.105:4022/rtp/239.254.200.160:6000
 #EXTINF:-1 tvg-name=CCTV10 tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视频道",CCTV10
 http://27.190.25.109:11001/rtp/239.254.200.160:6000
 #EXTINF:-1 tvg-name=CCTV10 tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视频道",CCTV10
+http://27.190.25.109:11001/rtp/239.254.200.160:6000
+#EXTINF:-1 tvg-name=CCTV10 tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视频道",CCTV10
 http://106.8.126.225:4022/rtp/239.254.200.160:6000
+#EXTINF:-1 tvg-name=CCTV10 tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视频道",CCTV10
+http://27.189.127.201:4022/rtp/239.254.200.160:6000
 #EXTINF:-1 group-title="央视频道",CCTV11
 http://111.227.191.152:4000/rtp/239.254.201.123:8120
 #EXTINF:-1 tvg-name=CCTV11 tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视频道",CCTV11
@@ -118,7 +174,11 @@ http://111.227.194.105:4022/rtp/239.254.201.123:8120
 #EXTINF:-1 tvg-name=CCTV11 tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视频道",CCTV11
 http://27.190.25.109:11001/rtp/239.254.201.123:8120
 #EXTINF:-1 tvg-name=CCTV11 tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视频道",CCTV11
+http://27.190.25.109:11001/rtp/239.254.201.123:8120
+#EXTINF:-1 tvg-name=CCTV11 tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视频道",CCTV11
 http://106.8.126.225:4022/rtp/239.254.201.123:8120
+#EXTINF:-1 tvg-name=CCTV11 tvg-logo="https://live.fanmingming.com/tv/CCTV11.png" group-title="央视频道",CCTV11
+http://27.189.127.201:4022/rtp/239.254.201.123:8120
 #EXTINF:-1 group-title="央视频道",CCTV12
 http://111.227.191.152:4000/rtp/239.254.200.161:6000
 #EXTINF:-1 tvg-name=CCTV12 tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视频道",CCTV12
@@ -126,7 +186,11 @@ http://111.227.194.105:4022/rtp/239.254.200.161:6000
 #EXTINF:-1 tvg-name=CCTV12 tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视频道",CCTV12
 http://27.190.25.109:11001/rtp/239.254.200.161:6000
 #EXTINF:-1 tvg-name=CCTV12 tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视频道",CCTV12
+http://27.190.25.109:11001/rtp/239.254.200.161:6000
+#EXTINF:-1 tvg-name=CCTV12 tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视频道",CCTV12
 http://106.8.126.225:4022/rtp/239.254.200.161:6000
+#EXTINF:-1 tvg-name=CCTV12 tvg-logo="https://live.fanmingming.com/tv/CCTV12.png" group-title="央视频道",CCTV12
+http://27.189.127.201:4022/rtp/239.254.200.161:6000
 #EXTINF:-1 group-title="央视频道",CCTV13
 http://111.227.191.152:4000/rtp/239.254.200.9:8264
 #EXTINF:-1 tvg-name=CCTV13 tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道",CCTV13
@@ -134,7 +198,11 @@ http://111.227.194.105:4022/rtp/239.254.200.9:8264
 #EXTINF:-1 tvg-name=CCTV13 tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道",CCTV13
 http://27.190.25.109:11001/rtp/239.254.200.9:8264
 #EXTINF:-1 tvg-name=CCTV13 tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道",CCTV13
+http://27.190.25.109:11001/rtp/239.254.200.9:8264
+#EXTINF:-1 tvg-name=CCTV13 tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道",CCTV13
 http://106.8.126.225:4022/rtp/239.254.200.9:8264
+#EXTINF:-1 tvg-name=CCTV13 tvg-logo="https://live.fanmingming.com/tv/CCTV13.png" group-title="央视频道",CCTV13
+http://27.189.127.201:4022/rtp/239.254.200.9:8264
 #EXTINF:-1 group-title="央视频道",CCTV14
 http://111.227.191.152:4000/rtp/239.254.200.162:6000
 #EXTINF:-1 tvg-name=CCTV14 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视频道",CCTV14
@@ -142,7 +210,11 @@ http://111.227.194.105:4022/rtp/239.254.200.162:6000
 #EXTINF:-1 tvg-name=CCTV14 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视频道",CCTV14
 http://27.190.25.109:11001/rtp/239.254.200.162:6000
 #EXTINF:-1 tvg-name=CCTV14 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视频道",CCTV14
+http://27.190.25.109:11001/rtp/239.254.200.162:6000
+#EXTINF:-1 tvg-name=CCTV14 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视频道",CCTV14
 http://106.8.126.225:4022/rtp/239.254.200.162:6000
+#EXTINF:-1 tvg-name=CCTV14 tvg-logo="https://live.fanmingming.com/tv/CCTV14.png" group-title="央视频道",CCTV14
+http://27.189.127.201:4022/rtp/239.254.200.162:6000
 #EXTINF:-1 group-title="央视频道",CCTV15
 http://111.227.191.152:4000/rtp/239.254.201.124:8136
 #EXTINF:-1 tvg-name=CCTV15 tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视频道",CCTV15
@@ -150,7 +222,11 @@ http://111.227.194.105:4022/rtp/239.254.201.124:8136
 #EXTINF:-1 tvg-name=CCTV15 tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视频道",CCTV15
 http://27.190.25.109:11001/rtp/239.254.201.124:8136
 #EXTINF:-1 tvg-name=CCTV15 tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视频道",CCTV15
+http://27.190.25.109:11001/rtp/239.254.201.124:8136
+#EXTINF:-1 tvg-name=CCTV15 tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视频道",CCTV15
 http://106.8.126.225:4022/rtp/239.254.201.124:8136
+#EXTINF:-1 tvg-name=CCTV15 tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="央视频道",CCTV15
+http://27.189.127.201:4022/rtp/239.254.201.124:8136
 #EXTINF:-1 group-title="央视频道",CCTV16 4K
 http://111.227.191.152:4000/rtp/239.254.200.7:6346
 #EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
@@ -158,7 +234,11 @@ http://111.227.194.105:4022/rtp/239.254.200.7:6346
 #EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
 http://27.190.25.109:11001/rtp/239.254.200.7:6346
 #EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
+http://27.190.25.109:11001/rtp/239.254.200.7:6346
+#EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
 http://106.8.126.225:4022/rtp/239.254.200.7:6346
+#EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
+http://27.189.127.201:4022/rtp/239.254.200.7:6346
 #EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
 http://111.227.191.152:4000/rtp/239.254.201.150:6345
 #EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
@@ -166,11 +246,7 @@ http://111.227.194.105:4022/rtp/239.254.201.150:6345
 #EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
 http://27.190.25.109:11001/rtp/239.254.201.150:6345
 #EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
-http://106.8.126.225:4022/rtp/239.254.201.150:6345
-#EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
-http://111.227.191.152:4000/rtp/239.254.201.150:6345
-#EXTINF:-1 tvg-name=CCTV16 4K tvg-logo="https://live.fanmingming.com/tv/CCTV16 4K.png" group-title="央视频道",CCTV16 4K
-http://111.227.194.105:4022/rtp/239.254.201.150:6345
+http://27.190.25.109:11001/rtp/239.254.201.150:6345
 #EXTINF:-1 group-title="央视频道",CCTV17
 http://111.227.191.152:4000/rtp/239.254.201.120:8144
 #EXTINF:-1 tvg-name=CCTV17 tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道",CCTV17
@@ -178,7 +254,11 @@ http://111.227.194.105:4022/rtp/239.254.201.120:8144
 #EXTINF:-1 tvg-name=CCTV17 tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道",CCTV17
 http://27.190.25.109:11001/rtp/239.254.201.120:8144
 #EXTINF:-1 tvg-name=CCTV17 tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道",CCTV17
+http://27.190.25.109:11001/rtp/239.254.201.120:8144
+#EXTINF:-1 tvg-name=CCTV17 tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道",CCTV17
 http://106.8.126.225:4022/rtp/239.254.201.120:8144
+#EXTINF:-1 tvg-name=CCTV17 tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="央视频道",CCTV17
+http://27.189.127.201:4022/rtp/239.254.201.120:8144
 #EXTINF:-1 group-title="卫视频道",东南卫视
 http://111.227.191.152:4000/rtp/239.254.201.13:6291
 #EXTINF:-1 group-title="卫视频道",东南卫视
@@ -186,7 +266,11 @@ http://111.227.194.105:4022/rtp/239.254.201.13:6291
 #EXTINF:-1 group-title="卫视频道",东南卫视
 http://27.190.25.109:11001/rtp/239.254.201.13:6291
 #EXTINF:-1 group-title="卫视频道",东南卫视
+http://27.190.25.109:11001/rtp/239.254.201.13:6291
+#EXTINF:-1 group-title="卫视频道",东南卫视
 http://106.8.126.225:4022/rtp/239.254.201.13:6291
+#EXTINF:-1 group-title="卫视频道",东南卫视
+http://27.189.127.201:4022/rtp/239.254.201.13:6291
 #EXTINF:-1 group-title="卫视频道",东方卫视
 http://111.227.191.152:4000/rtp/239.254.200.52:8032
 #EXTINF:-1 group-title="卫视频道",东方卫视
@@ -194,7 +278,11 @@ http://111.227.194.105:4022/rtp/239.254.200.52:8032
 #EXTINF:-1 group-title="卫视频道",东方卫视
 http://27.190.25.109:11001/rtp/239.254.200.52:8032
 #EXTINF:-1 group-title="卫视频道",东方卫视
+http://27.190.25.109:11001/rtp/239.254.200.52:8032
+#EXTINF:-1 group-title="卫视频道",东方卫视
 http://106.8.126.225:4022/rtp/239.254.200.52:8032
+#EXTINF:-1 group-title="卫视频道",东方卫视
+http://27.189.127.201:4022/rtp/239.254.200.52:8032
 #EXTINF:-1 group-title="卫视频道",云南卫视
 http://111.227.191.152:4000/rtp/239.254.200.68:8108
 #EXTINF:-1 group-title="卫视频道",云南卫视
@@ -202,7 +290,11 @@ http://111.227.194.105:4022/rtp/239.254.200.68:8108
 #EXTINF:-1 group-title="卫视频道",云南卫视
 http://27.190.25.109:11001/rtp/239.254.200.68:8108
 #EXTINF:-1 group-title="卫视频道",云南卫视
+http://27.190.25.109:11001/rtp/239.254.200.68:8108
+#EXTINF:-1 group-title="卫视频道",云南卫视
 http://106.8.126.225:4022/rtp/239.254.200.68:8108
+#EXTINF:-1 group-title="卫视频道",云南卫视
+http://27.189.127.201:4022/rtp/239.254.200.68:8108
 #EXTINF:-1 group-title="卫视频道",内蒙古卫视
 http://111.227.191.152:4000/rtp/239.254.200.84:8176
 #EXTINF:-1 group-title="卫视频道",内蒙古卫视
@@ -210,7 +302,11 @@ http://111.227.194.105:4022/rtp/239.254.200.84:8176
 #EXTINF:-1 group-title="卫视频道",内蒙古卫视
 http://27.190.25.109:11001/rtp/239.254.200.84:8176
 #EXTINF:-1 group-title="卫视频道",内蒙古卫视
+http://27.190.25.109:11001/rtp/239.254.200.84:8176
+#EXTINF:-1 group-title="卫视频道",内蒙古卫视
 http://106.8.126.225:4022/rtp/239.254.200.84:8176
+#EXTINF:-1 group-title="卫视频道",内蒙古卫视
+http://27.189.127.201:4022/rtp/239.254.200.84:8176
 #EXTINF:-1 group-title="卫视频道",凤凰卫视中文台
 http://111.227.191.152:4000/rtp/239.254.201.2:5226
 #EXTINF:-1 group-title="卫视频道",凤凰卫视中文台
@@ -218,7 +314,11 @@ http://111.227.194.105:4022/rtp/239.254.201.2:5226
 #EXTINF:-1 group-title="卫视频道",凤凰卫视中文台
 http://27.190.25.109:11001/rtp/239.254.201.2:5226
 #EXTINF:-1 group-title="卫视频道",凤凰卫视中文台
+http://27.190.25.109:11001/rtp/239.254.201.2:5226
+#EXTINF:-1 group-title="卫视频道",凤凰卫视中文台
 http://106.8.126.225:4022/rtp/239.254.201.2:5226
+#EXTINF:-1 group-title="卫视频道",凤凰卫视中文台
+http://27.189.127.201:4022/rtp/239.254.201.2:5226
 #EXTINF:-1 group-title="卫视频道",凤凰卫视电影台
 http://111.227.191.152:4000/rtp/239.254.201.1:5214
 #EXTINF:-1 group-title="卫视频道",凤凰卫视电影台
@@ -226,7 +326,11 @@ http://111.227.194.105:4022/rtp/239.254.201.1:5214
 #EXTINF:-1 group-title="卫视频道",凤凰卫视电影台
 http://27.190.25.109:11001/rtp/239.254.201.1:5214
 #EXTINF:-1 group-title="卫视频道",凤凰卫视电影台
+http://27.190.25.109:11001/rtp/239.254.201.1:5214
+#EXTINF:-1 group-title="卫视频道",凤凰卫视电影台
 http://106.8.126.225:4022/rtp/239.254.201.1:5214
+#EXTINF:-1 group-title="卫视频道",凤凰卫视电影台
+http://27.189.127.201:4022/rtp/239.254.201.1:5214
 #EXTINF:-1 group-title="卫视频道",凤凰卫视资讯台
 http://111.227.191.152:4000/rtp/239.254.201.3:5227
 #EXTINF:-1 group-title="卫视频道",凤凰卫视资讯台
@@ -234,7 +338,11 @@ http://111.227.194.105:4022/rtp/239.254.201.3:5227
 #EXTINF:-1 group-title="卫视频道",凤凰卫视资讯台
 http://27.190.25.109:11001/rtp/239.254.201.3:5227
 #EXTINF:-1 group-title="卫视频道",凤凰卫视资讯台
+http://27.190.25.109:11001/rtp/239.254.201.3:5227
+#EXTINF:-1 group-title="卫视频道",凤凰卫视资讯台
 http://106.8.126.225:4022/rtp/239.254.201.3:5227
+#EXTINF:-1 group-title="卫视频道",凤凰卫视资讯台
+http://27.189.127.201:4022/rtp/239.254.201.3:5227
 #EXTINF:-1 group-title="卫视频道",北京卫视
 http://111.227.191.152:4000/rtp/239.254.200.47:8024
 #EXTINF:-1 group-title="卫视频道",北京卫视
@@ -242,7 +350,11 @@ http://111.227.194.105:4022/rtp/239.254.200.47:8024
 #EXTINF:-1 group-title="卫视频道",北京卫视
 http://27.190.25.109:11001/rtp/239.254.200.47:8024
 #EXTINF:-1 group-title="卫视频道",北京卫视
+http://27.190.25.109:11001/rtp/239.254.200.47:8024
+#EXTINF:-1 group-title="卫视频道",北京卫视
 http://106.8.126.225:4022/rtp/239.254.200.47:8024
+#EXTINF:-1 group-title="卫视频道",北京卫视
+http://27.189.127.201:4022/rtp/239.254.200.47:8024
 #EXTINF:-1 group-title="卫视频道",吉林卫视
 http://111.227.191.152:4000/rtp/239.254.201.15:6339
 #EXTINF:-1 group-title="卫视频道",吉林卫视
@@ -250,7 +362,11 @@ http://111.227.194.105:4022/rtp/239.254.201.15:6339
 #EXTINF:-1 group-title="卫视频道",吉林卫视
 http://27.190.25.109:11001/rtp/239.254.201.15:6339
 #EXTINF:-1 group-title="卫视频道",吉林卫视
+http://27.190.25.109:11001/rtp/239.254.201.15:6339
+#EXTINF:-1 group-title="卫视频道",吉林卫视
 http://106.8.126.225:4022/rtp/239.254.201.15:6339
+#EXTINF:-1 group-title="卫视频道",吉林卫视
+http://27.189.127.201:4022/rtp/239.254.201.15:6339
 #EXTINF:-1 group-title="卫视频道",四川卫视
 http://111.227.191.152:4000/rtp/239.254.200.202:6325
 #EXTINF:-1 group-title="卫视频道",四川卫视
@@ -258,7 +374,11 @@ http://111.227.194.105:4022/rtp/239.254.200.202:6325
 #EXTINF:-1 group-title="卫视频道",四川卫视
 http://27.190.25.109:11001/rtp/239.254.200.202:6325
 #EXTINF:-1 group-title="卫视频道",四川卫视
+http://27.190.25.109:11001/rtp/239.254.200.202:6325
+#EXTINF:-1 group-title="卫视频道",四川卫视
 http://106.8.126.225:4022/rtp/239.254.200.202:6325
+#EXTINF:-1 group-title="卫视频道",四川卫视
+http://27.189.127.201:4022/rtp/239.254.200.202:6325
 #EXTINF:-1 group-title="卫视频道",天津卫视
 http://111.227.191.152:4000/rtp/239.254.200.54:1234
 #EXTINF:-1 group-title="卫视频道",天津卫视
@@ -266,7 +386,11 @@ http://111.227.194.105:4022/rtp/239.254.200.54:1234
 #EXTINF:-1 group-title="卫视频道",天津卫视
 http://27.190.25.109:11001/rtp/239.254.200.54:1234
 #EXTINF:-1 group-title="卫视频道",天津卫视
+http://27.190.25.109:11001/rtp/239.254.200.54:1234
+#EXTINF:-1 group-title="卫视频道",天津卫视
 http://106.8.126.225:4022/rtp/239.254.200.54:1234
+#EXTINF:-1 group-title="卫视频道",天津卫视
+http://27.189.127.201:4022/rtp/239.254.200.54:1234
 #EXTINF:-1 group-title="卫视频道",宁夏卫视
 http://111.227.191.152:4000/rtp/239.254.200.87:8124
 #EXTINF:-1 group-title="卫视频道",宁夏卫视
@@ -274,7 +398,11 @@ http://111.227.194.105:4022/rtp/239.254.200.87:8124
 #EXTINF:-1 group-title="卫视频道",宁夏卫视
 http://27.190.25.109:11001/rtp/239.254.200.87:8124
 #EXTINF:-1 group-title="卫视频道",宁夏卫视
+http://27.190.25.109:11001/rtp/239.254.200.87:8124
+#EXTINF:-1 group-title="卫视频道",宁夏卫视
 http://106.8.126.225:4022/rtp/239.254.200.87:8124
+#EXTINF:-1 group-title="卫视频道",宁夏卫视
+http://27.189.127.201:4022/rtp/239.254.200.87:8124
 #EXTINF:-1 group-title="卫视频道",安徽卫视
 http://111.227.191.152:4000/rtp/239.254.200.163:6000
 #EXTINF:-1 group-title="卫视频道",安徽卫视
@@ -282,7 +410,11 @@ http://111.227.194.105:4022/rtp/239.254.200.163:6000
 #EXTINF:-1 group-title="卫视频道",安徽卫视
 http://27.190.25.109:11001/rtp/239.254.200.163:6000
 #EXTINF:-1 group-title="卫视频道",安徽卫视
+http://27.190.25.109:11001/rtp/239.254.200.163:6000
+#EXTINF:-1 group-title="卫视频道",安徽卫视
 http://106.8.126.225:4022/rtp/239.254.200.163:6000
+#EXTINF:-1 group-title="卫视频道",安徽卫视
+http://27.189.127.201:4022/rtp/239.254.200.163:6000
 #EXTINF:-1 group-title="卫视频道",山东卫视
 http://111.227.191.152:4000/rtp/239.254.200.55:8052
 #EXTINF:-1 group-title="卫视频道",山东卫视
@@ -290,7 +422,11 @@ http://111.227.194.105:4022/rtp/239.254.200.55:8052
 #EXTINF:-1 group-title="卫视频道",山东卫视
 http://27.190.25.109:11001/rtp/239.254.200.55:8052
 #EXTINF:-1 group-title="卫视频道",山东卫视
+http://27.190.25.109:11001/rtp/239.254.200.55:8052
+#EXTINF:-1 group-title="卫视频道",山东卫视
 http://106.8.126.225:4022/rtp/239.254.200.55:8052
+#EXTINF:-1 group-title="卫视频道",山东卫视
+http://27.189.127.201:4022/rtp/239.254.200.55:8052
 #EXTINF:-1 group-title="卫视频道",山西卫视
 http://111.227.191.152:4000/rtp/239.254.200.83:8172
 #EXTINF:-1 group-title="卫视频道",山西卫视
@@ -298,7 +434,11 @@ http://111.227.194.105:4022/rtp/239.254.200.83:8172
 #EXTINF:-1 group-title="卫视频道",山西卫视
 http://27.190.25.109:11001/rtp/239.254.200.83:8172
 #EXTINF:-1 group-title="卫视频道",山西卫视
+http://27.190.25.109:11001/rtp/239.254.200.83:8172
+#EXTINF:-1 group-title="卫视频道",山西卫视
 http://106.8.126.225:4022/rtp/239.254.200.83:8172
+#EXTINF:-1 group-title="卫视频道",山西卫视
+http://27.189.127.201:4022/rtp/239.254.200.83:8172
 #EXTINF:-1 group-title="卫视频道",广东卫视
 http://111.227.191.152:4000/rtp/239.254.200.56:8048
 #EXTINF:-1 group-title="卫视频道",广东卫视
@@ -306,7 +446,11 @@ http://111.227.194.105:4022/rtp/239.254.200.56:8048
 #EXTINF:-1 group-title="卫视频道",广东卫视
 http://27.190.25.109:11001/rtp/239.254.200.56:8048
 #EXTINF:-1 group-title="卫视频道",广东卫视
+http://27.190.25.109:11001/rtp/239.254.200.56:8048
+#EXTINF:-1 group-title="卫视频道",广东卫视
 http://106.8.126.225:4022/rtp/239.254.200.56:8048
+#EXTINF:-1 group-title="卫视频道",广东卫视
+http://27.189.127.201:4022/rtp/239.254.200.56:8048
 #EXTINF:-1 group-title="卫视频道",广西卫视
 http://111.227.191.152:4000/rtp/239.254.200.80:8300
 #EXTINF:-1 group-title="卫视频道",广西卫视
@@ -314,7 +458,11 @@ http://111.227.194.105:4022/rtp/239.254.200.80:8300
 #EXTINF:-1 group-title="卫视频道",广西卫视
 http://27.190.25.109:11001/rtp/239.254.200.80:8300
 #EXTINF:-1 group-title="卫视频道",广西卫视
+http://27.190.25.109:11001/rtp/239.254.200.80:8300
+#EXTINF:-1 group-title="卫视频道",广西卫视
 http://106.8.126.225:4022/rtp/239.254.200.80:8300
+#EXTINF:-1 group-title="卫视频道",广西卫视
+http://27.189.127.201:4022/rtp/239.254.200.80:8300
 #EXTINF:-1 group-title="卫视频道",新疆卫视
 http://111.227.191.152:4000/rtp/239.254.200.89:8160
 #EXTINF:-1 group-title="卫视频道",新疆卫视
@@ -322,7 +470,11 @@ http://111.227.194.105:4022/rtp/239.254.200.89:8160
 #EXTINF:-1 group-title="卫视频道",新疆卫视
 http://27.190.25.109:11001/rtp/239.254.200.89:8160
 #EXTINF:-1 group-title="卫视频道",新疆卫视
+http://27.190.25.109:11001/rtp/239.254.200.89:8160
+#EXTINF:-1 group-title="卫视频道",新疆卫视
 http://106.8.126.225:4022/rtp/239.254.200.89:8160
+#EXTINF:-1 group-title="卫视频道",新疆卫视
+http://27.189.127.201:4022/rtp/239.254.200.89:8160
 #EXTINF:-1 group-title="卫视频道",江苏卫视
 http://111.227.191.152:4000/rtp/239.254.200.51:8028
 #EXTINF:-1 group-title="卫视频道",江苏卫视
@@ -330,7 +482,11 @@ http://111.227.194.105:4022/rtp/239.254.200.51:8028
 #EXTINF:-1 group-title="卫视频道",江苏卫视
 http://27.190.25.109:11001/rtp/239.254.200.51:8028
 #EXTINF:-1 group-title="卫视频道",江苏卫视
+http://27.190.25.109:11001/rtp/239.254.200.51:8028
+#EXTINF:-1 group-title="卫视频道",江苏卫视
 http://106.8.126.225:4022/rtp/239.254.200.51:8028
+#EXTINF:-1 group-title="卫视频道",江苏卫视
+http://27.189.127.201:4022/rtp/239.254.200.51:8028
 #EXTINF:-1 group-title="卫视频道",江西卫视
 http://111.227.191.152:4000/rtp/239.254.201.12:6290
 #EXTINF:-1 group-title="卫视频道",江西卫视
@@ -338,7 +494,11 @@ http://111.227.194.105:4022/rtp/239.254.201.12:6290
 #EXTINF:-1 group-title="卫视频道",江西卫视
 http://27.190.25.109:11001/rtp/239.254.201.12:6290
 #EXTINF:-1 group-title="卫视频道",江西卫视
+http://27.190.25.109:11001/rtp/239.254.201.12:6290
+#EXTINF:-1 group-title="卫视频道",江西卫视
 http://106.8.126.225:4022/rtp/239.254.201.12:6290
+#EXTINF:-1 group-title="卫视频道",江西卫视
+http://27.189.127.201:4022/rtp/239.254.201.12:6290
 #EXTINF:-1 group-title="卫视频道",河北卫视
 http://111.227.191.152:4000/rtp/239.254.200.174:6000
 #EXTINF:-1 group-title="卫视频道",河北卫视
@@ -346,7 +506,11 @@ http://111.227.194.105:4022/rtp/239.254.200.174:6000
 #EXTINF:-1 group-title="卫视频道",河北卫视
 http://27.190.25.109:11001/rtp/239.254.200.174:6000
 #EXTINF:-1 group-title="卫视频道",河北卫视
+http://27.190.25.109:11001/rtp/239.254.200.174:6000
+#EXTINF:-1 group-title="卫视频道",河北卫视
 http://106.8.126.225:4022/rtp/239.254.200.174:6000
+#EXTINF:-1 group-title="卫视频道",河北卫视
+http://27.189.127.201:4022/rtp/239.254.200.174:6000
 #EXTINF:-1 group-title="卫视频道",河南卫视
 http://111.227.191.152:4000/rtp/239.254.201.16:7174
 #EXTINF:-1 group-title="卫视频道",河南卫视
@@ -354,7 +518,11 @@ http://111.227.194.105:4022/rtp/239.254.201.16:7174
 #EXTINF:-1 group-title="卫视频道",河南卫视
 http://27.190.25.109:11001/rtp/239.254.201.16:7174
 #EXTINF:-1 group-title="卫视频道",河南卫视
+http://27.190.25.109:11001/rtp/239.254.201.16:7174
+#EXTINF:-1 group-title="卫视频道",河南卫视
 http://106.8.126.225:4022/rtp/239.254.201.16:7174
+#EXTINF:-1 group-title="卫视频道",河南卫视
+http://27.189.127.201:4022/rtp/239.254.201.16:7174
 #EXTINF:-1 group-title="卫视频道",浙江卫视
 http://111.227.191.152:4000/rtp/239.254.200.53:8036
 #EXTINF:-1 group-title="卫视频道",浙江卫视
@@ -362,7 +530,11 @@ http://111.227.194.105:4022/rtp/239.254.200.53:8036
 #EXTINF:-1 group-title="卫视频道",浙江卫视
 http://27.190.25.109:11001/rtp/239.254.200.53:8036
 #EXTINF:-1 group-title="卫视频道",浙江卫视
+http://27.190.25.109:11001/rtp/239.254.200.53:8036
+#EXTINF:-1 group-title="卫视频道",浙江卫视
 http://106.8.126.225:4022/rtp/239.254.200.53:8036
+#EXTINF:-1 group-title="卫视频道",浙江卫视
+http://27.189.127.201:4022/rtp/239.254.200.53:8036
 #EXTINF:-1 group-title="卫视频道",海南卫视
 http://111.227.191.152:4000/rtp/239.254.201.125:6288
 #EXTINF:-1 group-title="卫视频道",海南卫视
@@ -370,7 +542,11 @@ http://111.227.194.105:4022/rtp/239.254.201.125:6288
 #EXTINF:-1 group-title="卫视频道",海南卫视
 http://27.190.25.109:11001/rtp/239.254.201.125:6288
 #EXTINF:-1 group-title="卫视频道",海南卫视
+http://27.190.25.109:11001/rtp/239.254.201.125:6288
+#EXTINF:-1 group-title="卫视频道",海南卫视
 http://106.8.126.225:4022/rtp/239.254.201.125:6288
+#EXTINF:-1 group-title="卫视频道",海南卫视
+http://27.189.127.201:4022/rtp/239.254.201.125:6288
 #EXTINF:-1 group-title="卫视频道",深圳卫视
 http://111.227.191.152:4000/rtp/239.254.200.50:8020
 #EXTINF:-1 group-title="卫视频道",深圳卫视
@@ -378,7 +554,11 @@ http://111.227.194.105:4022/rtp/239.254.200.50:8020
 #EXTINF:-1 group-title="卫视频道",深圳卫视
 http://27.190.25.109:11001/rtp/239.254.200.50:8020
 #EXTINF:-1 group-title="卫视频道",深圳卫视
+http://27.190.25.109:11001/rtp/239.254.200.50:8020
+#EXTINF:-1 group-title="卫视频道",深圳卫视
 http://106.8.126.225:4022/rtp/239.254.200.50:8020
+#EXTINF:-1 group-title="卫视频道",深圳卫视
+http://27.189.127.201:4022/rtp/239.254.200.50:8020
 #EXTINF:-1 group-title="卫视频道",湖北卫视
 http://111.227.191.152:4000/rtp/239.254.200.164:6000
 #EXTINF:-1 group-title="卫视频道",湖北卫视
@@ -386,7 +566,11 @@ http://111.227.194.105:4022/rtp/239.254.200.164:6000
 #EXTINF:-1 group-title="卫视频道",湖北卫视
 http://27.190.25.109:11001/rtp/239.254.200.164:6000
 #EXTINF:-1 group-title="卫视频道",湖北卫视
+http://27.190.25.109:11001/rtp/239.254.200.164:6000
+#EXTINF:-1 group-title="卫视频道",湖北卫视
 http://106.8.126.225:4022/rtp/239.254.200.164:6000
+#EXTINF:-1 group-title="卫视频道",湖北卫视
+http://27.189.127.201:4022/rtp/239.254.200.164:6000
 #EXTINF:-1 group-title="卫视频道",湖南卫视
 http://111.227.191.152:4000/rtp/239.254.200.48:8012
 #EXTINF:-1 group-title="卫视频道",湖南卫视
@@ -394,7 +578,11 @@ http://111.227.194.105:4022/rtp/239.254.200.48:8012
 #EXTINF:-1 group-title="卫视频道",湖南卫视
 http://27.190.25.109:11001/rtp/239.254.200.48:8012
 #EXTINF:-1 group-title="卫视频道",湖南卫视
+http://27.190.25.109:11001/rtp/239.254.200.48:8012
+#EXTINF:-1 group-title="卫视频道",湖南卫视
 http://106.8.126.225:4022/rtp/239.254.200.48:8012
+#EXTINF:-1 group-title="卫视频道",湖南卫视
+http://27.189.127.201:4022/rtp/239.254.200.48:8012
 #EXTINF:-1 group-title="卫视频道",甘肃卫视
 http://111.227.191.152:4000/rtp/239.254.200.90:8188
 #EXTINF:-1 group-title="卫视频道",甘肃卫视
@@ -402,7 +590,11 @@ http://111.227.194.105:4022/rtp/239.254.200.90:8188
 #EXTINF:-1 group-title="卫视频道",甘肃卫视
 http://27.190.25.109:11001/rtp/239.254.200.90:8188
 #EXTINF:-1 group-title="卫视频道",甘肃卫视
+http://27.190.25.109:11001/rtp/239.254.200.90:8188
+#EXTINF:-1 group-title="卫视频道",甘肃卫视
 http://106.8.126.225:4022/rtp/239.254.200.90:8188
+#EXTINF:-1 group-title="卫视频道",甘肃卫视
+http://27.189.127.201:4022/rtp/239.254.200.90:8188
 #EXTINF:-1 group-title="卫视频道",西藏卫视
 http://111.227.191.152:4000/rtp/239.254.200.88:8164
 #EXTINF:-1 group-title="卫视频道",西藏卫视
@@ -410,7 +602,11 @@ http://111.227.194.105:4022/rtp/239.254.200.88:8164
 #EXTINF:-1 group-title="卫视频道",西藏卫视
 http://27.190.25.109:11001/rtp/239.254.200.88:8164
 #EXTINF:-1 group-title="卫视频道",西藏卫视
+http://27.190.25.109:11001/rtp/239.254.200.88:8164
+#EXTINF:-1 group-title="卫视频道",西藏卫视
 http://106.8.126.225:4022/rtp/239.254.200.88:8164
+#EXTINF:-1 group-title="卫视频道",西藏卫视
+http://27.189.127.201:4022/rtp/239.254.200.88:8164
 #EXTINF:-1 group-title="卫视频道",贵州卫视
 http://111.227.191.152:4000/rtp/239.254.201.20:6315
 #EXTINF:-1 group-title="卫视频道",贵州卫视
@@ -418,7 +614,11 @@ http://111.227.194.105:4022/rtp/239.254.201.20:6315
 #EXTINF:-1 group-title="卫视频道",贵州卫视
 http://27.190.25.109:11001/rtp/239.254.201.20:6315
 #EXTINF:-1 group-title="卫视频道",贵州卫视
+http://27.190.25.109:11001/rtp/239.254.201.20:6315
+#EXTINF:-1 group-title="卫视频道",贵州卫视
 http://106.8.126.225:4022/rtp/239.254.201.20:6315
+#EXTINF:-1 group-title="卫视频道",贵州卫视
+http://27.189.127.201:4022/rtp/239.254.201.20:6315
 #EXTINF:-1 group-title="卫视频道",辽宁卫视
 http://111.227.191.152:4000/rtp/239.254.200.57:8056
 #EXTINF:-1 group-title="卫视频道",辽宁卫视
@@ -426,7 +626,11 @@ http://111.227.194.105:4022/rtp/239.254.200.57:8056
 #EXTINF:-1 group-title="卫视频道",辽宁卫视
 http://27.190.25.109:11001/rtp/239.254.200.57:8056
 #EXTINF:-1 group-title="卫视频道",辽宁卫视
+http://27.190.25.109:11001/rtp/239.254.200.57:8056
+#EXTINF:-1 group-title="卫视频道",辽宁卫视
 http://106.8.126.225:4022/rtp/239.254.200.57:8056
+#EXTINF:-1 group-title="卫视频道",辽宁卫视
+http://27.189.127.201:4022/rtp/239.254.200.57:8056
 #EXTINF:-1 group-title="卫视频道",重庆卫视
 http://111.227.191.152:4000/rtp/239.254.200.203:6323
 #EXTINF:-1 group-title="卫视频道",重庆卫视
@@ -434,7 +638,11 @@ http://111.227.194.105:4022/rtp/239.254.200.203:6323
 #EXTINF:-1 group-title="卫视频道",重庆卫视
 http://27.190.25.109:11001/rtp/239.254.200.203:6323
 #EXTINF:-1 group-title="卫视频道",重庆卫视
+http://27.190.25.109:11001/rtp/239.254.200.203:6323
+#EXTINF:-1 group-title="卫视频道",重庆卫视
 http://106.8.126.225:4022/rtp/239.254.200.203:6323
+#EXTINF:-1 group-title="卫视频道",重庆卫视
+http://27.189.127.201:4022/rtp/239.254.200.203:6323
 #EXTINF:-1 group-title="卫视频道",陕西卫视
 http://111.227.191.152:4000/rtp/239.254.200.82:8140
 #EXTINF:-1 group-title="卫视频道",陕西卫视
@@ -442,7 +650,11 @@ http://111.227.194.105:4022/rtp/239.254.200.82:8140
 #EXTINF:-1 group-title="卫视频道",陕西卫视
 http://27.190.25.109:11001/rtp/239.254.200.82:8140
 #EXTINF:-1 group-title="卫视频道",陕西卫视
+http://27.190.25.109:11001/rtp/239.254.200.82:8140
+#EXTINF:-1 group-title="卫视频道",陕西卫视
 http://106.8.126.225:4022/rtp/239.254.200.82:8140
+#EXTINF:-1 group-title="卫视频道",陕西卫视
+http://27.189.127.201:4022/rtp/239.254.200.82:8140
 #EXTINF:-1 group-title="卫视频道",青海卫视
 http://111.227.191.152:4000/rtp/239.254.200.85:8184
 #EXTINF:-1 group-title="卫视频道",青海卫视
@@ -450,7 +662,11 @@ http://111.227.194.105:4022/rtp/239.254.200.85:8184
 #EXTINF:-1 group-title="卫视频道",青海卫视
 http://27.190.25.109:11001/rtp/239.254.200.85:8184
 #EXTINF:-1 group-title="卫视频道",青海卫视
+http://27.190.25.109:11001/rtp/239.254.200.85:8184
+#EXTINF:-1 group-title="卫视频道",青海卫视
 http://106.8.126.225:4022/rtp/239.254.200.85:8184
+#EXTINF:-1 group-title="卫视频道",青海卫视
+http://27.189.127.201:4022/rtp/239.254.200.85:8184
 #EXTINF:-1 group-title="卫视频道",黑龙江卫视
 http://111.227.191.152:4000/rtp/239.254.200.49:8016
 #EXTINF:-1 group-title="卫视频道",黑龙江卫视
@@ -458,7 +674,11 @@ http://111.227.194.105:4022/rtp/239.254.200.49:8016
 #EXTINF:-1 group-title="卫视频道",黑龙江卫视
 http://27.190.25.109:11001/rtp/239.254.200.49:8016
 #EXTINF:-1 group-title="卫视频道",黑龙江卫视
+http://27.190.25.109:11001/rtp/239.254.200.49:8016
+#EXTINF:-1 group-title="卫视频道",黑龙江卫视
 http://106.8.126.225:4022/rtp/239.254.200.49:8016
+#EXTINF:-1 group-title="卫视频道",黑龙江卫视
+http://27.189.127.201:4022/rtp/239.254.200.49:8016
 #EXTINF:-1 group-title="其他频道",CETV1
 http://111.227.191.152:4000/rtp/239.254.200.225:6259
 #EXTINF:-1 group-title="其他频道",CETV1
@@ -466,7 +686,11 @@ http://111.227.194.105:4022/rtp/239.254.200.225:6259
 #EXTINF:-1 group-title="其他频道",CETV1
 http://27.190.25.109:11001/rtp/239.254.200.225:6259
 #EXTINF:-1 group-title="其他频道",CETV1
+http://27.190.25.109:11001/rtp/239.254.200.225:6259
+#EXTINF:-1 group-title="其他频道",CETV1
 http://106.8.126.225:4022/rtp/239.254.200.225:6259
+#EXTINF:-1 group-title="其他频道",CETV1
+http://27.189.127.201:4022/rtp/239.254.200.225:6259
 #EXTINF:-1 group-title="其他频道",CETV2
 http://111.227.191.152:4000/rtp/239.254.200.226:6260
 #EXTINF:-1 group-title="其他频道",CETV2
@@ -474,7 +698,11 @@ http://111.227.194.105:4022/rtp/239.254.200.226:6260
 #EXTINF:-1 group-title="其他频道",CETV2
 http://27.190.25.109:11001/rtp/239.254.200.226:6260
 #EXTINF:-1 group-title="其他频道",CETV2
+http://27.190.25.109:11001/rtp/239.254.200.226:6260
+#EXTINF:-1 group-title="其他频道",CETV2
 http://106.8.126.225:4022/rtp/239.254.200.226:6260
+#EXTINF:-1 group-title="其他频道",CETV2
+http://27.189.127.201:4022/rtp/239.254.200.226:6260
 #EXTINF:-1 group-title="其他频道",CETV4
 http://111.227.191.152:4000/rtp/239.254.200.227:6261
 #EXTINF:-1 group-title="其他频道",CETV4
@@ -482,7 +710,11 @@ http://111.227.194.105:4022/rtp/239.254.200.227:6261
 #EXTINF:-1 group-title="其他频道",CETV4
 http://27.190.25.109:11001/rtp/239.254.200.227:6261
 #EXTINF:-1 group-title="其他频道",CETV4
+http://27.190.25.109:11001/rtp/239.254.200.227:6261
+#EXTINF:-1 group-title="其他频道",CETV4
 http://106.8.126.225:4022/rtp/239.254.200.227:6261
+#EXTINF:-1 group-title="其他频道",CETV4
+http://27.189.127.201:4022/rtp/239.254.200.227:6261
 #EXTINF:-1 group-title="其他频道",BTV冬奥纪实
 http://111.227.191.152:4000/rtp/239.254.200.188:6311
 #EXTINF:-1 group-title="其他频道",BTV冬奥纪实
@@ -490,7 +722,11 @@ http://111.227.194.105:4022/rtp/239.254.200.188:6311
 #EXTINF:-1 group-title="其他频道",BTV冬奥纪实
 http://27.190.25.109:11001/rtp/239.254.200.188:6311
 #EXTINF:-1 group-title="其他频道",BTV冬奥纪实
+http://27.190.25.109:11001/rtp/239.254.200.188:6311
+#EXTINF:-1 group-title="其他频道",BTV冬奥纪实
 http://106.8.126.225:4022/rtp/239.254.200.188:6311
+#EXTINF:-1 group-title="其他频道",BTV冬奥纪实
+http://27.189.127.201:4022/rtp/239.254.200.188:6311
 #EXTINF:-1 group-title="其他频道",CGTN
 http://111.227.191.152:4000/rtp/239.254.200.12:8056
 #EXTINF:-1 group-title="其他频道",CGTN
@@ -498,7 +734,11 @@ http://111.227.194.105:4022/rtp/239.254.200.12:8056
 #EXTINF:-1 group-title="其他频道",CGTN
 http://27.190.25.109:11001/rtp/239.254.200.12:8056
 #EXTINF:-1 group-title="其他频道",CGTN
+http://27.190.25.109:11001/rtp/239.254.200.12:8056
+#EXTINF:-1 group-title="其他频道",CGTN
 http://106.8.126.225:4022/rtp/239.254.200.12:8056
+#EXTINF:-1 group-title="其他频道",CGTN
+http://27.189.127.201:4022/rtp/239.254.200.12:8056
 #EXTINF:-1 group-title="其他频道",SLTV
 http://111.227.191.152:4000/rtp/239.254.201.100:5179
 #EXTINF:-1 group-title="其他频道",SLTV
@@ -506,7 +746,11 @@ http://111.227.194.105:4022/rtp/239.254.201.100:5179
 #EXTINF:-1 group-title="其他频道",SLTV
 http://27.190.25.109:11001/rtp/239.254.201.100:5179
 #EXTINF:-1 group-title="其他频道",SLTV
+http://27.190.25.109:11001/rtp/239.254.201.100:5179
+#EXTINF:-1 group-title="其他频道",SLTV
 http://106.8.126.225:4022/rtp/239.254.201.100:5179
+#EXTINF:-1 group-title="其他频道",SLTV
+http://27.189.127.201:4022/rtp/239.254.201.100:5179
 #EXTINF:-1 group-title="其他频道",kaku少儿
 http://111.227.191.152:4000/rtp/239.254.200.91:9248
 #EXTINF:-1 group-title="其他频道",kaku少儿
@@ -514,7 +758,11 @@ http://111.227.194.105:4022/rtp/239.254.200.91:9248
 #EXTINF:-1 group-title="其他频道",kaku少儿
 http://27.190.25.109:11001/rtp/239.254.200.91:9248
 #EXTINF:-1 group-title="其他频道",kaku少儿
+http://27.190.25.109:11001/rtp/239.254.200.91:9248
+#EXTINF:-1 group-title="其他频道",kaku少儿
 http://106.8.126.225:4022/rtp/239.254.200.91:9248
+#EXTINF:-1 group-title="其他频道",kaku少儿
+http://27.189.127.201:4022/rtp/239.254.200.91:9248
 #EXTINF:-1 group-title="其他频道",七彩戏剧
 http://111.227.191.152:4000/rtp/239.254.201.180:7213
 #EXTINF:-1 group-title="其他频道",七彩戏剧
@@ -522,7 +770,11 @@ http://111.227.194.105:4022/rtp/239.254.201.180:7213
 #EXTINF:-1 group-title="其他频道",七彩戏剧
 http://27.190.25.109:11001/rtp/239.254.201.180:7213
 #EXTINF:-1 group-title="其他频道",七彩戏剧
+http://27.190.25.109:11001/rtp/239.254.201.180:7213
+#EXTINF:-1 group-title="其他频道",七彩戏剧
 http://106.8.126.225:4022/rtp/239.254.201.180:7213
+#EXTINF:-1 group-title="其他频道",七彩戏剧
+http://27.189.127.201:4022/rtp/239.254.201.180:7213
 #EXTINF:-1 group-title="其他频道",三佳购物
 http://111.227.191.152:4000/rtp/239.254.200.143:6000
 #EXTINF:-1 group-title="其他频道",三佳购物
@@ -530,7 +782,11 @@ http://111.227.194.105:4022/rtp/239.254.200.143:6000
 #EXTINF:-1 group-title="其他频道",三佳购物
 http://27.190.25.109:11001/rtp/239.254.200.143:6000
 #EXTINF:-1 group-title="其他频道",三佳购物
+http://27.190.25.109:11001/rtp/239.254.200.143:6000
+#EXTINF:-1 group-title="其他频道",三佳购物
 http://106.8.126.225:4022/rtp/239.254.200.143:6000
+#EXTINF:-1 group-title="其他频道",三佳购物
+http://27.189.127.201:4022/rtp/239.254.200.143:6000
 #EXTINF:-1 group-title="其他频道",三河电视
 http://111.227.191.152:4000/rtp/239.254.201.113:5315
 #EXTINF:-1 group-title="其他频道",三河电视
@@ -538,7 +794,11 @@ http://111.227.194.105:4022/rtp/239.254.201.113:5315
 #EXTINF:-1 group-title="其他频道",三河电视
 http://27.190.25.109:11001/rtp/239.254.201.113:5315
 #EXTINF:-1 group-title="其他频道",三河电视
+http://27.190.25.109:11001/rtp/239.254.201.113:5315
+#EXTINF:-1 group-title="其他频道",三河电视
 http://106.8.126.225:4022/rtp/239.254.201.113:5315
+#EXTINF:-1 group-title="其他频道",三河电视
+http://27.189.127.201:4022/rtp/239.254.201.113:5315
 #EXTINF:-1 group-title="其他频道",世界地理
 http://111.227.191.152:4000/rtp/239.254.200.102:6236
 #EXTINF:-1 group-title="其他频道",世界地理
@@ -546,7 +806,11 @@ http://111.227.194.105:4022/rtp/239.254.200.102:6236
 #EXTINF:-1 group-title="其他频道",世界地理
 http://27.190.25.109:11001/rtp/239.254.200.102:6236
 #EXTINF:-1 group-title="其他频道",世界地理
+http://27.190.25.109:11001/rtp/239.254.200.102:6236
+#EXTINF:-1 group-title="其他频道",世界地理
 http://106.8.126.225:4022/rtp/239.254.200.102:6236
+#EXTINF:-1 group-title="其他频道",世界地理
+http://27.189.127.201:4022/rtp/239.254.200.102:6236
 #EXTINF:-1 group-title="其他频道",世界地理高清
 http://111.227.191.152:4000/rtp/239.254.201.226:7254
 #EXTINF:-1 group-title="其他频道",世界地理高清
@@ -554,7 +818,11 @@ http://111.227.194.105:4022/rtp/239.254.201.226:7254
 #EXTINF:-1 group-title="其他频道",世界地理高清
 http://27.190.25.109:11001/rtp/239.254.201.226:7254
 #EXTINF:-1 group-title="其他频道",世界地理高清
+http://27.190.25.109:11001/rtp/239.254.201.226:7254
+#EXTINF:-1 group-title="其他频道",世界地理高清
 http://106.8.126.225:4022/rtp/239.254.201.226:7254
+#EXTINF:-1 group-title="其他频道",世界地理高清
+http://27.189.127.201:4022/rtp/239.254.201.226:7254
 #EXTINF:-1 group-title="其他频道",东光电视
 http://111.227.191.152:4000/rtp/239.254.201.76:5331
 #EXTINF:-1 group-title="其他频道",东光电视
@@ -562,7 +830,11 @@ http://111.227.194.105:4022/rtp/239.254.201.76:5331
 #EXTINF:-1 group-title="其他频道",东光电视
 http://27.190.25.109:11001/rtp/239.254.201.76:5331
 #EXTINF:-1 group-title="其他频道",东光电视
+http://27.190.25.109:11001/rtp/239.254.201.76:5331
+#EXTINF:-1 group-title="其他频道",东光电视
 http://106.8.126.225:4022/rtp/239.254.201.76:5331
+#EXTINF:-1 group-title="其他频道",东光电视
+http://27.189.127.201:4022/rtp/239.254.201.76:5331
 #EXTINF:-1 group-title="其他频道",东方财经
 http://111.227.191.152:4000/rtp/239.254.201.181:7214
 #EXTINF:-1 group-title="其他频道",东方财经
@@ -570,7 +842,11 @@ http://111.227.194.105:4022/rtp/239.254.201.181:7214
 #EXTINF:-1 group-title="其他频道",东方财经
 http://27.190.25.109:11001/rtp/239.254.201.181:7214
 #EXTINF:-1 group-title="其他频道",东方财经
+http://27.190.25.109:11001/rtp/239.254.201.181:7214
+#EXTINF:-1 group-title="其他频道",东方财经
 http://106.8.126.225:4022/rtp/239.254.201.181:7214
+#EXTINF:-1 group-title="其他频道",东方财经
+http://27.189.127.201:4022/rtp/239.254.201.181:7214
 #EXTINF:-1 group-title="其他频道",中华特产
 http://111.227.191.152:4000/rtp/239.254.201.184:6263
 #EXTINF:-1 group-title="其他频道",中华特产
@@ -578,7 +854,11 @@ http://111.227.194.105:4022/rtp/239.254.201.184:6263
 #EXTINF:-1 group-title="其他频道",中华特产
 http://27.190.25.109:11001/rtp/239.254.201.184:6263
 #EXTINF:-1 group-title="其他频道",中华特产
+http://27.190.25.109:11001/rtp/239.254.201.184:6263
+#EXTINF:-1 group-title="其他频道",中华特产
 http://106.8.126.225:4022/rtp/239.254.201.184:6263
+#EXTINF:-1 group-title="其他频道",中华特产
+http://27.189.127.201:4022/rtp/239.254.201.184:6263
 #EXTINF:-1 group-title="其他频道",中华美食
 http://111.227.191.152:4000/rtp/239.254.201.189:7171
 #EXTINF:-1 group-title="其他频道",中华美食
@@ -586,7 +866,11 @@ http://111.227.194.105:4022/rtp/239.254.201.189:7171
 #EXTINF:-1 group-title="其他频道",中华美食
 http://27.190.25.109:11001/rtp/239.254.201.189:7171
 #EXTINF:-1 group-title="其他频道",中华美食
+http://27.190.25.109:11001/rtp/239.254.201.189:7171
+#EXTINF:-1 group-title="其他频道",中华美食
 http://106.8.126.225:4022/rtp/239.254.201.189:7171
+#EXTINF:-1 group-title="其他频道",中华美食
+http://27.189.127.201:4022/rtp/239.254.201.189:7171
 #EXTINF:-1 group-title="其他频道",中国交通频道
 http://111.227.191.152:4000/rtp/239.254.201.110:5181
 #EXTINF:-1 group-title="其他频道",中国交通频道
@@ -594,7 +878,11 @@ http://111.227.194.105:4022/rtp/239.254.201.110:5181
 #EXTINF:-1 group-title="其他频道",中国交通频道
 http://27.190.25.109:11001/rtp/239.254.201.110:5181
 #EXTINF:-1 group-title="其他频道",中国交通频道
+http://27.190.25.109:11001/rtp/239.254.201.110:5181
+#EXTINF:-1 group-title="其他频道",中国交通频道
 http://106.8.126.225:4022/rtp/239.254.201.110:5181
+#EXTINF:-1 group-title="其他频道",中国交通频道
+http://27.189.127.201:4022/rtp/239.254.201.110:5181
 #EXTINF:-1 group-title="其他频道",中学生
 http://111.227.191.152:4000/rtp/239.254.200.113:6243
 #EXTINF:-1 group-title="其他频道",中学生
@@ -602,7 +890,11 @@ http://111.227.194.105:4022/rtp/239.254.200.113:6243
 #EXTINF:-1 group-title="其他频道",中学生
 http://27.190.25.109:11001/rtp/239.254.200.113:6243
 #EXTINF:-1 group-title="其他频道",中学生
+http://27.190.25.109:11001/rtp/239.254.200.113:6243
+#EXTINF:-1 group-title="其他频道",中学生
 http://106.8.126.225:4022/rtp/239.254.200.113:6243
+#EXTINF:-1 group-title="其他频道",中学生
+http://27.189.127.201:4022/rtp/239.254.200.113:6243
 #EXTINF:-1 group-title="其他频道",中式八球国际公开赛
 http://111.227.191.152:4000/rtp/239.254.200.187:6000
 #EXTINF:-1 group-title="其他频道",中式八球国际公开赛
@@ -610,7 +902,11 @@ http://111.227.194.105:4022/rtp/239.254.200.187:6000
 #EXTINF:-1 group-title="其他频道",中式八球国际公开赛
 http://27.190.25.109:11001/rtp/239.254.200.187:6000
 #EXTINF:-1 group-title="其他频道",中式八球国际公开赛
+http://27.190.25.109:11001/rtp/239.254.200.187:6000
+#EXTINF:-1 group-title="其他频道",中式八球国际公开赛
 http://106.8.126.225:4022/rtp/239.254.200.187:6000
+#EXTINF:-1 group-title="其他频道",中式八球国际公开赛
+http://27.189.127.201:4022/rtp/239.254.200.187:6000
 #EXTINF:-1 group-title="其他频道",丰南电视
 http://111.227.191.152:4000/rtp/239.254.200.218:5186
 #EXTINF:-1 group-title="其他频道",丰南电视
@@ -618,7 +914,11 @@ http://111.227.194.105:4022/rtp/239.254.200.218:5186
 #EXTINF:-1 group-title="其他频道",丰南电视
 http://27.190.25.109:11001/rtp/239.254.200.218:5186
 #EXTINF:-1 group-title="其他频道",丰南电视
+http://27.190.25.109:11001/rtp/239.254.200.218:5186
+#EXTINF:-1 group-title="其他频道",丰南电视
 http://106.8.126.225:4022/rtp/239.254.200.218:5186
+#EXTINF:-1 group-title="其他频道",丰南电视
+http://27.189.127.201:4022/rtp/239.254.200.218:5186
 #EXTINF:-1 group-title="其他频道",丰宁电视
 http://111.227.191.152:4000/rtp/239.254.200.5:5290
 #EXTINF:-1 group-title="其他频道",丰宁电视
@@ -626,7 +926,11 @@ http://111.227.194.105:4022/rtp/239.254.200.5:5290
 #EXTINF:-1 group-title="其他频道",丰宁电视
 http://27.190.25.109:11001/rtp/239.254.200.5:5290
 #EXTINF:-1 group-title="其他频道",丰宁电视
+http://27.190.25.109:11001/rtp/239.254.200.5:5290
+#EXTINF:-1 group-title="其他频道",丰宁电视
 http://106.8.126.225:4022/rtp/239.254.200.5:5290
+#EXTINF:-1 group-title="其他频道",丰宁电视
+http://27.189.127.201:4022/rtp/239.254.200.5:5290
 #EXTINF:-1 group-title="其他频道",丰润电视
 http://111.227.191.152:4000/rtp/239.254.201.58:5197
 #EXTINF:-1 group-title="其他频道",丰润电视
@@ -634,7 +938,11 @@ http://111.227.194.105:4022/rtp/239.254.201.58:5197
 #EXTINF:-1 group-title="其他频道",丰润电视
 http://27.190.25.109:11001/rtp/239.254.201.58:5197
 #EXTINF:-1 group-title="其他频道",丰润电视
+http://27.190.25.109:11001/rtp/239.254.201.58:5197
+#EXTINF:-1 group-title="其他频道",丰润电视
 http://106.8.126.225:4022/rtp/239.254.201.58:5197
+#EXTINF:-1 group-title="其他频道",丰润电视
+http://27.189.127.201:4022/rtp/239.254.201.58:5197
 #EXTINF:-1 group-title="其他频道",临漳电视
 http://111.227.191.152:4000/rtp/239.254.201.73:5221
 #EXTINF:-1 group-title="其他频道",临漳电视
@@ -642,7 +950,11 @@ http://111.227.194.105:4022/rtp/239.254.201.73:5221
 #EXTINF:-1 group-title="其他频道",临漳电视
 http://27.190.25.109:11001/rtp/239.254.201.73:5221
 #EXTINF:-1 group-title="其他频道",临漳电视
+http://27.190.25.109:11001/rtp/239.254.201.73:5221
+#EXTINF:-1 group-title="其他频道",临漳电视
 http://106.8.126.225:4022/rtp/239.254.201.73:5221
+#EXTINF:-1 group-title="其他频道",临漳电视
+http://27.189.127.201:4022/rtp/239.254.201.73:5221
 #EXTINF:-1 group-title="其他频道",乐亭电视
 http://111.227.191.152:4000/rtp/239.254.201.107:5200
 #EXTINF:-1 group-title="其他频道",乐亭电视
@@ -650,7 +962,11 @@ http://111.227.194.105:4022/rtp/239.254.201.107:5200
 #EXTINF:-1 group-title="其他频道",乐亭电视
 http://27.190.25.109:11001/rtp/239.254.201.107:5200
 #EXTINF:-1 group-title="其他频道",乐亭电视
+http://27.190.25.109:11001/rtp/239.254.201.107:5200
+#EXTINF:-1 group-title="其他频道",乐亭电视
 http://106.8.126.225:4022/rtp/239.254.201.107:5200
+#EXTINF:-1 group-title="其他频道",乐亭电视
+http://27.189.127.201:4022/rtp/239.254.201.107:5200
 #EXTINF:-1 group-title="其他频道",书画
 http://111.227.191.152:4000/rtp/239.254.200.217:6267
 #EXTINF:-1 group-title="其他频道",书画
@@ -658,7 +974,11 @@ http://111.227.194.105:4022/rtp/239.254.200.217:6267
 #EXTINF:-1 group-title="其他频道",书画
 http://27.190.25.109:11001/rtp/239.254.200.217:6267
 #EXTINF:-1 group-title="其他频道",书画
+http://27.190.25.109:11001/rtp/239.254.200.217:6267
+#EXTINF:-1 group-title="其他频道",书画
 http://106.8.126.225:4022/rtp/239.254.200.217:6267
+#EXTINF:-1 group-title="其他频道",书画
+http://27.189.127.201:4022/rtp/239.254.200.217:6267
 #EXTINF:-1 group-title="其他频道",井陉电视
 http://111.227.191.152:4000/rtp/239.254.201.215:6167
 #EXTINF:-1 group-title="其他频道",井陉电视
@@ -666,7 +986,11 @@ http://111.227.194.105:4022/rtp/239.254.201.215:6167
 #EXTINF:-1 group-title="其他频道",井陉电视
 http://27.190.25.109:11001/rtp/239.254.201.215:6167
 #EXTINF:-1 group-title="其他频道",井陉电视
+http://27.190.25.109:11001/rtp/239.254.201.215:6167
+#EXTINF:-1 group-title="其他频道",井陉电视
 http://106.8.126.225:4022/rtp/239.254.201.215:6167
+#EXTINF:-1 group-title="其他频道",井陉电视
+http://27.189.127.201:4022/rtp/239.254.201.215:6167
 #EXTINF:-1 group-title="其他频道",井陉矿区电视
 http://111.227.191.152:4000/rtp/239.254.201.14:5175
 #EXTINF:-1 group-title="其他频道",井陉矿区电视
@@ -674,7 +998,11 @@ http://111.227.194.105:4022/rtp/239.254.201.14:5175
 #EXTINF:-1 group-title="其他频道",井陉矿区电视
 http://27.190.25.109:11001/rtp/239.254.201.14:5175
 #EXTINF:-1 group-title="其他频道",井陉矿区电视
+http://27.190.25.109:11001/rtp/239.254.201.14:5175
+#EXTINF:-1 group-title="其他频道",井陉矿区电视
 http://106.8.126.225:4022/rtp/239.254.201.14:5175
+#EXTINF:-1 group-title="其他频道",井陉矿区电视
+http://27.189.127.201:4022/rtp/239.254.201.14:5175
 #EXTINF:-1 group-title="其他频道",任县电视
 http://111.227.191.152:4000/rtp/239.254.201.115:5381
 #EXTINF:-1 group-title="其他频道",任县电视
@@ -682,7 +1010,11 @@ http://111.227.194.105:4022/rtp/239.254.201.115:5381
 #EXTINF:-1 group-title="其他频道",任县电视
 http://27.190.25.109:11001/rtp/239.254.201.115:5381
 #EXTINF:-1 group-title="其他频道",任县电视
+http://27.190.25.109:11001/rtp/239.254.201.115:5381
+#EXTINF:-1 group-title="其他频道",任县电视
 http://106.8.126.225:4022/rtp/239.254.201.115:5381
+#EXTINF:-1 group-title="其他频道",任县电视
+http://27.189.127.201:4022/rtp/239.254.201.115:5381
 #EXTINF:-1 group-title="其他频道",优优宝贝
 http://111.227.191.152:4000/rtp/239.254.201.186:6272
 #EXTINF:-1 group-title="其他频道",优优宝贝
@@ -690,7 +1022,11 @@ http://111.227.194.105:4022/rtp/239.254.201.186:6272
 #EXTINF:-1 group-title="其他频道",优优宝贝
 http://27.190.25.109:11001/rtp/239.254.201.186:6272
 #EXTINF:-1 group-title="其他频道",优优宝贝
+http://27.190.25.109:11001/rtp/239.254.201.186:6272
+#EXTINF:-1 group-title="其他频道",优优宝贝
 http://106.8.126.225:4022/rtp/239.254.201.186:6272
+#EXTINF:-1 group-title="其他频道",优优宝贝
+http://27.189.127.201:4022/rtp/239.254.201.186:6272
 #EXTINF:-1 group-title="其他频道",优漫卡通
 http://111.227.191.152:4000/rtp/239.254.201.203:7178
 #EXTINF:-1 group-title="其他频道",优漫卡通
@@ -698,7 +1034,11 @@ http://111.227.194.105:4022/rtp/239.254.201.203:7178
 #EXTINF:-1 group-title="其他频道",优漫卡通
 http://27.190.25.109:11001/rtp/239.254.201.203:7178
 #EXTINF:-1 group-title="其他频道",优漫卡通
+http://27.190.25.109:11001/rtp/239.254.201.203:7178
+#EXTINF:-1 group-title="其他频道",优漫卡通
 http://106.8.126.225:4022/rtp/239.254.201.203:7178
+#EXTINF:-1 group-title="其他频道",优漫卡通
+http://27.189.127.201:4022/rtp/239.254.201.203:7178
 #EXTINF:-1 group-title="其他频道",优购物
 http://111.227.191.152:4000/rtp/239.254.201.78:6283
 #EXTINF:-1 group-title="其他频道",优购物
@@ -706,7 +1046,11 @@ http://111.227.194.105:4022/rtp/239.254.201.78:6283
 #EXTINF:-1 group-title="其他频道",优购物
 http://27.190.25.109:11001/rtp/239.254.201.78:6283
 #EXTINF:-1 group-title="其他频道",优购物
+http://27.190.25.109:11001/rtp/239.254.201.78:6283
+#EXTINF:-1 group-title="其他频道",优购物
 http://106.8.126.225:4022/rtp/239.254.201.78:6283
+#EXTINF:-1 group-title="其他频道",优购物
+http://27.189.127.201:4022/rtp/239.254.201.78:6283
 #EXTINF:-1 group-title="其他频道",体育赛事
 http://111.227.191.152:4000/rtp/239.254.201.170:8176
 #EXTINF:-1 group-title="其他频道",体育赛事
@@ -714,7 +1058,11 @@ http://111.227.194.105:4022/rtp/239.254.201.170:8176
 #EXTINF:-1 group-title="其他频道",体育赛事
 http://27.190.25.109:11001/rtp/239.254.201.170:8176
 #EXTINF:-1 group-title="其他频道",体育赛事
+http://27.190.25.109:11001/rtp/239.254.201.170:8176
+#EXTINF:-1 group-title="其他频道",体育赛事
 http://106.8.126.225:4022/rtp/239.254.201.170:8176
+#EXTINF:-1 group-title="其他频道",体育赛事
+http://27.189.127.201:4022/rtp/239.254.201.170:8176
 #EXTINF:-1 group-title="其他频道",保定公共频道
 http://111.227.191.152:4000/rtp/239.254.200.145:6000
 #EXTINF:-1 group-title="其他频道",保定公共频道
@@ -722,7 +1070,11 @@ http://111.227.194.105:4022/rtp/239.254.200.145:6000
 #EXTINF:-1 group-title="其他频道",保定公共频道
 http://27.190.25.109:11001/rtp/239.254.200.145:6000
 #EXTINF:-1 group-title="其他频道",保定公共频道
+http://27.190.25.109:11001/rtp/239.254.200.145:6000
+#EXTINF:-1 group-title="其他频道",保定公共频道
 http://106.8.126.225:4022/rtp/239.254.200.145:6000
+#EXTINF:-1 group-title="其他频道",保定公共频道
+http://27.189.127.201:4022/rtp/239.254.200.145:6000
 #EXTINF:-1 group-title="其他频道",保定新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.144:6000
 #EXTINF:-1 group-title="其他频道",保定新闻综合
@@ -730,7 +1082,11 @@ http://111.227.194.105:4022/rtp/239.254.200.144:6000
 #EXTINF:-1 group-title="其他频道",保定新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.144:6000
 #EXTINF:-1 group-title="其他频道",保定新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.144:6000
+#EXTINF:-1 group-title="其他频道",保定新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.144:6000
+#EXTINF:-1 group-title="其他频道",保定新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.144:6000
 #EXTINF:-1 group-title="其他频道",保定生活健康
 http://111.227.191.152:4000/rtp/239.254.200.146:6000
 #EXTINF:-1 group-title="其他频道",保定生活健康
@@ -738,7 +1094,11 @@ http://111.227.194.105:4022/rtp/239.254.200.146:6000
 #EXTINF:-1 group-title="其他频道",保定生活健康
 http://27.190.25.109:11001/rtp/239.254.200.146:6000
 #EXTINF:-1 group-title="其他频道",保定生活健康
+http://27.190.25.109:11001/rtp/239.254.200.146:6000
+#EXTINF:-1 group-title="其他频道",保定生活健康
 http://106.8.126.225:4022/rtp/239.254.200.146:6000
+#EXTINF:-1 group-title="其他频道",保定生活健康
+http://27.189.127.201:4022/rtp/239.254.200.146:6000
 #EXTINF:-1 group-title="其他频道",元氏电视
 http://111.227.191.152:4000/rtp/239.254.200.191:5169
 #EXTINF:-1 group-title="其他频道",元氏电视
@@ -746,7 +1106,11 @@ http://111.227.194.105:4022/rtp/239.254.200.191:5169
 #EXTINF:-1 group-title="其他频道",元氏电视
 http://27.190.25.109:11001/rtp/239.254.200.191:5169
 #EXTINF:-1 group-title="其他频道",元氏电视
+http://27.190.25.109:11001/rtp/239.254.200.191:5169
+#EXTINF:-1 group-title="其他频道",元氏电视
 http://106.8.126.225:4022/rtp/239.254.200.191:5169
+#EXTINF:-1 group-title="其他频道",元氏电视
+http://27.189.127.201:4022/rtp/239.254.200.191:5169
 #EXTINF:-1 group-title="其他频道",先锋乒羽
 http://111.227.191.152:4000/rtp/239.254.201.160:7172
 #EXTINF:-1 group-title="其他频道",先锋乒羽
@@ -754,7 +1118,11 @@ http://111.227.194.105:4022/rtp/239.254.201.160:7172
 #EXTINF:-1 group-title="其他频道",先锋乒羽
 http://27.190.25.109:11001/rtp/239.254.201.160:7172
 #EXTINF:-1 group-title="其他频道",先锋乒羽
+http://27.190.25.109:11001/rtp/239.254.201.160:7172
+#EXTINF:-1 group-title="其他频道",先锋乒羽
 http://106.8.126.225:4022/rtp/239.254.201.160:7172
+#EXTINF:-1 group-title="其他频道",先锋乒羽
+http://27.189.127.201:4022/rtp/239.254.201.160:7172
 #EXTINF:-1 group-title="其他频道",全纪实
 http://111.227.191.152:4000/rtp/239.254.201.200:6356
 #EXTINF:-1 group-title="其他频道",全纪实
@@ -762,7 +1130,11 @@ http://111.227.194.105:4022/rtp/239.254.201.200:6356
 #EXTINF:-1 group-title="其他频道",全纪实
 http://27.190.25.109:11001/rtp/239.254.201.200:6356
 #EXTINF:-1 group-title="其他频道",全纪实
+http://27.190.25.109:11001/rtp/239.254.201.200:6356
+#EXTINF:-1 group-title="其他频道",全纪实
 http://106.8.126.225:4022/rtp/239.254.201.200:6356
+#EXTINF:-1 group-title="其他频道",全纪实
+http://27.189.127.201:4022/rtp/239.254.201.200:6356
 #EXTINF:-1 group-title="其他频道",兴隆电视
 http://111.227.191.152:4000/rtp/239.254.201.95:5295
 #EXTINF:-1 group-title="其他频道",兴隆电视
@@ -770,7 +1142,11 @@ http://111.227.194.105:4022/rtp/239.254.201.95:5295
 #EXTINF:-1 group-title="其他频道",兴隆电视
 http://27.190.25.109:11001/rtp/239.254.201.95:5295
 #EXTINF:-1 group-title="其他频道",兴隆电视
+http://27.190.25.109:11001/rtp/239.254.201.95:5295
+#EXTINF:-1 group-title="其他频道",兴隆电视
 http://106.8.126.225:4022/rtp/239.254.201.95:5295
+#EXTINF:-1 group-title="其他频道",兴隆电视
+http://27.189.127.201:4022/rtp/239.254.201.95:5295
 #EXTINF:-1 group-title="其他频道",兵器科技
 http://111.227.191.152:4000/rtp/239.254.200.101:6235
 #EXTINF:-1 group-title="其他频道",兵器科技
@@ -778,7 +1154,11 @@ http://111.227.194.105:4022/rtp/239.254.200.101:6235
 #EXTINF:-1 group-title="其他频道",兵器科技
 http://27.190.25.109:11001/rtp/239.254.200.101:6235
 #EXTINF:-1 group-title="其他频道",兵器科技
+http://27.190.25.109:11001/rtp/239.254.200.101:6235
+#EXTINF:-1 group-title="其他频道",兵器科技
 http://106.8.126.225:4022/rtp/239.254.200.101:6235
+#EXTINF:-1 group-title="其他频道",兵器科技
+http://27.189.127.201:4022/rtp/239.254.200.101:6235
 #EXTINF:-1 group-title="其他频道",兵器科技高清
 http://111.227.191.152:4000/rtp/239.254.201.225:7249
 #EXTINF:-1 group-title="其他频道",兵器科技高清
@@ -786,7 +1166,11 @@ http://111.227.194.105:4022/rtp/239.254.201.225:7249
 #EXTINF:-1 group-title="其他频道",兵器科技高清
 http://27.190.25.109:11001/rtp/239.254.201.225:7249
 #EXTINF:-1 group-title="其他频道",兵器科技高清
+http://27.190.25.109:11001/rtp/239.254.201.225:7249
+#EXTINF:-1 group-title="其他频道",兵器科技高清
 http://106.8.126.225:4022/rtp/239.254.201.225:7249
+#EXTINF:-1 group-title="其他频道",兵器科技高清
+http://27.189.127.201:4022/rtp/239.254.201.225:7249
 #EXTINF:-1 group-title="其他频道",冀州电视
 http://111.227.191.152:4000/rtp/239.254.200.179:5346
 #EXTINF:-1 group-title="其他频道",冀州电视
@@ -794,7 +1178,11 @@ http://111.227.194.105:4022/rtp/239.254.200.179:5346
 #EXTINF:-1 group-title="其他频道",冀州电视
 http://27.190.25.109:11001/rtp/239.254.200.179:5346
 #EXTINF:-1 group-title="其他频道",冀州电视
+http://27.190.25.109:11001/rtp/239.254.200.179:5346
+#EXTINF:-1 group-title="其他频道",冀州电视
 http://106.8.126.225:4022/rtp/239.254.200.179:5346
+#EXTINF:-1 group-title="其他频道",冀州电视
+http://27.189.127.201:4022/rtp/239.254.200.179:5346
 #EXTINF:-1 group-title="其他频道",内丘电视
 http://111.227.191.152:4000/rtp/239.254.201.77:5380
 #EXTINF:-1 group-title="其他频道",内丘电视
@@ -802,7 +1190,11 @@ http://111.227.194.105:4022/rtp/239.254.201.77:5380
 #EXTINF:-1 group-title="其他频道",内丘电视
 http://27.190.25.109:11001/rtp/239.254.201.77:5380
 #EXTINF:-1 group-title="其他频道",内丘电视
+http://27.190.25.109:11001/rtp/239.254.201.77:5380
+#EXTINF:-1 group-title="其他频道",内丘电视
 http://106.8.126.225:4022/rtp/239.254.201.77:5380
+#EXTINF:-1 group-title="其他频道",内丘电视
+http://27.189.127.201:4022/rtp/239.254.201.77:5380
 #EXTINF:-1 group-title="其他频道",冰雪体育
 http://111.227.191.152:4000/rtp/239.254.201.172:7244
 #EXTINF:-1 group-title="其他频道",冰雪体育
@@ -810,7 +1202,11 @@ http://111.227.194.105:4022/rtp/239.254.201.172:7244
 #EXTINF:-1 group-title="其他频道",冰雪体育
 http://27.190.25.109:11001/rtp/239.254.201.172:7244
 #EXTINF:-1 group-title="其他频道",冰雪体育
+http://27.190.25.109:11001/rtp/239.254.201.172:7244
+#EXTINF:-1 group-title="其他频道",冰雪体育
 http://106.8.126.225:4022/rtp/239.254.201.172:7244
+#EXTINF:-1 group-title="其他频道",冰雪体育
+http://27.189.127.201:4022/rtp/239.254.201.172:7244
 #EXTINF:-1 group-title="其他频道",动漫秀场
 http://111.227.191.152:4000/rtp/239.254.201.165:6358
 #EXTINF:-1 group-title="其他频道",动漫秀场
@@ -818,7 +1214,11 @@ http://111.227.194.105:4022/rtp/239.254.201.165:6358
 #EXTINF:-1 group-title="其他频道",动漫秀场
 http://27.190.25.109:11001/rtp/239.254.201.165:6358
 #EXTINF:-1 group-title="其他频道",动漫秀场
+http://27.190.25.109:11001/rtp/239.254.201.165:6358
+#EXTINF:-1 group-title="其他频道",动漫秀场
 http://106.8.126.225:4022/rtp/239.254.201.165:6358
+#EXTINF:-1 group-title="其他频道",动漫秀场
+http://27.189.127.201:4022/rtp/239.254.201.165:6358
 #EXTINF:-1 group-title="其他频道",南和电视
 http://111.227.191.152:4000/rtp/239.254.201.72:6000
 #EXTINF:-1 group-title="其他频道",南和电视
@@ -826,7 +1226,11 @@ http://111.227.194.105:4022/rtp/239.254.201.72:6000
 #EXTINF:-1 group-title="其他频道",南和电视
 http://27.190.25.109:11001/rtp/239.254.201.72:6000
 #EXTINF:-1 group-title="其他频道",南和电视
+http://27.190.25.109:11001/rtp/239.254.201.72:6000
+#EXTINF:-1 group-title="其他频道",南和电视
 http://106.8.126.225:4022/rtp/239.254.201.72:6000
+#EXTINF:-1 group-title="其他频道",南和电视
+http://27.189.127.201:4022/rtp/239.254.201.72:6000
 #EXTINF:-1 group-title="其他频道",南宫电视
 http://111.227.191.152:4000/rtp/239.254.201.48:5371
 #EXTINF:-1 group-title="其他频道",南宫电视
@@ -834,7 +1238,11 @@ http://111.227.194.105:4022/rtp/239.254.201.48:5371
 #EXTINF:-1 group-title="其他频道",南宫电视
 http://27.190.25.109:11001/rtp/239.254.201.48:5371
 #EXTINF:-1 group-title="其他频道",南宫电视
+http://27.190.25.109:11001/rtp/239.254.201.48:5371
+#EXTINF:-1 group-title="其他频道",南宫电视
 http://106.8.126.225:4022/rtp/239.254.201.48:5371
+#EXTINF:-1 group-title="其他频道",南宫电视
+http://27.189.127.201:4022/rtp/239.254.201.48:5371
 #EXTINF:-1 group-title="其他频道",南皮电视
 http://111.227.191.152:4000/rtp/239.254.201.119:5335
 #EXTINF:-1 group-title="其他频道",南皮电视
@@ -842,7 +1250,11 @@ http://111.227.194.105:4022/rtp/239.254.201.119:5335
 #EXTINF:-1 group-title="其他频道",南皮电视
 http://27.190.25.109:11001/rtp/239.254.201.119:5335
 #EXTINF:-1 group-title="其他频道",南皮电视
+http://27.190.25.109:11001/rtp/239.254.201.119:5335
+#EXTINF:-1 group-title="其他频道",南皮电视
 http://106.8.126.225:4022/rtp/239.254.201.119:5335
+#EXTINF:-1 group-title="其他频道",南皮电视
+http://27.189.127.201:4022/rtp/239.254.201.119:5335
 #EXTINF:-1 group-title="其他频道",卢龙电视
 http://111.227.191.152:4000/rtp/239.254.201.216:5233
 #EXTINF:-1 group-title="其他频道",卢龙电视
@@ -850,7 +1262,11 @@ http://111.227.194.105:4022/rtp/239.254.201.216:5233
 #EXTINF:-1 group-title="其他频道",卢龙电视
 http://27.190.25.109:11001/rtp/239.254.201.216:5233
 #EXTINF:-1 group-title="其他频道",卢龙电视
+http://27.190.25.109:11001/rtp/239.254.201.216:5233
+#EXTINF:-1 group-title="其他频道",卢龙电视
 http://106.8.126.225:4022/rtp/239.254.201.216:5233
+#EXTINF:-1 group-title="其他频道",卢龙电视
+http://27.189.127.201:4022/rtp/239.254.201.216:5233
 #EXTINF:-1 group-title="其他频道",双滦电视
 http://111.227.191.152:4000/rtp/239.254.201.63:5293
 #EXTINF:-1 group-title="其他频道",双滦电视
@@ -858,7 +1274,11 @@ http://111.227.194.105:4022/rtp/239.254.201.63:5293
 #EXTINF:-1 group-title="其他频道",双滦电视
 http://27.190.25.109:11001/rtp/239.254.201.63:5293
 #EXTINF:-1 group-title="其他频道",双滦电视
+http://27.190.25.109:11001/rtp/239.254.201.63:5293
+#EXTINF:-1 group-title="其他频道",双滦电视
 http://106.8.126.225:4022/rtp/239.254.201.63:5293
+#EXTINF:-1 group-title="其他频道",双滦电视
+http://27.189.127.201:4022/rtp/239.254.201.63:5293
 #EXTINF:-1 group-title="其他频道",吴桥电视
 http://111.227.191.152:4000/rtp/239.254.201.138:5337
 #EXTINF:-1 group-title="其他频道",吴桥电视
@@ -866,7 +1286,11 @@ http://111.227.194.105:4022/rtp/239.254.201.138:5337
 #EXTINF:-1 group-title="其他频道",吴桥电视
 http://27.190.25.109:11001/rtp/239.254.201.138:5337
 #EXTINF:-1 group-title="其他频道",吴桥电视
+http://27.190.25.109:11001/rtp/239.254.201.138:5337
+#EXTINF:-1 group-title="其他频道",吴桥电视
 http://106.8.126.225:4022/rtp/239.254.201.138:5337
+#EXTINF:-1 group-title="其他频道",吴桥电视
+http://27.189.127.201:4022/rtp/239.254.201.138:5337
 #EXTINF:-1 group-title="其他频道",唐县电视
 http://111.227.191.152:4000/rtp/239.254.201.41:5264
 #EXTINF:-1 group-title="其他频道",唐县电视
@@ -874,7 +1298,11 @@ http://111.227.194.105:4022/rtp/239.254.201.41:5264
 #EXTINF:-1 group-title="其他频道",唐县电视
 http://27.190.25.109:11001/rtp/239.254.201.41:5264
 #EXTINF:-1 group-title="其他频道",唐县电视
+http://27.190.25.109:11001/rtp/239.254.201.41:5264
+#EXTINF:-1 group-title="其他频道",唐县电视
 http://106.8.126.225:4022/rtp/239.254.201.41:5264
+#EXTINF:-1 group-title="其他频道",唐县电视
+http://27.189.127.201:4022/rtp/239.254.201.41:5264
 #EXTINF:-1 group-title="其他频道",唐山公共
 http://111.227.191.152:4000/rtp/239.254.200.169:6000
 #EXTINF:-1 group-title="其他频道",唐山公共
@@ -882,7 +1310,11 @@ http://111.227.194.105:4022/rtp/239.254.200.169:6000
 #EXTINF:-1 group-title="其他频道",唐山公共
 http://27.190.25.109:11001/rtp/239.254.200.169:6000
 #EXTINF:-1 group-title="其他频道",唐山公共
+http://27.190.25.109:11001/rtp/239.254.200.169:6000
+#EXTINF:-1 group-title="其他频道",唐山公共
 http://106.8.126.225:4022/rtp/239.254.200.169:6000
+#EXTINF:-1 group-title="其他频道",唐山公共
+http://27.189.127.201:4022/rtp/239.254.200.169:6000
 #EXTINF:-1 group-title="其他频道",唐山影视
 http://111.227.191.152:4000/rtp/239.254.200.168:6000
 #EXTINF:-1 group-title="其他频道",唐山影视
@@ -890,7 +1322,11 @@ http://111.227.194.105:4022/rtp/239.254.200.168:6000
 #EXTINF:-1 group-title="其他频道",唐山影视
 http://27.190.25.109:11001/rtp/239.254.200.168:6000
 #EXTINF:-1 group-title="其他频道",唐山影视
+http://27.190.25.109:11001/rtp/239.254.200.168:6000
+#EXTINF:-1 group-title="其他频道",唐山影视
 http://106.8.126.225:4022/rtp/239.254.200.168:6000
+#EXTINF:-1 group-title="其他频道",唐山影视
+http://27.189.127.201:4022/rtp/239.254.200.168:6000
 #EXTINF:-1 group-title="其他频道",唐山新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.166:6000
 #EXTINF:-1 group-title="其他频道",唐山新闻综合
@@ -898,7 +1334,11 @@ http://111.227.194.105:4022/rtp/239.254.200.166:6000
 #EXTINF:-1 group-title="其他频道",唐山新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.166:6000
 #EXTINF:-1 group-title="其他频道",唐山新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.166:6000
+#EXTINF:-1 group-title="其他频道",唐山新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.166:6000
+#EXTINF:-1 group-title="其他频道",唐山新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.166:6000
 #EXTINF:-1 group-title="其他频道",唐山生活服务
 http://111.227.191.152:4000/rtp/239.254.200.167:6000
 #EXTINF:-1 group-title="其他频道",唐山生活服务
@@ -906,7 +1346,11 @@ http://111.227.194.105:4022/rtp/239.254.200.167:6000
 #EXTINF:-1 group-title="其他频道",唐山生活服务
 http://27.190.25.109:11001/rtp/239.254.200.167:6000
 #EXTINF:-1 group-title="其他频道",唐山生活服务
+http://27.190.25.109:11001/rtp/239.254.200.167:6000
+#EXTINF:-1 group-title="其他频道",唐山生活服务
 http://106.8.126.225:4022/rtp/239.254.200.167:6000
+#EXTINF:-1 group-title="其他频道",唐山生活服务
+http://27.189.127.201:4022/rtp/239.254.200.167:6000
 #EXTINF:-1 group-title="其他频道",嘉佳卡通
 http://111.227.191.152:4000/rtp/239.254.201.201:7269
 #EXTINF:-1 group-title="其他频道",嘉佳卡通
@@ -914,7 +1358,11 @@ http://111.227.194.105:4022/rtp/239.254.201.201:7269
 #EXTINF:-1 group-title="其他频道",嘉佳卡通
 http://27.190.25.109:11001/rtp/239.254.201.201:7269
 #EXTINF:-1 group-title="其他频道",嘉佳卡通
+http://27.190.25.109:11001/rtp/239.254.201.201:7269
+#EXTINF:-1 group-title="其他频道",嘉佳卡通
 http://106.8.126.225:4022/rtp/239.254.201.201:7269
+#EXTINF:-1 group-title="其他频道",嘉佳卡通
+http://27.189.127.201:4022/rtp/239.254.201.201:7269
 #EXTINF:-1 group-title="其他频道",四海钓鱼
 http://111.227.191.152:4000/rtp/239.254.201.185:6363
 #EXTINF:-1 group-title="其他频道",四海钓鱼
@@ -922,7 +1370,11 @@ http://111.227.194.105:4022/rtp/239.254.201.185:6363
 #EXTINF:-1 group-title="其他频道",四海钓鱼
 http://27.190.25.109:11001/rtp/239.254.201.185:6363
 #EXTINF:-1 group-title="其他频道",四海钓鱼
+http://27.190.25.109:11001/rtp/239.254.201.185:6363
+#EXTINF:-1 group-title="其他频道",四海钓鱼
 http://106.8.126.225:4022/rtp/239.254.201.185:6363
+#EXTINF:-1 group-title="其他频道",四海钓鱼
+http://27.189.127.201:4022/rtp/239.254.201.185:6363
 #EXTINF:-1 group-title="其他频道",固安电视
 http://111.227.191.152:4000/rtp/239.254.201.101:5312
 #EXTINF:-1 group-title="其他频道",固安电视
@@ -930,7 +1382,11 @@ http://111.227.194.105:4022/rtp/239.254.201.101:5312
 #EXTINF:-1 group-title="其他频道",固安电视
 http://27.190.25.109:11001/rtp/239.254.201.101:5312
 #EXTINF:-1 group-title="其他频道",固安电视
+http://27.190.25.109:11001/rtp/239.254.201.101:5312
+#EXTINF:-1 group-title="其他频道",固安电视
 http://106.8.126.225:4022/rtp/239.254.201.101:5312
+#EXTINF:-1 group-title="其他频道",固安电视
+http://27.189.127.201:4022/rtp/239.254.201.101:5312
 #EXTINF:-1 group-title="其他频道",国学
 http://111.227.191.152:4000/rtp/239.254.200.107:6255
 #EXTINF:-1 group-title="其他频道",国学
@@ -938,7 +1394,11 @@ http://111.227.194.105:4022/rtp/239.254.200.107:6255
 #EXTINF:-1 group-title="其他频道",国学
 http://27.190.25.109:11001/rtp/239.254.200.107:6255
 #EXTINF:-1 group-title="其他频道",国学
+http://27.190.25.109:11001/rtp/239.254.200.107:6255
+#EXTINF:-1 group-title="其他频道",国学
 http://106.8.126.225:4022/rtp/239.254.200.107:6255
+#EXTINF:-1 group-title="其他频道",国学
+http://27.189.127.201:4022/rtp/239.254.200.107:6255
 #EXTINF:-1 group-title="其他频道",大厂电视
 http://111.227.191.152:4000/rtp/239.254.201.71:5310
 #EXTINF:-1 group-title="其他频道",大厂电视
@@ -946,7 +1406,11 @@ http://111.227.194.105:4022/rtp/239.254.201.71:5310
 #EXTINF:-1 group-title="其他频道",大厂电视
 http://27.190.25.109:11001/rtp/239.254.201.71:5310
 #EXTINF:-1 group-title="其他频道",大厂电视
+http://27.190.25.109:11001/rtp/239.254.201.71:5310
+#EXTINF:-1 group-title="其他频道",大厂电视
 http://106.8.126.225:4022/rtp/239.254.201.71:5310
+#EXTINF:-1 group-title="其他频道",大厂电视
+http://27.189.127.201:4022/rtp/239.254.201.71:5310
 #EXTINF:-1 group-title="其他频道",大名电视
 http://111.227.191.152:4000/rtp/239.254.201.149:6212
 #EXTINF:-1 group-title="其他频道",大名电视
@@ -954,7 +1418,11 @@ http://111.227.194.105:4022/rtp/239.254.201.149:6212
 #EXTINF:-1 group-title="其他频道",大名电视
 http://27.190.25.109:11001/rtp/239.254.201.149:6212
 #EXTINF:-1 group-title="其他频道",大名电视
+http://27.190.25.109:11001/rtp/239.254.201.149:6212
+#EXTINF:-1 group-title="其他频道",大名电视
 http://106.8.126.225:4022/rtp/239.254.201.149:6212
+#EXTINF:-1 group-title="其他频道",大名电视
+http://27.189.127.201:4022/rtp/239.254.201.149:6212
 #EXTINF:-1 group-title="其他频道",大城电视
 http://111.227.191.152:4000/rtp/239.254.201.34:5308
 #EXTINF:-1 group-title="其他频道",大城电视
@@ -962,7 +1430,11 @@ http://111.227.194.105:4022/rtp/239.254.201.34:5308
 #EXTINF:-1 group-title="其他频道",大城电视
 http://27.190.25.109:11001/rtp/239.254.201.34:5308
 #EXTINF:-1 group-title="其他频道",大城电视
+http://27.190.25.109:11001/rtp/239.254.201.34:5308
+#EXTINF:-1 group-title="其他频道",大城电视
 http://106.8.126.225:4022/rtp/239.254.201.34:5308
+#EXTINF:-1 group-title="其他频道",大城电视
+http://27.189.127.201:4022/rtp/239.254.201.34:5308
 #EXTINF:-1 group-title="其他频道",天元围棋高清
 http://111.227.191.152:4000/rtp/239.254.201.156:6270
 #EXTINF:-1 group-title="其他频道",天元围棋高清
@@ -970,7 +1442,11 @@ http://111.227.194.105:4022/rtp/239.254.201.156:6270
 #EXTINF:-1 group-title="其他频道",天元围棋高清
 http://27.190.25.109:11001/rtp/239.254.201.156:6270
 #EXTINF:-1 group-title="其他频道",天元围棋高清
+http://27.190.25.109:11001/rtp/239.254.201.156:6270
+#EXTINF:-1 group-title="其他频道",天元围棋高清
 http://106.8.126.225:4022/rtp/239.254.201.156:6270
+#EXTINF:-1 group-title="其他频道",天元围棋高清
+http://27.189.127.201:4022/rtp/239.254.201.156:6270
 #EXTINF:-1 group-title="其他频道",央广购物
 http://111.227.191.152:4000/rtp/239.254.201.202:7268
 #EXTINF:-1 group-title="其他频道",央广购物
@@ -978,7 +1454,11 @@ http://111.227.194.105:4022/rtp/239.254.201.202:7268
 #EXTINF:-1 group-title="其他频道",央广购物
 http://27.190.25.109:11001/rtp/239.254.201.202:7268
 #EXTINF:-1 group-title="其他频道",央广购物
+http://27.190.25.109:11001/rtp/239.254.201.202:7268
+#EXTINF:-1 group-title="其他频道",央广购物
 http://106.8.126.225:4022/rtp/239.254.201.202:7268
+#EXTINF:-1 group-title="其他频道",央广购物
+http://27.189.127.201:4022/rtp/239.254.201.202:7268
 #EXTINF:-1 group-title="其他频道",央视台球
 http://111.227.191.152:4000/rtp/239.254.201.171:7176
 #EXTINF:-1 group-title="其他频道",央视台球
@@ -986,7 +1466,11 @@ http://111.227.194.105:4022/rtp/239.254.201.171:7176
 #EXTINF:-1 group-title="其他频道",央视台球
 http://27.190.25.109:11001/rtp/239.254.201.171:7176
 #EXTINF:-1 group-title="其他频道",央视台球
+http://27.190.25.109:11001/rtp/239.254.201.171:7176
+#EXTINF:-1 group-title="其他频道",央视台球
 http://106.8.126.225:4022/rtp/239.254.201.171:7176
+#EXTINF:-1 group-title="其他频道",央视台球
+http://27.189.127.201:4022/rtp/239.254.201.171:7176
 #EXTINF:-1 group-title="其他频道",女性时尚
 http://111.227.191.152:4000/rtp/239.254.200.110:6241
 #EXTINF:-1 group-title="其他频道",女性时尚
@@ -994,7 +1478,11 @@ http://111.227.194.105:4022/rtp/239.254.200.110:6241
 #EXTINF:-1 group-title="其他频道",女性时尚
 http://27.190.25.109:11001/rtp/239.254.200.110:6241
 #EXTINF:-1 group-title="其他频道",女性时尚
+http://27.190.25.109:11001/rtp/239.254.200.110:6241
+#EXTINF:-1 group-title="其他频道",女性时尚
 http://106.8.126.225:4022/rtp/239.254.200.110:6241
+#EXTINF:-1 group-title="其他频道",女性时尚
+http://27.189.127.201:4022/rtp/239.254.200.110:6241
 #EXTINF:-1 group-title="其他频道",女性时尚
 http://111.227.191.152:4000/rtp/239.254.201.228:7255
 #EXTINF:-1 group-title="其他频道",女性时尚
@@ -1002,7 +1490,7 @@ http://111.227.194.105:4022/rtp/239.254.201.228:7255
 #EXTINF:-1 group-title="其他频道",女性时尚
 http://27.190.25.109:11001/rtp/239.254.201.228:7255
 #EXTINF:-1 group-title="其他频道",女性时尚
-http://106.8.126.225:4022/rtp/239.254.201.228:7255
+http://27.190.25.109:11001/rtp/239.254.201.228:7255
 #EXTINF:-1 group-title="其他频道",孟村电视
 http://111.227.191.152:4000/rtp/239.254.201.38:5329
 #EXTINF:-1 group-title="其他频道",孟村电视
@@ -1010,7 +1498,11 @@ http://111.227.194.105:4022/rtp/239.254.201.38:5329
 #EXTINF:-1 group-title="其他频道",孟村电视
 http://27.190.25.109:11001/rtp/239.254.201.38:5329
 #EXTINF:-1 group-title="其他频道",孟村电视
+http://27.190.25.109:11001/rtp/239.254.201.38:5329
+#EXTINF:-1 group-title="其他频道",孟村电视
 http://106.8.126.225:4022/rtp/239.254.201.38:5329
+#EXTINF:-1 group-title="其他频道",孟村电视
+http://27.189.127.201:4022/rtp/239.254.201.38:5329
 #EXTINF:-1 group-title="其他频道",宁晋电视
 http://111.227.191.152:4000/rtp/239.254.201.51:5375
 #EXTINF:-1 group-title="其他频道",宁晋电视
@@ -1018,7 +1510,11 @@ http://111.227.194.105:4022/rtp/239.254.201.51:5375
 #EXTINF:-1 group-title="其他频道",宁晋电视
 http://27.190.25.109:11001/rtp/239.254.201.51:5375
 #EXTINF:-1 group-title="其他频道",宁晋电视
+http://27.190.25.109:11001/rtp/239.254.201.51:5375
+#EXTINF:-1 group-title="其他频道",宁晋电视
 http://106.8.126.225:4022/rtp/239.254.201.51:5375
+#EXTINF:-1 group-title="其他频道",宁晋电视
+http://27.189.127.201:4022/rtp/239.254.201.51:5375
 #EXTINF:-1 group-title="其他频道",安平电视
 http://111.227.191.152:4000/rtp/239.254.201.42:5348
 #EXTINF:-1 group-title="其他频道",安平电视
@@ -1026,7 +1522,11 @@ http://111.227.194.105:4022/rtp/239.254.201.42:5348
 #EXTINF:-1 group-title="其他频道",安平电视
 http://27.190.25.109:11001/rtp/239.254.201.42:5348
 #EXTINF:-1 group-title="其他频道",安平电视
+http://27.190.25.109:11001/rtp/239.254.201.42:5348
+#EXTINF:-1 group-title="其他频道",安平电视
 http://106.8.126.225:4022/rtp/239.254.201.42:5348
+#EXTINF:-1 group-title="其他频道",安平电视
+http://27.189.127.201:4022/rtp/239.254.201.42:5348
 #EXTINF:-1 group-title="其他频道",安新电视
 http://111.227.191.152:4000/rtp/239.254.201.99:6255
 #EXTINF:-1 group-title="其他频道",安新电视
@@ -1034,7 +1534,11 @@ http://111.227.194.105:4022/rtp/239.254.201.99:6255
 #EXTINF:-1 group-title="其他频道",安新电视
 http://27.190.25.109:11001/rtp/239.254.201.99:6255
 #EXTINF:-1 group-title="其他频道",安新电视
+http://27.190.25.109:11001/rtp/239.254.201.99:6255
+#EXTINF:-1 group-title="其他频道",安新电视
 http://106.8.126.225:4022/rtp/239.254.201.99:6255
+#EXTINF:-1 group-title="其他频道",安新电视
+http://27.189.127.201:4022/rtp/239.254.201.99:6255
 #EXTINF:-1 group-title="其他频道",定兴电视
 http://111.227.191.152:4000/rtp/239.254.200.172:5246
 #EXTINF:-1 group-title="其他频道",定兴电视
@@ -1042,7 +1546,11 @@ http://111.227.194.105:4022/rtp/239.254.200.172:5246
 #EXTINF:-1 group-title="其他频道",定兴电视
 http://27.190.25.109:11001/rtp/239.254.200.172:5246
 #EXTINF:-1 group-title="其他频道",定兴电视
+http://27.190.25.109:11001/rtp/239.254.200.172:5246
+#EXTINF:-1 group-title="其他频道",定兴电视
 http://106.8.126.225:4022/rtp/239.254.200.172:5246
+#EXTINF:-1 group-title="其他频道",定兴电视
+http://27.189.127.201:4022/rtp/239.254.200.172:5246
 #EXTINF:-1 group-title="其他频道",定州电视
 http://111.227.191.152:4000/rtp/239.254.201.74:6251
 #EXTINF:-1 group-title="其他频道",定州电视
@@ -1050,7 +1558,11 @@ http://111.227.194.105:4022/rtp/239.254.201.74:6251
 #EXTINF:-1 group-title="其他频道",定州电视
 http://27.190.25.109:11001/rtp/239.254.201.74:6251
 #EXTINF:-1 group-title="其他频道",定州电视
+http://27.190.25.109:11001/rtp/239.254.201.74:6251
+#EXTINF:-1 group-title="其他频道",定州电视
 http://106.8.126.225:4022/rtp/239.254.201.74:6251
+#EXTINF:-1 group-title="其他频道",定州电视
+http://27.189.127.201:4022/rtp/239.254.201.74:6251
 #EXTINF:-1 group-title="其他频道",家家购物
 http://111.227.191.152:4000/rtp/239.254.201.144:7262
 #EXTINF:-1 group-title="其他频道",家家购物
@@ -1058,7 +1570,11 @@ http://111.227.194.105:4022/rtp/239.254.201.144:7262
 #EXTINF:-1 group-title="其他频道",家家购物
 http://27.190.25.109:11001/rtp/239.254.201.144:7262
 #EXTINF:-1 group-title="其他频道",家家购物
+http://27.190.25.109:11001/rtp/239.254.201.144:7262
+#EXTINF:-1 group-title="其他频道",家家购物
 http://106.8.126.225:4022/rtp/239.254.201.144:7262
+#EXTINF:-1 group-title="其他频道",家家购物
+http://27.189.127.201:4022/rtp/239.254.201.144:7262
 #EXTINF:-1 group-title="其他频道",家庭理财
 http://111.227.191.152:4000/rtp/239.254.201.188:6366
 #EXTINF:-1 group-title="其他频道",家庭理财
@@ -1066,7 +1582,11 @@ http://111.227.194.105:4022/rtp/239.254.201.188:6366
 #EXTINF:-1 group-title="其他频道",家庭理财
 http://27.190.25.109:11001/rtp/239.254.201.188:6366
 #EXTINF:-1 group-title="其他频道",家庭理财
+http://27.190.25.109:11001/rtp/239.254.201.188:6366
+#EXTINF:-1 group-title="其他频道",家庭理财
 http://106.8.126.225:4022/rtp/239.254.201.188:6366
+#EXTINF:-1 group-title="其他频道",家庭理财
+http://27.189.127.201:4022/rtp/239.254.201.188:6366
 #EXTINF:-1 group-title="其他频道",家有购物
 http://111.227.191.152:4000/rtp/239.254.201.80:7192
 #EXTINF:-1 group-title="其他频道",家有购物
@@ -1074,7 +1594,11 @@ http://111.227.194.105:4022/rtp/239.254.201.80:7192
 #EXTINF:-1 group-title="其他频道",家有购物
 http://27.190.25.109:11001/rtp/239.254.201.80:7192
 #EXTINF:-1 group-title="其他频道",家有购物
+http://27.190.25.109:11001/rtp/239.254.201.80:7192
+#EXTINF:-1 group-title="其他频道",家有购物
 http://106.8.126.225:4022/rtp/239.254.201.80:7192
+#EXTINF:-1 group-title="其他频道",家有购物
+http://27.189.127.201:4022/rtp/239.254.201.80:7192
 #EXTINF:-1 group-title="其他频道",容城电视
 http://111.227.191.152:4000/rtp/239.254.201.102:6256
 #EXTINF:-1 group-title="其他频道",容城电视
@@ -1082,7 +1606,11 @@ http://111.227.194.105:4022/rtp/239.254.201.102:6256
 #EXTINF:-1 group-title="其他频道",容城电视
 http://27.190.25.109:11001/rtp/239.254.201.102:6256
 #EXTINF:-1 group-title="其他频道",容城电视
+http://27.190.25.109:11001/rtp/239.254.201.102:6256
+#EXTINF:-1 group-title="其他频道",容城电视
 http://106.8.126.225:4022/rtp/239.254.201.102:6256
+#EXTINF:-1 group-title="其他频道",容城电视
+http://27.189.127.201:4022/rtp/239.254.201.102:6256
 #EXTINF:-1 group-title="其他频道",山东教育
 http://111.227.191.152:4000/rtp/239.254.200.247:4120
 #EXTINF:-1 group-title="其他频道",山东教育
@@ -1090,7 +1618,11 @@ http://111.227.194.105:4022/rtp/239.254.200.247:4120
 #EXTINF:-1 group-title="其他频道",山东教育
 http://27.190.25.109:11001/rtp/239.254.200.247:4120
 #EXTINF:-1 group-title="其他频道",山东教育
+http://27.190.25.109:11001/rtp/239.254.200.247:4120
+#EXTINF:-1 group-title="其他频道",山东教育
 http://106.8.126.225:4022/rtp/239.254.200.247:4120
+#EXTINF:-1 group-title="其他频道",山东教育
+http://27.189.127.201:4022/rtp/239.254.200.247:4120
 #EXTINF:-1 group-title="其他频道",崇礼电视
 http://111.227.191.152:4000/rtp/239.254.201.117:5267
 #EXTINF:-1 group-title="其他频道",崇礼电视
@@ -1098,7 +1630,11 @@ http://111.227.194.105:4022/rtp/239.254.201.117:5267
 #EXTINF:-1 group-title="其他频道",崇礼电视
 http://27.190.25.109:11001/rtp/239.254.201.117:5267
 #EXTINF:-1 group-title="其他频道",崇礼电视
+http://27.190.25.109:11001/rtp/239.254.201.117:5267
+#EXTINF:-1 group-title="其他频道",崇礼电视
 http://106.8.126.225:4022/rtp/239.254.201.117:5267
+#EXTINF:-1 group-title="其他频道",崇礼电视
+http://27.189.127.201:4022/rtp/239.254.201.117:5267
 #EXTINF:-1 group-title="其他频道",平乡电视
 http://111.227.191.152:4000/rtp/239.254.201.53:5378
 #EXTINF:-1 group-title="其他频道",平乡电视
@@ -1106,7 +1642,11 @@ http://111.227.194.105:4022/rtp/239.254.201.53:5378
 #EXTINF:-1 group-title="其他频道",平乡电视
 http://27.190.25.109:11001/rtp/239.254.201.53:5378
 #EXTINF:-1 group-title="其他频道",平乡电视
+http://27.190.25.109:11001/rtp/239.254.201.53:5378
+#EXTINF:-1 group-title="其他频道",平乡电视
 http://106.8.126.225:4022/rtp/239.254.201.53:5378
+#EXTINF:-1 group-title="其他频道",平乡电视
+http://27.189.127.201:4022/rtp/239.254.201.53:5378
 #EXTINF:-1 group-title="其他频道",平泉电视
 http://111.227.191.152:4000/rtp/239.254.200.177:5286
 #EXTINF:-1 group-title="其他频道",平泉电视
@@ -1114,7 +1654,11 @@ http://111.227.194.105:4022/rtp/239.254.200.177:5286
 #EXTINF:-1 group-title="其他频道",平泉电视
 http://27.190.25.109:11001/rtp/239.254.200.177:5286
 #EXTINF:-1 group-title="其他频道",平泉电视
+http://27.190.25.109:11001/rtp/239.254.200.177:5286
+#EXTINF:-1 group-title="其他频道",平泉电视
 http://106.8.126.225:4022/rtp/239.254.200.177:5286
+#EXTINF:-1 group-title="其他频道",平泉电视
+http://27.189.127.201:4022/rtp/239.254.200.177:5286
 #EXTINF:-1 group-title="其他频道",广宗电视
 http://111.227.191.152:4000/rtp/239.254.201.50:5373
 #EXTINF:-1 group-title="其他频道",广宗电视
@@ -1122,7 +1666,11 @@ http://111.227.194.105:4022/rtp/239.254.201.50:5373
 #EXTINF:-1 group-title="其他频道",广宗电视
 http://27.190.25.109:11001/rtp/239.254.201.50:5373
 #EXTINF:-1 group-title="其他频道",广宗电视
+http://27.190.25.109:11001/rtp/239.254.201.50:5373
+#EXTINF:-1 group-title="其他频道",广宗电视
 http://106.8.126.225:4022/rtp/239.254.201.50:5373
+#EXTINF:-1 group-title="其他频道",广宗电视
+http://27.189.127.201:4022/rtp/239.254.201.50:5373
 #EXTINF:-1 group-title="其他频道",广平电视
 http://111.227.191.152:4000/rtp/239.254.201.70:5220
 #EXTINF:-1 group-title="其他频道",广平电视
@@ -1130,7 +1678,11 @@ http://111.227.194.105:4022/rtp/239.254.201.70:5220
 #EXTINF:-1 group-title="其他频道",广平电视
 http://27.190.25.109:11001/rtp/239.254.201.70:5220
 #EXTINF:-1 group-title="其他频道",广平电视
+http://27.190.25.109:11001/rtp/239.254.201.70:5220
+#EXTINF:-1 group-title="其他频道",广平电视
 http://106.8.126.225:4022/rtp/239.254.201.70:5220
+#EXTINF:-1 group-title="其他频道",广平电视
+http://27.189.127.201:4022/rtp/239.254.201.70:5220
 #EXTINF:-1 group-title="其他频道",康保电视
 http://111.227.191.152:4000/rtp/239.254.201.135:5270
 #EXTINF:-1 group-title="其他频道",康保电视
@@ -1138,7 +1690,11 @@ http://111.227.194.105:4022/rtp/239.254.201.135:5270
 #EXTINF:-1 group-title="其他频道",康保电视
 http://27.190.25.109:11001/rtp/239.254.201.135:5270
 #EXTINF:-1 group-title="其他频道",康保电视
+http://27.190.25.109:11001/rtp/239.254.201.135:5270
+#EXTINF:-1 group-title="其他频道",康保电视
 http://106.8.126.225:4022/rtp/239.254.201.135:5270
+#EXTINF:-1 group-title="其他频道",康保电视
+http://27.189.127.201:4022/rtp/239.254.201.135:5270
 #EXTINF:-1 group-title="其他频道",廊坊公共
 http://111.227.191.152:4000/rtp/239.254.200.184:6000
 #EXTINF:-1 group-title="其他频道",廊坊公共
@@ -1146,7 +1702,11 @@ http://111.227.194.105:4022/rtp/239.254.200.184:6000
 #EXTINF:-1 group-title="其他频道",廊坊公共
 http://27.190.25.109:11001/rtp/239.254.200.184:6000
 #EXTINF:-1 group-title="其他频道",廊坊公共
+http://27.190.25.109:11001/rtp/239.254.200.184:6000
+#EXTINF:-1 group-title="其他频道",廊坊公共
 http://106.8.126.225:4022/rtp/239.254.200.184:6000
+#EXTINF:-1 group-title="其他频道",廊坊公共
+http://27.189.127.201:4022/rtp/239.254.200.184:6000
 #EXTINF:-1 group-title="其他频道",廊坊新闻
 http://111.227.191.152:4000/rtp/239.254.200.183:6000
 #EXTINF:-1 group-title="其他频道",廊坊新闻
@@ -1154,7 +1714,11 @@ http://111.227.194.105:4022/rtp/239.254.200.183:6000
 #EXTINF:-1 group-title="其他频道",廊坊新闻
 http://27.190.25.109:11001/rtp/239.254.200.183:6000
 #EXTINF:-1 group-title="其他频道",廊坊新闻
+http://27.190.25.109:11001/rtp/239.254.200.183:6000
+#EXTINF:-1 group-title="其他频道",廊坊新闻
 http://106.8.126.225:4022/rtp/239.254.200.183:6000
+#EXTINF:-1 group-title="其他频道",廊坊新闻
+http://27.189.127.201:4022/rtp/239.254.200.183:6000
 #EXTINF:-1 group-title="其他频道",张北电视
 http://111.227.191.152:4000/rtp/239.254.201.130:5271
 #EXTINF:-1 group-title="其他频道",张北电视
@@ -1162,7 +1726,11 @@ http://111.227.194.105:4022/rtp/239.254.201.130:5271
 #EXTINF:-1 group-title="其他频道",张北电视
 http://27.190.25.109:11001/rtp/239.254.201.130:5271
 #EXTINF:-1 group-title="其他频道",张北电视
+http://27.190.25.109:11001/rtp/239.254.201.130:5271
+#EXTINF:-1 group-title="其他频道",张北电视
 http://106.8.126.225:4022/rtp/239.254.201.130:5271
+#EXTINF:-1 group-title="其他频道",张北电视
+http://27.189.127.201:4022/rtp/239.254.201.130:5271
 #EXTINF:-1 group-title="其他频道",张家口公共
 http://111.227.191.152:4000/rtp/239.254.200.36:6000
 #EXTINF:-1 group-title="其他频道",张家口公共
@@ -1170,7 +1738,11 @@ http://111.227.194.105:4022/rtp/239.254.200.36:6000
 #EXTINF:-1 group-title="其他频道",张家口公共
 http://27.190.25.109:11001/rtp/239.254.200.36:6000
 #EXTINF:-1 group-title="其他频道",张家口公共
+http://27.190.25.109:11001/rtp/239.254.200.36:6000
+#EXTINF:-1 group-title="其他频道",张家口公共
 http://106.8.126.225:4022/rtp/239.254.200.36:6000
+#EXTINF:-1 group-title="其他频道",张家口公共
+http://27.189.127.201:4022/rtp/239.254.200.36:6000
 #EXTINF:-1 group-title="其他频道",张家口新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.35:6000
 #EXTINF:-1 group-title="其他频道",张家口新闻综合
@@ -1178,7 +1750,11 @@ http://111.227.194.105:4022/rtp/239.254.200.35:6000
 #EXTINF:-1 group-title="其他频道",张家口新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.35:6000
 #EXTINF:-1 group-title="其他频道",张家口新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.35:6000
+#EXTINF:-1 group-title="其他频道",张家口新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.35:6000
+#EXTINF:-1 group-title="其他频道",张家口新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.35:6000
 #EXTINF:-1 group-title="其他频道",徐水电视
 http://111.227.191.152:4000/rtp/239.254.201.147:6260
 #EXTINF:-1 group-title="其他频道",徐水电视
@@ -1186,7 +1762,11 @@ http://111.227.194.105:4022/rtp/239.254.201.147:6260
 #EXTINF:-1 group-title="其他频道",徐水电视
 http://27.190.25.109:11001/rtp/239.254.201.147:6260
 #EXTINF:-1 group-title="其他频道",徐水电视
+http://27.190.25.109:11001/rtp/239.254.201.147:6260
+#EXTINF:-1 group-title="其他频道",徐水电视
 http://106.8.126.225:4022/rtp/239.254.201.147:6260
+#EXTINF:-1 group-title="其他频道",徐水电视
+http://27.189.127.201:4022/rtp/239.254.201.147:6260
 #EXTINF:-1 group-title="其他频道",快乐垂钓
 http://111.227.191.152:4000/rtp/239.254.200.229:6257
 #EXTINF:-1 group-title="其他频道",快乐垂钓
@@ -1194,7 +1774,11 @@ http://111.227.194.105:4022/rtp/239.254.200.229:6257
 #EXTINF:-1 group-title="其他频道",快乐垂钓
 http://27.190.25.109:11001/rtp/239.254.200.229:6257
 #EXTINF:-1 group-title="其他频道",快乐垂钓
+http://27.190.25.109:11001/rtp/239.254.200.229:6257
+#EXTINF:-1 group-title="其他频道",快乐垂钓
 http://106.8.126.225:4022/rtp/239.254.200.229:6257
+#EXTINF:-1 group-title="其他频道",快乐垂钓
+http://27.189.127.201:4022/rtp/239.254.200.229:6257
 #EXTINF:-1 group-title="其他频道",快乐购
 http://111.227.191.152:4000/rtp/239.254.201.79:7196
 #EXTINF:-1 group-title="其他频道",快乐购
@@ -1202,7 +1786,11 @@ http://111.227.194.105:4022/rtp/239.254.201.79:7196
 #EXTINF:-1 group-title="其他频道",快乐购
 http://27.190.25.109:11001/rtp/239.254.201.79:7196
 #EXTINF:-1 group-title="其他频道",快乐购
+http://27.190.25.109:11001/rtp/239.254.201.79:7196
+#EXTINF:-1 group-title="其他频道",快乐购
 http://106.8.126.225:4022/rtp/239.254.201.79:7196
+#EXTINF:-1 group-title="其他频道",快乐购
+http://27.189.127.201:4022/rtp/239.254.201.79:7196
 #EXTINF:-1 group-title="其他频道",怀旧剧场
 http://111.227.191.152:4000/rtp/239.254.200.95:6229
 #EXTINF:-1 group-title="其他频道",怀旧剧场
@@ -1210,7 +1798,11 @@ http://111.227.194.105:4022/rtp/239.254.200.95:6229
 #EXTINF:-1 group-title="其他频道",怀旧剧场
 http://27.190.25.109:11001/rtp/239.254.200.95:6229
 #EXTINF:-1 group-title="其他频道",怀旧剧场
+http://27.190.25.109:11001/rtp/239.254.200.95:6229
+#EXTINF:-1 group-title="其他频道",怀旧剧场
 http://106.8.126.225:4022/rtp/239.254.200.95:6229
+#EXTINF:-1 group-title="其他频道",怀旧剧场
+http://27.189.127.201:4022/rtp/239.254.200.95:6229
 #EXTINF:-1 group-title="其他频道",怀旧剧场高清
 http://111.227.191.152:4000/rtp/239.254.201.220:7256
 #EXTINF:-1 group-title="其他频道",怀旧剧场高清
@@ -1218,7 +1810,11 @@ http://111.227.194.105:4022/rtp/239.254.201.220:7256
 #EXTINF:-1 group-title="其他频道",怀旧剧场高清
 http://27.190.25.109:11001/rtp/239.254.201.220:7256
 #EXTINF:-1 group-title="其他频道",怀旧剧场高清
+http://27.190.25.109:11001/rtp/239.254.201.220:7256
+#EXTINF:-1 group-title="其他频道",怀旧剧场高清
 http://106.8.126.225:4022/rtp/239.254.201.220:7256
+#EXTINF:-1 group-title="其他频道",怀旧剧场高清
+http://27.189.127.201:4022/rtp/239.254.201.220:7256
 #EXTINF:-1 group-title="其他频道",成安电视
 http://111.227.191.152:4000/rtp/239.254.201.143:6210
 #EXTINF:-1 group-title="其他频道",成安电视
@@ -1226,7 +1822,11 @@ http://111.227.194.105:4022/rtp/239.254.201.143:6210
 #EXTINF:-1 group-title="其他频道",成安电视
 http://27.190.25.109:11001/rtp/239.254.201.143:6210
 #EXTINF:-1 group-title="其他频道",成安电视
+http://27.190.25.109:11001/rtp/239.254.201.143:6210
+#EXTINF:-1 group-title="其他频道",成安电视
 http://106.8.126.225:4022/rtp/239.254.201.143:6210
+#EXTINF:-1 group-title="其他频道",成安电视
+http://27.189.127.201:4022/rtp/239.254.201.143:6210
 #EXTINF:-1 group-title="其他频道",承德公共
 http://111.227.191.152:4000/rtp/239.254.200.33:6000
 #EXTINF:-1 group-title="其他频道",承德公共
@@ -1234,7 +1834,11 @@ http://111.227.194.105:4022/rtp/239.254.200.33:6000
 #EXTINF:-1 group-title="其他频道",承德公共
 http://27.190.25.109:11001/rtp/239.254.200.33:6000
 #EXTINF:-1 group-title="其他频道",承德公共
+http://27.190.25.109:11001/rtp/239.254.200.33:6000
+#EXTINF:-1 group-title="其他频道",承德公共
 http://106.8.126.225:4022/rtp/239.254.200.33:6000
+#EXTINF:-1 group-title="其他频道",承德公共
+http://27.189.127.201:4022/rtp/239.254.200.33:6000
 #EXTINF:-1 group-title="其他频道",承德新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.32:6000
 #EXTINF:-1 group-title="其他频道",承德新闻综合
@@ -1242,7 +1846,11 @@ http://111.227.194.105:4022/rtp/239.254.200.32:6000
 #EXTINF:-1 group-title="其他频道",承德新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.32:6000
 #EXTINF:-1 group-title="其他频道",承德新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.32:6000
+#EXTINF:-1 group-title="其他频道",承德新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.32:6000
+#EXTINF:-1 group-title="其他频道",承德新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.32:6000
 #EXTINF:-1 group-title="其他频道",抚宁电视
 http://111.227.191.152:4000/rtp/239.254.201.213:5232
 #EXTINF:-1 group-title="其他频道",抚宁电视
@@ -1250,7 +1858,11 @@ http://111.227.194.105:4022/rtp/239.254.201.213:5232
 #EXTINF:-1 group-title="其他频道",抚宁电视
 http://27.190.25.109:11001/rtp/239.254.201.213:5232
 #EXTINF:-1 group-title="其他频道",抚宁电视
+http://27.190.25.109:11001/rtp/239.254.201.213:5232
+#EXTINF:-1 group-title="其他频道",抚宁电视
 http://106.8.126.225:4022/rtp/239.254.201.213:5232
+#EXTINF:-1 group-title="其他频道",抚宁电视
+http://27.189.127.201:4022/rtp/239.254.201.213:5232
 #EXTINF:-1 group-title="其他频道",摄影
 http://111.227.191.152:4000/rtp/239.254.200.119:6246
 #EXTINF:-1 group-title="其他频道",摄影
@@ -1258,7 +1870,11 @@ http://111.227.194.105:4022/rtp/239.254.200.119:6246
 #EXTINF:-1 group-title="其他频道",摄影
 http://27.190.25.109:11001/rtp/239.254.200.119:6246
 #EXTINF:-1 group-title="其他频道",摄影
+http://27.190.25.109:11001/rtp/239.254.200.119:6246
+#EXTINF:-1 group-title="其他频道",摄影
 http://106.8.126.225:4022/rtp/239.254.200.119:6246
+#EXTINF:-1 group-title="其他频道",摄影
+http://27.189.127.201:4022/rtp/239.254.200.119:6246
 #EXTINF:-1 group-title="其他频道",故城电视
 http://111.227.191.152:4000/rtp/239.254.201.126:5362
 #EXTINF:-1 group-title="其他频道",故城电视
@@ -1266,7 +1882,11 @@ http://111.227.194.105:4022/rtp/239.254.201.126:5362
 #EXTINF:-1 group-title="其他频道",故城电视
 http://27.190.25.109:11001/rtp/239.254.201.126:5362
 #EXTINF:-1 group-title="其他频道",故城电视
+http://27.190.25.109:11001/rtp/239.254.201.126:5362
+#EXTINF:-1 group-title="其他频道",故城电视
 http://106.8.126.225:4022/rtp/239.254.201.126:5362
+#EXTINF:-1 group-title="其他频道",故城电视
+http://27.189.127.201:4022/rtp/239.254.201.126:5362
 #EXTINF:-1 group-title="其他频道",文化精品
 http://111.227.191.152:4000/rtp/239.254.200.111:6251
 #EXTINF:-1 group-title="其他频道",文化精品
@@ -1274,7 +1894,11 @@ http://111.227.194.105:4022/rtp/239.254.200.111:6251
 #EXTINF:-1 group-title="其他频道",文化精品
 http://27.190.25.109:11001/rtp/239.254.200.111:6251
 #EXTINF:-1 group-title="其他频道",文化精品
+http://27.190.25.109:11001/rtp/239.254.200.111:6251
+#EXTINF:-1 group-title="其他频道",文化精品
 http://106.8.126.225:4022/rtp/239.254.200.111:6251
+#EXTINF:-1 group-title="其他频道",文化精品
+http://27.189.127.201:4022/rtp/239.254.200.111:6251
 #EXTINF:-1 group-title="其他频道",文化精品高清
 http://111.227.191.152:4000/rtp/239.254.201.229:7260
 #EXTINF:-1 group-title="其他频道",文化精品高清
@@ -1282,7 +1906,11 @@ http://111.227.194.105:4022/rtp/239.254.201.229:7260
 #EXTINF:-1 group-title="其他频道",文化精品高清
 http://27.190.25.109:11001/rtp/239.254.201.229:7260
 #EXTINF:-1 group-title="其他频道",文化精品高清
+http://27.190.25.109:11001/rtp/239.254.201.229:7260
+#EXTINF:-1 group-title="其他频道",文化精品高清
 http://106.8.126.225:4022/rtp/239.254.201.229:7260
+#EXTINF:-1 group-title="其他频道",文化精品高清
+http://27.189.127.201:4022/rtp/239.254.201.229:7260
 #EXTINF:-1 group-title="其他频道",文安电视
 http://111.227.191.152:4000/rtp/239.254.201.103:5314
 #EXTINF:-1 group-title="其他频道",文安电视
@@ -1290,7 +1918,11 @@ http://111.227.194.105:4022/rtp/239.254.201.103:5314
 #EXTINF:-1 group-title="其他频道",文安电视
 http://27.190.25.109:11001/rtp/239.254.201.103:5314
 #EXTINF:-1 group-title="其他频道",文安电视
+http://27.190.25.109:11001/rtp/239.254.201.103:5314
+#EXTINF:-1 group-title="其他频道",文安电视
 http://106.8.126.225:4022/rtp/239.254.201.103:5314
+#EXTINF:-1 group-title="其他频道",文安电视
+http://27.189.127.201:4022/rtp/239.254.201.103:5314
 #EXTINF:-1 group-title="其他频道",文物宝库
 http://111.227.191.152:4000/rtp/239.254.200.106:6239
 #EXTINF:-1 group-title="其他频道",文物宝库
@@ -1298,7 +1930,11 @@ http://111.227.194.105:4022/rtp/239.254.200.106:6239
 #EXTINF:-1 group-title="其他频道",文物宝库
 http://27.190.25.109:11001/rtp/239.254.200.106:6239
 #EXTINF:-1 group-title="其他频道",文物宝库
+http://27.190.25.109:11001/rtp/239.254.200.106:6239
+#EXTINF:-1 group-title="其他频道",文物宝库
 http://106.8.126.225:4022/rtp/239.254.200.106:6239
+#EXTINF:-1 group-title="其他频道",文物宝库
+http://27.189.127.201:4022/rtp/239.254.200.106:6239
 #EXTINF:-1 group-title="其他频道",文物宝库高清
 http://111.227.191.152:4000/rtp/239.254.201.227:7230
 #EXTINF:-1 group-title="其他频道",文物宝库高清
@@ -1306,7 +1942,11 @@ http://111.227.194.105:4022/rtp/239.254.201.227:7230
 #EXTINF:-1 group-title="其他频道",文物宝库高清
 http://27.190.25.109:11001/rtp/239.254.201.227:7230
 #EXTINF:-1 group-title="其他频道",文物宝库高清
+http://27.190.25.109:11001/rtp/239.254.201.227:7230
+#EXTINF:-1 group-title="其他频道",文物宝库高清
 http://106.8.126.225:4022/rtp/239.254.201.227:7230
+#EXTINF:-1 group-title="其他频道",文物宝库高清
+http://27.189.127.201:4022/rtp/239.254.201.227:7230
 #EXTINF:-1 group-title="其他频道",新动漫
 http://111.227.191.152:4000/rtp/239.254.201.158:7170
 #EXTINF:-1 group-title="其他频道",新动漫
@@ -1314,7 +1954,11 @@ http://111.227.194.105:4022/rtp/239.254.201.158:7170
 #EXTINF:-1 group-title="其他频道",新动漫
 http://27.190.25.109:11001/rtp/239.254.201.158:7170
 #EXTINF:-1 group-title="其他频道",新动漫
+http://27.190.25.109:11001/rtp/239.254.201.158:7170
+#EXTINF:-1 group-title="其他频道",新动漫
 http://106.8.126.225:4022/rtp/239.254.201.158:7170
+#EXTINF:-1 group-title="其他频道",新动漫
+http://27.189.127.201:4022/rtp/239.254.201.158:7170
 #EXTINF:-1 group-title="其他频道",无极电视
 http://111.227.191.152:4000/rtp/239.254.200.220:5167
 #EXTINF:-1 group-title="其他频道",无极电视
@@ -1322,7 +1966,11 @@ http://111.227.194.105:4022/rtp/239.254.200.220:5167
 #EXTINF:-1 group-title="其他频道",无极电视
 http://27.190.25.109:11001/rtp/239.254.200.220:5167
 #EXTINF:-1 group-title="其他频道",无极电视
+http://27.190.25.109:11001/rtp/239.254.200.220:5167
+#EXTINF:-1 group-title="其他频道",无极电视
 http://106.8.126.225:4022/rtp/239.254.200.220:5167
+#EXTINF:-1 group-title="其他频道",无极电视
+http://27.189.127.201:4022/rtp/239.254.200.220:5167
 #EXTINF:-1 group-title="其他频道",早期教育
 http://111.227.191.152:4000/rtp/239.254.200.114:6244
 #EXTINF:-1 group-title="其他频道",早期教育
@@ -1330,7 +1978,11 @@ http://111.227.194.105:4022/rtp/239.254.200.114:6244
 #EXTINF:-1 group-title="其他频道",早期教育
 http://27.190.25.109:11001/rtp/239.254.200.114:6244
 #EXTINF:-1 group-title="其他频道",早期教育
+http://27.190.25.109:11001/rtp/239.254.200.114:6244
+#EXTINF:-1 group-title="其他频道",早期教育
 http://106.8.126.225:4022/rtp/239.254.200.114:6244
+#EXTINF:-1 group-title="其他频道",早期教育
+http://27.189.127.201:4022/rtp/239.254.200.114:6244
 #EXTINF:-1 group-title="其他频道",早期教育高清
 http://111.227.191.152:4000/rtp/239.254.201.230:7253
 #EXTINF:-1 group-title="其他频道",早期教育高清
@@ -1338,7 +1990,11 @@ http://111.227.194.105:4022/rtp/239.254.201.230:7253
 #EXTINF:-1 group-title="其他频道",早期教育高清
 http://27.190.25.109:11001/rtp/239.254.201.230:7253
 #EXTINF:-1 group-title="其他频道",早期教育高清
+http://27.190.25.109:11001/rtp/239.254.201.230:7253
+#EXTINF:-1 group-title="其他频道",早期教育高清
 http://106.8.126.225:4022/rtp/239.254.201.230:7253
+#EXTINF:-1 group-title="其他频道",早期教育高清
+http://27.189.127.201:4022/rtp/239.254.201.230:7253
 #EXTINF:-1 group-title="其他频道",昌黎电视
 http://111.227.191.152:4000/rtp/239.254.201.61:5230
 #EXTINF:-1 group-title="其他频道",昌黎电视
@@ -1346,7 +2002,11 @@ http://111.227.194.105:4022/rtp/239.254.201.61:5230
 #EXTINF:-1 group-title="其他频道",昌黎电视
 http://27.190.25.109:11001/rtp/239.254.201.61:5230
 #EXTINF:-1 group-title="其他频道",昌黎电视
+http://27.190.25.109:11001/rtp/239.254.201.61:5230
+#EXTINF:-1 group-title="其他频道",昌黎电视
 http://106.8.126.225:4022/rtp/239.254.201.61:5230
+#EXTINF:-1 group-title="其他频道",昌黎电视
+http://27.189.127.201:4022/rtp/239.254.201.61:5230
 #EXTINF:-1 group-title="其他频道",晋州电视
 http://111.227.191.152:4000/rtp/239.254.201.127:5184
 #EXTINF:-1 group-title="其他频道",晋州电视
@@ -1354,7 +2014,11 @@ http://111.227.194.105:4022/rtp/239.254.201.127:5184
 #EXTINF:-1 group-title="其他频道",晋州电视
 http://27.190.25.109:11001/rtp/239.254.201.127:5184
 #EXTINF:-1 group-title="其他频道",晋州电视
+http://27.190.25.109:11001/rtp/239.254.201.127:5184
+#EXTINF:-1 group-title="其他频道",晋州电视
 http://106.8.126.225:4022/rtp/239.254.201.127:5184
+#EXTINF:-1 group-title="其他频道",晋州电视
+http://27.189.127.201:4022/rtp/239.254.201.127:5184
 #EXTINF:-1 group-title="其他频道",景县电视
 http://111.227.191.152:4000/rtp/239.254.200.240:5350
 #EXTINF:-1 group-title="其他频道",景县电视
@@ -1362,7 +2026,11 @@ http://111.227.194.105:4022/rtp/239.254.200.240:5350
 #EXTINF:-1 group-title="其他频道",景县电视
 http://27.190.25.109:11001/rtp/239.254.200.240:5350
 #EXTINF:-1 group-title="其他频道",景县电视
+http://27.190.25.109:11001/rtp/239.254.200.240:5350
+#EXTINF:-1 group-title="其他频道",景县电视
 http://106.8.126.225:4022/rtp/239.254.200.240:5350
+#EXTINF:-1 group-title="其他频道",景县电视
+http://27.189.127.201:4022/rtp/239.254.200.240:5350
 #EXTINF:-1 group-title="其他频道",曲周电视
 http://111.227.191.152:4000/rtp/239.254.200.236:5210
 #EXTINF:-1 group-title="其他频道",曲周电视
@@ -1370,7 +2038,11 @@ http://111.227.194.105:4022/rtp/239.254.200.236:5210
 #EXTINF:-1 group-title="其他频道",曲周电视
 http://27.190.25.109:11001/rtp/239.254.200.236:5210
 #EXTINF:-1 group-title="其他频道",曲周电视
+http://27.190.25.109:11001/rtp/239.254.200.236:5210
+#EXTINF:-1 group-title="其他频道",曲周电视
 http://106.8.126.225:4022/rtp/239.254.200.236:5210
+#EXTINF:-1 group-title="其他频道",曲周电视
+http://27.189.127.201:4022/rtp/239.254.200.236:5210
 #EXTINF:-1 group-title="其他频道",曲阳电视
 http://111.227.191.152:4000/rtp/239.254.200.242:5265
 #EXTINF:-1 group-title="其他频道",曲阳电视
@@ -1378,7 +2050,11 @@ http://111.227.194.105:4022/rtp/239.254.200.242:5265
 #EXTINF:-1 group-title="其他频道",曲阳电视
 http://27.190.25.109:11001/rtp/239.254.200.242:5265
 #EXTINF:-1 group-title="其他频道",曲阳电视
+http://27.190.25.109:11001/rtp/239.254.200.242:5265
+#EXTINF:-1 group-title="其他频道",曲阳电视
 http://106.8.126.225:4022/rtp/239.254.200.242:5265
+#EXTINF:-1 group-title="其他频道",曲阳电视
+http://27.189.127.201:4022/rtp/239.254.200.242:5265
 #EXTINF:-1 group-title="其他频道",望都电视
 http://111.227.191.152:4000/rtp/239.254.201.56:6246
 #EXTINF:-1 group-title="其他频道",望都电视
@@ -1386,7 +2062,11 @@ http://111.227.194.105:4022/rtp/239.254.201.56:6246
 #EXTINF:-1 group-title="其他频道",望都电视
 http://27.190.25.109:11001/rtp/239.254.201.56:6246
 #EXTINF:-1 group-title="其他频道",望都电视
+http://27.190.25.109:11001/rtp/239.254.201.56:6246
+#EXTINF:-1 group-title="其他频道",望都电视
 http://106.8.126.225:4022/rtp/239.254.201.56:6246
+#EXTINF:-1 group-title="其他频道",望都电视
+http://27.189.127.201:4022/rtp/239.254.201.56:6246
 #EXTINF:-1 group-title="其他频道",极速汽车
 http://111.227.191.152:4000/rtp/239.254.201.168:6362
 #EXTINF:-1 group-title="其他频道",极速汽车
@@ -1394,7 +2074,11 @@ http://111.227.194.105:4022/rtp/239.254.201.168:6362
 #EXTINF:-1 group-title="其他频道",极速汽车
 http://27.190.25.109:11001/rtp/239.254.201.168:6362
 #EXTINF:-1 group-title="其他频道",极速汽车
+http://27.190.25.109:11001/rtp/239.254.201.168:6362
+#EXTINF:-1 group-title="其他频道",极速汽车
 http://106.8.126.225:4022/rtp/239.254.201.168:6362
+#EXTINF:-1 group-title="其他频道",极速汽车
+http://27.189.127.201:4022/rtp/239.254.201.168:6362
 #EXTINF:-1 group-title="其他频道",枣强电视
 http://111.227.191.152:4000/rtp/239.254.201.136:5363
 #EXTINF:-1 group-title="其他频道",枣强电视
@@ -1402,7 +2086,11 @@ http://111.227.194.105:4022/rtp/239.254.201.136:5363
 #EXTINF:-1 group-title="其他频道",枣强电视
 http://27.190.25.109:11001/rtp/239.254.201.136:5363
 #EXTINF:-1 group-title="其他频道",枣强电视
+http://27.190.25.109:11001/rtp/239.254.201.136:5363
+#EXTINF:-1 group-title="其他频道",枣强电视
 http://106.8.126.225:4022/rtp/239.254.201.136:5363
+#EXTINF:-1 group-title="其他频道",枣强电视
+http://27.189.127.201:4022/rtp/239.254.201.136:5363
 #EXTINF:-1 group-title="其他频道",柏乡电视
 http://111.227.191.152:4000/rtp/239.254.201.140:5383
 #EXTINF:-1 group-title="其他频道",柏乡电视
@@ -1410,7 +2098,11 @@ http://111.227.194.105:4022/rtp/239.254.201.140:5383
 #EXTINF:-1 group-title="其他频道",柏乡电视
 http://27.190.25.109:11001/rtp/239.254.201.140:5383
 #EXTINF:-1 group-title="其他频道",柏乡电视
+http://27.190.25.109:11001/rtp/239.254.201.140:5383
+#EXTINF:-1 group-title="其他频道",柏乡电视
 http://106.8.126.225:4022/rtp/239.254.201.140:5383
+#EXTINF:-1 group-title="其他频道",柏乡电视
+http://27.189.127.201:4022/rtp/239.254.201.140:5383
 #EXTINF:-1 group-title="其他频道",栾城电视
 http://111.227.191.152:4000/rtp/239.254.200.215:5173
 #EXTINF:-1 group-title="其他频道",栾城电视
@@ -1418,7 +2110,11 @@ http://111.227.194.105:4022/rtp/239.254.200.215:5173
 #EXTINF:-1 group-title="其他频道",栾城电视
 http://27.190.25.109:11001/rtp/239.254.200.215:5173
 #EXTINF:-1 group-title="其他频道",栾城电视
+http://27.190.25.109:11001/rtp/239.254.200.215:5173
+#EXTINF:-1 group-title="其他频道",栾城电视
 http://106.8.126.225:4022/rtp/239.254.200.215:5173
+#EXTINF:-1 group-title="其他频道",栾城电视
+http://27.189.127.201:4022/rtp/239.254.200.215:5173
 #EXTINF:-1 group-title="其他频道",梨园
 http://111.227.191.152:4000/rtp/239.254.200.120:6247
 #EXTINF:-1 group-title="其他频道",梨园
@@ -1426,7 +2122,11 @@ http://111.227.194.105:4022/rtp/239.254.200.120:6247
 #EXTINF:-1 group-title="其他频道",梨园
 http://27.190.25.109:11001/rtp/239.254.200.120:6247
 #EXTINF:-1 group-title="其他频道",梨园
+http://27.190.25.109:11001/rtp/239.254.200.120:6247
+#EXTINF:-1 group-title="其他频道",梨园
 http://106.8.126.225:4022/rtp/239.254.200.120:6247
+#EXTINF:-1 group-title="其他频道",梨园
+http://27.189.127.201:4022/rtp/239.254.200.120:6247
 #EXTINF:-1 group-title="其他频道",梨园频道高清
 http://111.227.191.152:4000/rtp/239.254.201.231:7228
 #EXTINF:-1 group-title="其他频道",梨园频道高清
@@ -1434,7 +2134,11 @@ http://111.227.194.105:4022/rtp/239.254.201.231:7228
 #EXTINF:-1 group-title="其他频道",梨园频道高清
 http://27.190.25.109:11001/rtp/239.254.201.231:7228
 #EXTINF:-1 group-title="其他频道",梨园频道高清
+http://27.190.25.109:11001/rtp/239.254.201.231:7228
+#EXTINF:-1 group-title="其他频道",梨园频道高清
 http://106.8.126.225:4022/rtp/239.254.201.231:7228
+#EXTINF:-1 group-title="其他频道",梨园频道高清
+http://27.189.127.201:4022/rtp/239.254.201.231:7228
 #EXTINF:-1 group-title="其他频道",欢笑剧场
 http://111.227.191.152:4000/rtp/239.254.201.164:6355
 #EXTINF:-1 group-title="其他频道",欢笑剧场
@@ -1442,7 +2146,11 @@ http://111.227.194.105:4022/rtp/239.254.201.164:6355
 #EXTINF:-1 group-title="其他频道",欢笑剧场
 http://27.190.25.109:11001/rtp/239.254.201.164:6355
 #EXTINF:-1 group-title="其他频道",欢笑剧场
+http://27.190.25.109:11001/rtp/239.254.201.164:6355
+#EXTINF:-1 group-title="其他频道",欢笑剧场
 http://106.8.126.225:4022/rtp/239.254.201.164:6355
+#EXTINF:-1 group-title="其他频道",欢笑剧场
+http://27.189.127.201:4022/rtp/239.254.201.164:6355
 #EXTINF:-1 group-title="其他频道",武安电视
 http://111.227.191.152:4000/rtp/239.254.201.6:5216
 #EXTINF:-1 group-title="其他频道",武安电视
@@ -1450,7 +2158,11 @@ http://111.227.194.105:4022/rtp/239.254.201.6:5216
 #EXTINF:-1 group-title="其他频道",武安电视
 http://27.190.25.109:11001/rtp/239.254.201.6:5216
 #EXTINF:-1 group-title="其他频道",武安电视
+http://27.190.25.109:11001/rtp/239.254.201.6:5216
+#EXTINF:-1 group-title="其他频道",武安电视
 http://106.8.126.225:4022/rtp/239.254.201.6:5216
+#EXTINF:-1 group-title="其他频道",武安电视
+http://27.189.127.201:4022/rtp/239.254.201.6:5216
 #EXTINF:-1 group-title="其他频道",武术世界
 http://111.227.191.152:4000/rtp/239.254.200.100:6234
 #EXTINF:-1 group-title="其他频道",武术世界
@@ -1458,7 +2170,11 @@ http://111.227.194.105:4022/rtp/239.254.200.100:6234
 #EXTINF:-1 group-title="其他频道",武术世界
 http://27.190.25.109:11001/rtp/239.254.200.100:6234
 #EXTINF:-1 group-title="其他频道",武术世界
+http://27.190.25.109:11001/rtp/239.254.200.100:6234
+#EXTINF:-1 group-title="其他频道",武术世界
 http://106.8.126.225:4022/rtp/239.254.200.100:6234
+#EXTINF:-1 group-title="其他频道",武术世界
+http://27.189.127.201:4022/rtp/239.254.200.100:6234
 #EXTINF:-1 group-title="其他频道",武术世界高清
 http://111.227.191.152:4000/rtp/239.254.201.224:7229
 #EXTINF:-1 group-title="其他频道",武术世界高清
@@ -1466,7 +2182,11 @@ http://111.227.194.105:4022/rtp/239.254.201.224:7229
 #EXTINF:-1 group-title="其他频道",武术世界高清
 http://27.190.25.109:11001/rtp/239.254.201.224:7229
 #EXTINF:-1 group-title="其他频道",武术世界高清
+http://27.190.25.109:11001/rtp/239.254.201.224:7229
+#EXTINF:-1 group-title="其他频道",武术世界高清
 http://106.8.126.225:4022/rtp/239.254.201.224:7229
+#EXTINF:-1 group-title="其他频道",武术世界高清
+http://27.189.127.201:4022/rtp/239.254.201.224:7229
 #EXTINF:-1 group-title="其他频道",武邑电视
 http://111.227.191.152:4000/rtp/239.254.201.8:5355
 #EXTINF:-1 group-title="其他频道",武邑电视
@@ -1474,7 +2194,11 @@ http://111.227.194.105:4022/rtp/239.254.201.8:5355
 #EXTINF:-1 group-title="其他频道",武邑电视
 http://27.190.25.109:11001/rtp/239.254.201.8:5355
 #EXTINF:-1 group-title="其他频道",武邑电视
+http://27.190.25.109:11001/rtp/239.254.201.8:5355
+#EXTINF:-1 group-title="其他频道",武邑电视
 http://106.8.126.225:4022/rtp/239.254.201.8:5355
+#EXTINF:-1 group-title="其他频道",武邑电视
+http://27.189.127.201:4022/rtp/239.254.201.8:5355
 #EXTINF:-1 group-title="其他频道",每日健身
 http://111.227.191.152:4000/rtp/239.254.201.174:7245
 #EXTINF:-1 group-title="其他频道",每日健身
@@ -1482,7 +2206,11 @@ http://111.227.194.105:4022/rtp/239.254.201.174:7245
 #EXTINF:-1 group-title="其他频道",每日健身
 http://27.190.25.109:11001/rtp/239.254.201.174:7245
 #EXTINF:-1 group-title="其他频道",每日健身
+http://27.190.25.109:11001/rtp/239.254.201.174:7245
+#EXTINF:-1 group-title="其他频道",每日健身
 http://106.8.126.225:4022/rtp/239.254.201.174:7245
+#EXTINF:-1 group-title="其他频道",每日健身
+http://27.189.127.201:4022/rtp/239.254.201.174:7245
 #EXTINF:-1 group-title="其他频道",永清电视
 http://111.227.191.152:4000/rtp/239.254.201.141:5316
 #EXTINF:-1 group-title="其他频道",永清电视
@@ -1490,7 +2218,11 @@ http://111.227.194.105:4022/rtp/239.254.201.141:5316
 #EXTINF:-1 group-title="其他频道",永清电视
 http://27.190.25.109:11001/rtp/239.254.201.141:5316
 #EXTINF:-1 group-title="其他频道",永清电视
+http://27.190.25.109:11001/rtp/239.254.201.141:5316
+#EXTINF:-1 group-title="其他频道",永清电视
 http://106.8.126.225:4022/rtp/239.254.201.141:5316
+#EXTINF:-1 group-title="其他频道",永清电视
+http://27.189.127.201:4022/rtp/239.254.201.141:5316
 #EXTINF:-1 group-title="其他频道",求索纪录
 http://111.227.191.152:4000/rtp/239.254.201.176:7221
 #EXTINF:-1 group-title="其他频道",求索纪录
@@ -1498,7 +2230,11 @@ http://111.227.194.105:4022/rtp/239.254.201.176:7221
 #EXTINF:-1 group-title="其他频道",求索纪录
 http://27.190.25.109:11001/rtp/239.254.201.176:7221
 #EXTINF:-1 group-title="其他频道",求索纪录
+http://27.190.25.109:11001/rtp/239.254.201.176:7221
+#EXTINF:-1 group-title="其他频道",求索纪录
 http://106.8.126.225:4022/rtp/239.254.201.176:7221
+#EXTINF:-1 group-title="其他频道",求索纪录
+http://27.189.127.201:4022/rtp/239.254.201.176:7221
 #EXTINF:-1 group-title="其他频道",汽摩
 http://111.227.191.152:4000/rtp/239.254.200.103:6252
 #EXTINF:-1 group-title="其他频道",汽摩
@@ -1506,7 +2242,11 @@ http://111.227.194.105:4022/rtp/239.254.200.103:6252
 #EXTINF:-1 group-title="其他频道",汽摩
 http://27.190.25.109:11001/rtp/239.254.200.103:6252
 #EXTINF:-1 group-title="其他频道",汽摩
+http://27.190.25.109:11001/rtp/239.254.200.103:6252
+#EXTINF:-1 group-title="其他频道",汽摩
 http://106.8.126.225:4022/rtp/239.254.200.103:6252
+#EXTINF:-1 group-title="其他频道",汽摩
+http://27.189.127.201:4022/rtp/239.254.200.103:6252
 #EXTINF:-1 group-title="其他频道",沙河电视
 http://111.227.191.152:4000/rtp/239.254.200.181:5369
 #EXTINF:-1 group-title="其他频道",沙河电视
@@ -1514,7 +2254,11 @@ http://111.227.194.105:4022/rtp/239.254.200.181:5369
 #EXTINF:-1 group-title="其他频道",沙河电视
 http://27.190.25.109:11001/rtp/239.254.200.181:5369
 #EXTINF:-1 group-title="其他频道",沙河电视
+http://27.190.25.109:11001/rtp/239.254.200.181:5369
+#EXTINF:-1 group-title="其他频道",沙河电视
 http://106.8.126.225:4022/rtp/239.254.200.181:5369
+#EXTINF:-1 group-title="其他频道",沙河电视
+http://27.189.127.201:4022/rtp/239.254.200.181:5369
 #EXTINF:-1 group-title="其他频道",沧州公共
 http://111.227.191.152:4000/rtp/239.254.200.43:6000
 #EXTINF:-1 group-title="其他频道",沧州公共
@@ -1522,7 +2266,11 @@ http://111.227.194.105:4022/rtp/239.254.200.43:6000
 #EXTINF:-1 group-title="其他频道",沧州公共
 http://27.190.25.109:11001/rtp/239.254.200.43:6000
 #EXTINF:-1 group-title="其他频道",沧州公共
+http://27.190.25.109:11001/rtp/239.254.200.43:6000
+#EXTINF:-1 group-title="其他频道",沧州公共
 http://106.8.126.225:4022/rtp/239.254.200.43:6000
+#EXTINF:-1 group-title="其他频道",沧州公共
+http://27.189.127.201:4022/rtp/239.254.200.43:6000
 #EXTINF:-1 group-title="其他频道",沧州影视娱乐
 http://111.227.191.152:4000/rtp/239.254.200.44:6000
 #EXTINF:-1 group-title="其他频道",沧州影视娱乐
@@ -1530,7 +2278,11 @@ http://111.227.194.105:4022/rtp/239.254.200.44:6000
 #EXTINF:-1 group-title="其他频道",沧州影视娱乐
 http://27.190.25.109:11001/rtp/239.254.200.44:6000
 #EXTINF:-1 group-title="其他频道",沧州影视娱乐
+http://27.190.25.109:11001/rtp/239.254.200.44:6000
+#EXTINF:-1 group-title="其他频道",沧州影视娱乐
 http://106.8.126.225:4022/rtp/239.254.200.44:6000
+#EXTINF:-1 group-title="其他频道",沧州影视娱乐
+http://27.189.127.201:4022/rtp/239.254.200.44:6000
 #EXTINF:-1 group-title="其他频道",沧州新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.42:6000
 #EXTINF:-1 group-title="其他频道",沧州新闻综合
@@ -1538,7 +2290,11 @@ http://111.227.194.105:4022/rtp/239.254.200.42:6000
 #EXTINF:-1 group-title="其他频道",沧州新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.42:6000
 #EXTINF:-1 group-title="其他频道",沧州新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.42:6000
+#EXTINF:-1 group-title="其他频道",沧州新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.42:6000
+#EXTINF:-1 group-title="其他频道",沧州新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.42:6000
 #EXTINF:-1 group-title="其他频道",河北公共
 http://111.227.191.152:4000/rtp/239.254.200.22:6000
 #EXTINF:-1 group-title="其他频道",河北公共
@@ -1546,7 +2302,11 @@ http://111.227.194.105:4022/rtp/239.254.200.22:6000
 #EXTINF:-1 group-title="其他频道",河北公共
 http://27.190.25.109:11001/rtp/239.254.200.22:6000
 #EXTINF:-1 group-title="其他频道",河北公共
+http://27.190.25.109:11001/rtp/239.254.200.22:6000
+#EXTINF:-1 group-title="其他频道",河北公共
 http://106.8.126.225:4022/rtp/239.254.200.22:6000
+#EXTINF:-1 group-title="其他频道",河北公共
+http://27.189.127.201:4022/rtp/239.254.200.22:6000
 #EXTINF:-1 group-title="其他频道",河北农民
 http://111.227.191.152:4000/rtp/239.254.200.23:6000
 #EXTINF:-1 group-title="其他频道",河北农民
@@ -1554,7 +2314,11 @@ http://111.227.194.105:4022/rtp/239.254.200.23:6000
 #EXTINF:-1 group-title="其他频道",河北农民
 http://27.190.25.109:11001/rtp/239.254.200.23:6000
 #EXTINF:-1 group-title="其他频道",河北农民
+http://27.190.25.109:11001/rtp/239.254.200.23:6000
+#EXTINF:-1 group-title="其他频道",河北农民
 http://106.8.126.225:4022/rtp/239.254.200.23:6000
+#EXTINF:-1 group-title="其他频道",河北农民
+http://27.189.127.201:4022/rtp/239.254.200.23:6000
 #EXTINF:-1 group-title="其他频道",河北少儿科教
 http://111.227.191.152:4000/rtp/239.254.200.21:6000
 #EXTINF:-1 group-title="其他频道",河北少儿科教
@@ -1562,7 +2326,11 @@ http://111.227.194.105:4022/rtp/239.254.200.21:6000
 #EXTINF:-1 group-title="其他频道",河北少儿科教
 http://27.190.25.109:11001/rtp/239.254.200.21:6000
 #EXTINF:-1 group-title="其他频道",河北少儿科教
+http://27.190.25.109:11001/rtp/239.254.200.21:6000
+#EXTINF:-1 group-title="其他频道",河北少儿科教
 http://106.8.126.225:4022/rtp/239.254.200.21:6000
+#EXTINF:-1 group-title="其他频道",河北少儿科教
+http://27.189.127.201:4022/rtp/239.254.200.21:6000
 #EXTINF:-1 group-title="其他频道",河北影视剧
 http://111.227.191.152:4000/rtp/239.254.200.20:6000
 #EXTINF:-1 group-title="其他频道",河北影视剧
@@ -1570,7 +2338,11 @@ http://111.227.194.105:4022/rtp/239.254.200.20:6000
 #EXTINF:-1 group-title="其他频道",河北影视剧
 http://27.190.25.109:11001/rtp/239.254.200.20:6000
 #EXTINF:-1 group-title="其他频道",河北影视剧
+http://27.190.25.109:11001/rtp/239.254.200.20:6000
+#EXTINF:-1 group-title="其他频道",河北影视剧
 http://106.8.126.225:4022/rtp/239.254.200.20:6000
+#EXTINF:-1 group-title="其他频道",河北影视剧
+http://27.189.127.201:4022/rtp/239.254.200.20:6000
 #EXTINF:-1 group-title="其他频道",河北杂技频道
 http://111.227.191.152:4000/rtp/239.254.201.139:7203
 #EXTINF:-1 group-title="其他频道",河北杂技频道
@@ -1578,7 +2350,11 @@ http://111.227.194.105:4022/rtp/239.254.201.139:7203
 #EXTINF:-1 group-title="其他频道",河北杂技频道
 http://27.190.25.109:11001/rtp/239.254.201.139:7203
 #EXTINF:-1 group-title="其他频道",河北杂技频道
+http://27.190.25.109:11001/rtp/239.254.201.139:7203
+#EXTINF:-1 group-title="其他频道",河北杂技频道
 http://106.8.126.225:4022/rtp/239.254.201.139:7203
+#EXTINF:-1 group-title="其他频道",河北杂技频道
+http://27.189.127.201:4022/rtp/239.254.201.139:7203
 #EXTINF:-1 group-title="其他频道",河北经济生活
 http://111.227.191.152:4000/rtp/239.254.200.18:6000
 #EXTINF:-1 group-title="其他频道",河北经济生活
@@ -1586,7 +2362,11 @@ http://111.227.194.105:4022/rtp/239.254.200.18:6000
 #EXTINF:-1 group-title="其他频道",河北经济生活
 http://27.190.25.109:11001/rtp/239.254.200.18:6000
 #EXTINF:-1 group-title="其他频道",河北经济生活
+http://27.190.25.109:11001/rtp/239.254.200.18:6000
+#EXTINF:-1 group-title="其他频道",河北经济生活
 http://106.8.126.225:4022/rtp/239.254.200.18:6000
+#EXTINF:-1 group-title="其他频道",河北经济生活
+http://27.189.127.201:4022/rtp/239.254.200.18:6000
 #EXTINF:-1 group-title="其他频道",河北都市
 http://111.227.191.152:4000/rtp/239.254.200.19:6000
 #EXTINF:-1 group-title="其他频道",河北都市
@@ -1594,7 +2374,11 @@ http://111.227.194.105:4022/rtp/239.254.200.19:6000
 #EXTINF:-1 group-title="其他频道",河北都市
 http://27.190.25.109:11001/rtp/239.254.200.19:6000
 #EXTINF:-1 group-title="其他频道",河北都市
+http://27.190.25.109:11001/rtp/239.254.200.19:6000
+#EXTINF:-1 group-title="其他频道",河北都市
 http://106.8.126.225:4022/rtp/239.254.200.19:6000
+#EXTINF:-1 group-title="其他频道",河北都市
+http://27.189.127.201:4022/rtp/239.254.200.19:6000
 #EXTINF:-1 group-title="其他频道",法治天地
 http://111.227.191.152:4000/rtp/239.254.201.183:7226
 #EXTINF:-1 group-title="其他频道",法治天地
@@ -1602,7 +2386,11 @@ http://111.227.194.105:4022/rtp/239.254.201.183:7226
 #EXTINF:-1 group-title="其他频道",法治天地
 http://27.190.25.109:11001/rtp/239.254.201.183:7226
 #EXTINF:-1 group-title="其他频道",法治天地
+http://27.190.25.109:11001/rtp/239.254.201.183:7226
+#EXTINF:-1 group-title="其他频道",法治天地
 http://106.8.126.225:4022/rtp/239.254.201.183:7226
+#EXTINF:-1 group-title="其他频道",法治天地
+http://27.189.127.201:4022/rtp/239.254.201.183:7226
 #EXTINF:-1 group-title="其他频道",涉县电视
 http://111.227.191.152:4000/rtp/239.254.201.97:5222
 #EXTINF:-1 group-title="其他频道",涉县电视
@@ -1610,7 +2398,11 @@ http://111.227.194.105:4022/rtp/239.254.201.97:5222
 #EXTINF:-1 group-title="其他频道",涉县电视
 http://27.190.25.109:11001/rtp/239.254.201.97:5222
 #EXTINF:-1 group-title="其他频道",涉县电视
+http://27.190.25.109:11001/rtp/239.254.201.97:5222
+#EXTINF:-1 group-title="其他频道",涉县电视
 http://106.8.126.225:4022/rtp/239.254.201.97:5222
+#EXTINF:-1 group-title="其他频道",涉县电视
+http://27.189.127.201:4022/rtp/239.254.201.97:5222
 #EXTINF:-1 group-title="其他频道",涞水电视
 http://111.227.191.152:4000/rtp/239.254.201.10:5250
 #EXTINF:-1 group-title="其他频道",涞水电视
@@ -1618,7 +2410,11 @@ http://111.227.194.105:4022/rtp/239.254.201.10:5250
 #EXTINF:-1 group-title="其他频道",涞水电视
 http://27.190.25.109:11001/rtp/239.254.201.10:5250
 #EXTINF:-1 group-title="其他频道",涞水电视
+http://27.190.25.109:11001/rtp/239.254.201.10:5250
+#EXTINF:-1 group-title="其他频道",涞水电视
 http://106.8.126.225:4022/rtp/239.254.201.10:5250
+#EXTINF:-1 group-title="其他频道",涞水电视
+http://27.189.127.201:4022/rtp/239.254.201.10:5250
 #EXTINF:-1 group-title="其他频道",涞源电视
 http://111.227.191.152:4000/rtp/239.254.200.213:5260
 #EXTINF:-1 group-title="其他频道",涞源电视
@@ -1626,7 +2422,11 @@ http://111.227.194.105:4022/rtp/239.254.200.213:5260
 #EXTINF:-1 group-title="其他频道",涞源电视
 http://27.190.25.109:11001/rtp/239.254.200.213:5260
 #EXTINF:-1 group-title="其他频道",涞源电视
+http://27.190.25.109:11001/rtp/239.254.200.213:5260
+#EXTINF:-1 group-title="其他频道",涞源电视
 http://106.8.126.225:4022/rtp/239.254.200.213:5260
+#EXTINF:-1 group-title="其他频道",涞源电视
+http://27.189.127.201:4022/rtp/239.254.200.213:5260
 #EXTINF:-1 group-title="其他频道",涿州电视
 http://111.227.191.152:4000/rtp/239.254.201.17:5261
 #EXTINF:-1 group-title="其他频道",涿州电视
@@ -1634,7 +2434,11 @@ http://111.227.194.105:4022/rtp/239.254.201.17:5261
 #EXTINF:-1 group-title="其他频道",涿州电视
 http://27.190.25.109:11001/rtp/239.254.201.17:5261
 #EXTINF:-1 group-title="其他频道",涿州电视
+http://27.190.25.109:11001/rtp/239.254.201.17:5261
+#EXTINF:-1 group-title="其他频道",涿州电视
 http://106.8.126.225:4022/rtp/239.254.201.17:5261
+#EXTINF:-1 group-title="其他频道",涿州电视
+http://27.189.127.201:4022/rtp/239.254.201.17:5261
 #EXTINF:-1 group-title="其他频道",涿鹿电视
 http://111.227.191.152:4000/rtp/239.254.201.145:5272
 #EXTINF:-1 group-title="其他频道",涿鹿电视
@@ -1642,7 +2446,11 @@ http://111.227.194.105:4022/rtp/239.254.201.145:5272
 #EXTINF:-1 group-title="其他频道",涿鹿电视
 http://27.190.25.109:11001/rtp/239.254.201.145:5272
 #EXTINF:-1 group-title="其他频道",涿鹿电视
+http://27.190.25.109:11001/rtp/239.254.201.145:5272
+#EXTINF:-1 group-title="其他频道",涿鹿电视
 http://106.8.126.225:4022/rtp/239.254.201.145:5272
+#EXTINF:-1 group-title="其他频道",涿鹿电视
+http://27.189.127.201:4022/rtp/239.254.201.145:5272
 #EXTINF:-1 group-title="其他频道",深州电视
 http://111.227.191.152:4000/rtp/239.254.201.46:5357
 #EXTINF:-1 group-title="其他频道",深州电视
@@ -1650,7 +2458,11 @@ http://111.227.194.105:4022/rtp/239.254.201.46:5357
 #EXTINF:-1 group-title="其他频道",深州电视
 http://27.190.25.109:11001/rtp/239.254.201.46:5357
 #EXTINF:-1 group-title="其他频道",深州电视
+http://27.190.25.109:11001/rtp/239.254.201.46:5357
+#EXTINF:-1 group-title="其他频道",深州电视
 http://106.8.126.225:4022/rtp/239.254.201.46:5357
+#EXTINF:-1 group-title="其他频道",深州电视
+http://27.189.127.201:4022/rtp/239.254.201.46:5357
 #EXTINF:-1 group-title="其他频道",深泽电视
 http://111.227.191.152:4000/rtp/239.254.201.108:5180
 #EXTINF:-1 group-title="其他频道",深泽电视
@@ -1658,7 +2470,11 @@ http://111.227.194.105:4022/rtp/239.254.201.108:5180
 #EXTINF:-1 group-title="其他频道",深泽电视
 http://27.190.25.109:11001/rtp/239.254.201.108:5180
 #EXTINF:-1 group-title="其他频道",深泽电视
+http://27.190.25.109:11001/rtp/239.254.201.108:5180
+#EXTINF:-1 group-title="其他频道",深泽电视
 http://106.8.126.225:4022/rtp/239.254.201.108:5180
+#EXTINF:-1 group-title="其他频道",深泽电视
+http://27.189.127.201:4022/rtp/239.254.201.108:5180
 #EXTINF:-1 group-title="其他频道",清河电视
 http://111.227.191.152:4000/rtp/239.254.200.170:5366
 #EXTINF:-1 group-title="其他频道",清河电视
@@ -1666,7 +2482,11 @@ http://111.227.194.105:4022/rtp/239.254.200.170:5366
 #EXTINF:-1 group-title="其他频道",清河电视
 http://27.190.25.109:11001/rtp/239.254.200.170:5366
 #EXTINF:-1 group-title="其他频道",清河电视
+http://27.190.25.109:11001/rtp/239.254.200.170:5366
+#EXTINF:-1 group-title="其他频道",清河电视
 http://106.8.126.225:4022/rtp/239.254.200.170:5366
+#EXTINF:-1 group-title="其他频道",清河电视
+http://27.189.127.201:4022/rtp/239.254.200.170:5366
 #EXTINF:-1 group-title="其他频道",渤海电视
 http://111.227.191.152:4000/rtp/239.254.201.35:5327
 #EXTINF:-1 group-title="其他频道",渤海电视
@@ -1674,7 +2494,11 @@ http://111.227.194.105:4022/rtp/239.254.201.35:5327
 #EXTINF:-1 group-title="其他频道",渤海电视
 http://27.190.25.109:11001/rtp/239.254.201.35:5327
 #EXTINF:-1 group-title="其他频道",渤海电视
+http://27.190.25.109:11001/rtp/239.254.201.35:5327
+#EXTINF:-1 group-title="其他频道",渤海电视
 http://106.8.126.225:4022/rtp/239.254.201.35:5327
+#EXTINF:-1 group-title="其他频道",渤海电视
+http://27.189.127.201:4022/rtp/239.254.201.35:5327
 #EXTINF:-1 group-title="其他频道",游戏竞技
 http://111.227.191.152:4000/rtp/239.254.201.157:6269
 #EXTINF:-1 group-title="其他频道",游戏竞技
@@ -1682,7 +2506,11 @@ http://111.227.194.105:4022/rtp/239.254.201.157:6269
 #EXTINF:-1 group-title="其他频道",游戏竞技
 http://27.190.25.109:11001/rtp/239.254.201.157:6269
 #EXTINF:-1 group-title="其他频道",游戏竞技
+http://27.190.25.109:11001/rtp/239.254.201.157:6269
+#EXTINF:-1 group-title="其他频道",游戏竞技
 http://106.8.126.225:4022/rtp/239.254.201.157:6269
+#EXTINF:-1 group-title="其他频道",游戏竞技
+http://27.189.127.201:4022/rtp/239.254.201.157:6269
 #EXTINF:-1 group-title="其他频道",游戏风云
 http://111.227.191.152:4000/rtp/239.254.201.163:6354
 #EXTINF:-1 group-title="其他频道",游戏风云
@@ -1690,7 +2518,11 @@ http://111.227.194.105:4022/rtp/239.254.201.163:6354
 #EXTINF:-1 group-title="其他频道",游戏风云
 http://27.190.25.109:11001/rtp/239.254.201.163:6354
 #EXTINF:-1 group-title="其他频道",游戏风云
+http://27.190.25.109:11001/rtp/239.254.201.163:6354
+#EXTINF:-1 group-title="其他频道",游戏风云
 http://106.8.126.225:4022/rtp/239.254.201.163:6354
+#EXTINF:-1 group-title="其他频道",游戏风云
+http://27.189.127.201:4022/rtp/239.254.201.163:6354
 #EXTINF:-1 group-title="其他频道",满城电视
 http://111.227.191.152:4000/rtp/239.254.200.222:5252
 #EXTINF:-1 group-title="其他频道",满城电视
@@ -1698,7 +2530,11 @@ http://111.227.194.105:4022/rtp/239.254.200.222:5252
 #EXTINF:-1 group-title="其他频道",满城电视
 http://27.190.25.109:11001/rtp/239.254.200.222:5252
 #EXTINF:-1 group-title="其他频道",满城电视
+http://27.190.25.109:11001/rtp/239.254.200.222:5252
+#EXTINF:-1 group-title="其他频道",满城电视
 http://106.8.126.225:4022/rtp/239.254.200.222:5252
+#EXTINF:-1 group-title="其他频道",满城电视
+http://27.189.127.201:4022/rtp/239.254.200.222:5252
 #EXTINF:-1 group-title="其他频道",滦南电视
 http://111.227.191.152:4000/rtp/239.254.201.22:5191
 #EXTINF:-1 group-title="其他频道",滦南电视
@@ -1706,7 +2542,11 @@ http://111.227.194.105:4022/rtp/239.254.201.22:5191
 #EXTINF:-1 group-title="其他频道",滦南电视
 http://27.190.25.109:11001/rtp/239.254.201.22:5191
 #EXTINF:-1 group-title="其他频道",滦南电视
+http://27.190.25.109:11001/rtp/239.254.201.22:5191
+#EXTINF:-1 group-title="其他频道",滦南电视
 http://106.8.126.225:4022/rtp/239.254.201.22:5191
+#EXTINF:-1 group-title="其他频道",滦南电视
+http://27.189.127.201:4022/rtp/239.254.201.22:5191
 #EXTINF:-1 group-title="其他频道",滦州电视
 http://111.227.191.152:4000/rtp/239.254.201.30:5196
 #EXTINF:-1 group-title="其他频道",滦州电视
@@ -1714,7 +2554,11 @@ http://111.227.194.105:4022/rtp/239.254.201.30:5196
 #EXTINF:-1 group-title="其他频道",滦州电视
 http://27.190.25.109:11001/rtp/239.254.201.30:5196
 #EXTINF:-1 group-title="其他频道",滦州电视
+http://27.190.25.109:11001/rtp/239.254.201.30:5196
+#EXTINF:-1 group-title="其他频道",滦州电视
 http://106.8.126.225:4022/rtp/239.254.201.30:5196
+#EXTINF:-1 group-title="其他频道",滦州电视
+http://27.189.127.201:4022/rtp/239.254.201.30:5196
 #EXTINF:-1 group-title="其他频道",滦平电视
 http://111.227.191.152:4000/rtp/239.254.201.4:5291
 #EXTINF:-1 group-title="其他频道",滦平电视
@@ -1722,7 +2566,11 @@ http://111.227.194.105:4022/rtp/239.254.201.4:5291
 #EXTINF:-1 group-title="其他频道",滦平电视
 http://27.190.25.109:11001/rtp/239.254.201.4:5291
 #EXTINF:-1 group-title="其他频道",滦平电视
+http://27.190.25.109:11001/rtp/239.254.201.4:5291
+#EXTINF:-1 group-title="其他频道",滦平电视
 http://106.8.126.225:4022/rtp/239.254.201.4:5291
+#EXTINF:-1 group-title="其他频道",滦平电视
+http://27.189.127.201:4022/rtp/239.254.201.4:5291
 #EXTINF:-1 group-title="其他频道",玉田电视
 http://111.227.191.152:4000/rtp/239.254.201.28:5194
 #EXTINF:-1 group-title="其他频道",玉田电视
@@ -1730,7 +2578,11 @@ http://111.227.194.105:4022/rtp/239.254.201.28:5194
 #EXTINF:-1 group-title="其他频道",玉田电视
 http://27.190.25.109:11001/rtp/239.254.201.28:5194
 #EXTINF:-1 group-title="其他频道",玉田电视
+http://27.190.25.109:11001/rtp/239.254.201.28:5194
+#EXTINF:-1 group-title="其他频道",玉田电视
 http://106.8.126.225:4022/rtp/239.254.201.28:5194
+#EXTINF:-1 group-title="其他频道",玉田电视
+http://27.189.127.201:4022/rtp/239.254.201.28:5194
 #EXTINF:-1 group-title="其他频道",环球奇观
 http://111.227.191.152:4000/rtp/239.254.200.105:6238
 #EXTINF:-1 group-title="其他频道",环球奇观
@@ -1738,7 +2590,11 @@ http://111.227.194.105:4022/rtp/239.254.200.105:6238
 #EXTINF:-1 group-title="其他频道",环球奇观
 http://27.190.25.109:11001/rtp/239.254.200.105:6238
 #EXTINF:-1 group-title="其他频道",环球奇观
+http://27.190.25.109:11001/rtp/239.254.200.105:6238
+#EXTINF:-1 group-title="其他频道",环球奇观
 http://106.8.126.225:4022/rtp/239.254.200.105:6238
+#EXTINF:-1 group-title="其他频道",环球奇观
+http://27.189.127.201:4022/rtp/239.254.200.105:6238
 #EXTINF:-1 group-title="其他频道",环球旅游
 http://111.227.191.152:4000/rtp/239.254.201.161:6264
 #EXTINF:-1 group-title="其他频道",环球旅游
@@ -1746,7 +2602,11 @@ http://111.227.194.105:4022/rtp/239.254.201.161:6264
 #EXTINF:-1 group-title="其他频道",环球旅游
 http://27.190.25.109:11001/rtp/239.254.201.161:6264
 #EXTINF:-1 group-title="其他频道",环球旅游
+http://27.190.25.109:11001/rtp/239.254.201.161:6264
+#EXTINF:-1 group-title="其他频道",环球旅游
 http://106.8.126.225:4022/rtp/239.254.201.161:6264
+#EXTINF:-1 group-title="其他频道",环球旅游
+http://27.189.127.201:4022/rtp/239.254.201.161:6264
 #EXTINF:-1 group-title="其他频道",生态环境
 http://111.227.191.152:4000/rtp/239.254.201.187:6226
 #EXTINF:-1 group-title="其他频道",生态环境
@@ -1754,7 +2614,11 @@ http://111.227.194.105:4022/rtp/239.254.201.187:6226
 #EXTINF:-1 group-title="其他频道",生态环境
 http://27.190.25.109:11001/rtp/239.254.201.187:6226
 #EXTINF:-1 group-title="其他频道",生态环境
+http://27.190.25.109:11001/rtp/239.254.201.187:6226
+#EXTINF:-1 group-title="其他频道",生态环境
 http://106.8.126.225:4022/rtp/239.254.201.187:6226
+#EXTINF:-1 group-title="其他频道",生态环境
+http://27.189.127.201:4022/rtp/239.254.201.187:6226
 #EXTINF:-1 group-title="其他频道",生活时尚
 http://111.227.191.152:4000/rtp/239.254.201.166:6359
 #EXTINF:-1 group-title="其他频道",生活时尚
@@ -1762,7 +2626,11 @@ http://111.227.194.105:4022/rtp/239.254.201.166:6359
 #EXTINF:-1 group-title="其他频道",生活时尚
 http://27.190.25.109:11001/rtp/239.254.201.166:6359
 #EXTINF:-1 group-title="其他频道",生活时尚
+http://27.190.25.109:11001/rtp/239.254.201.166:6359
+#EXTINF:-1 group-title="其他频道",生活时尚
 http://106.8.126.225:4022/rtp/239.254.201.166:6359
+#EXTINF:-1 group-title="其他频道",生活时尚
+http://27.189.127.201:4022/rtp/239.254.201.166:6359
 #EXTINF:-1 group-title="其他频道",电视指南
 http://111.227.191.152:4000/rtp/239.254.200.142:6256
 #EXTINF:-1 group-title="其他频道",电视指南
@@ -1770,7 +2638,11 @@ http://111.227.194.105:4022/rtp/239.254.200.142:6256
 #EXTINF:-1 group-title="其他频道",电视指南
 http://27.190.25.109:11001/rtp/239.254.200.142:6256
 #EXTINF:-1 group-title="其他频道",电视指南
+http://27.190.25.109:11001/rtp/239.254.200.142:6256
+#EXTINF:-1 group-title="其他频道",电视指南
 http://106.8.126.225:4022/rtp/239.254.200.142:6256
+#EXTINF:-1 group-title="其他频道",电视指南
+http://27.189.127.201:4022/rtp/239.254.200.142:6256
 #EXTINF:-1 group-title="其他频道",电视指南
 http://111.227.191.152:4000/rtp/239.254.201.217:7250
 #EXTINF:-1 group-title="其他频道",电视指南
@@ -1778,7 +2650,7 @@ http://111.227.194.105:4022/rtp/239.254.201.217:7250
 #EXTINF:-1 group-title="其他频道",电视指南
 http://27.190.25.109:11001/rtp/239.254.201.217:7250
 #EXTINF:-1 group-title="其他频道",电视指南
-http://106.8.126.225:4022/rtp/239.254.201.217:7250
+http://27.190.25.109:11001/rtp/239.254.201.217:7250
 #EXTINF:-1 group-title="其他频道",盐山电视
 http://111.227.191.152:4000/rtp/239.254.201.114:5334
 #EXTINF:-1 group-title="其他频道",盐山电视
@@ -1786,7 +2658,11 @@ http://111.227.194.105:4022/rtp/239.254.201.114:5334
 #EXTINF:-1 group-title="其他频道",盐山电视
 http://27.190.25.109:11001/rtp/239.254.201.114:5334
 #EXTINF:-1 group-title="其他频道",盐山电视
+http://27.190.25.109:11001/rtp/239.254.201.114:5334
+#EXTINF:-1 group-title="其他频道",盐山电视
 http://106.8.126.225:4022/rtp/239.254.201.114:5334
+#EXTINF:-1 group-title="其他频道",盐山电视
+http://27.189.127.201:4022/rtp/239.254.201.114:5334
 #EXTINF:-1 group-title="其他频道",睛彩河北
 http://111.227.191.152:4000/rtp/239.254.200.27:6000
 #EXTINF:-1 group-title="其他频道",睛彩河北
@@ -1794,7 +2670,11 @@ http://111.227.194.105:4022/rtp/239.254.200.27:6000
 #EXTINF:-1 group-title="其他频道",睛彩河北
 http://27.190.25.109:11001/rtp/239.254.200.27:6000
 #EXTINF:-1 group-title="其他频道",睛彩河北
+http://27.190.25.109:11001/rtp/239.254.200.27:6000
+#EXTINF:-1 group-title="其他频道",睛彩河北
 http://106.8.126.225:4022/rtp/239.254.200.27:6000
+#EXTINF:-1 group-title="其他频道",睛彩河北
+http://27.189.127.201:4022/rtp/239.254.200.27:6000
 #EXTINF:-1 group-title="其他频道",石家庄娱乐
 http://111.227.191.152:4000/rtp/239.254.200.29:6000
 #EXTINF:-1 group-title="其他频道",石家庄娱乐
@@ -1802,7 +2682,11 @@ http://111.227.194.105:4022/rtp/239.254.200.29:6000
 #EXTINF:-1 group-title="其他频道",石家庄娱乐
 http://27.190.25.109:11001/rtp/239.254.200.29:6000
 #EXTINF:-1 group-title="其他频道",石家庄娱乐
+http://27.190.25.109:11001/rtp/239.254.200.29:6000
+#EXTINF:-1 group-title="其他频道",石家庄娱乐
 http://106.8.126.225:4022/rtp/239.254.200.29:6000
+#EXTINF:-1 group-title="其他频道",石家庄娱乐
+http://27.189.127.201:4022/rtp/239.254.200.29:6000
 #EXTINF:-1 group-title="其他频道",石家庄新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.157:6000
 #EXTINF:-1 group-title="其他频道",石家庄新闻综合
@@ -1810,7 +2694,11 @@ http://111.227.194.105:4022/rtp/239.254.200.157:6000
 #EXTINF:-1 group-title="其他频道",石家庄新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.157:6000
 #EXTINF:-1 group-title="其他频道",石家庄新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.157:6000
+#EXTINF:-1 group-title="其他频道",石家庄新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.157:6000
+#EXTINF:-1 group-title="其他频道",石家庄新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.157:6000
 #EXTINF:-1 group-title="其他频道",石家庄生活
 http://111.227.191.152:4000/rtp/239.254.200.30:6000
 #EXTINF:-1 group-title="其他频道",石家庄生活
@@ -1818,7 +2706,11 @@ http://111.227.194.105:4022/rtp/239.254.200.30:6000
 #EXTINF:-1 group-title="其他频道",石家庄生活
 http://27.190.25.109:11001/rtp/239.254.200.30:6000
 #EXTINF:-1 group-title="其他频道",石家庄生活
+http://27.190.25.109:11001/rtp/239.254.200.30:6000
+#EXTINF:-1 group-title="其他频道",石家庄生活
 http://106.8.126.225:4022/rtp/239.254.200.30:6000
+#EXTINF:-1 group-title="其他频道",石家庄生活
+http://27.189.127.201:4022/rtp/239.254.200.30:6000
 #EXTINF:-1 group-title="其他频道",石家庄都市
 http://111.227.191.152:4000/rtp/239.254.200.31:6000
 #EXTINF:-1 group-title="其他频道",石家庄都市
@@ -1826,7 +2718,11 @@ http://111.227.194.105:4022/rtp/239.254.200.31:6000
 #EXTINF:-1 group-title="其他频道",石家庄都市
 http://27.190.25.109:11001/rtp/239.254.200.31:6000
 #EXTINF:-1 group-title="其他频道",石家庄都市
+http://27.190.25.109:11001/rtp/239.254.200.31:6000
+#EXTINF:-1 group-title="其他频道",石家庄都市
 http://106.8.126.225:4022/rtp/239.254.200.31:6000
+#EXTINF:-1 group-title="其他频道",石家庄都市
+http://27.189.127.201:4022/rtp/239.254.200.31:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛公共
 http://111.227.191.152:4000/rtp/239.254.200.40:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛公共
@@ -1834,7 +2730,11 @@ http://111.227.194.105:4022/rtp/239.254.200.40:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛公共
 http://27.190.25.109:11001/rtp/239.254.200.40:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛公共
+http://27.190.25.109:11001/rtp/239.254.200.40:6000
+#EXTINF:-1 group-title="其他频道",秦皇岛公共
 http://106.8.126.225:4022/rtp/239.254.200.40:6000
+#EXTINF:-1 group-title="其他频道",秦皇岛公共
+http://27.189.127.201:4022/rtp/239.254.200.40:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛影视
 http://111.227.191.152:4000/rtp/239.254.200.41:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛影视
@@ -1842,7 +2742,11 @@ http://111.227.194.105:4022/rtp/239.254.200.41:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛影视
 http://27.190.25.109:11001/rtp/239.254.200.41:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛影视
+http://27.190.25.109:11001/rtp/239.254.200.41:6000
+#EXTINF:-1 group-title="其他频道",秦皇岛影视
 http://106.8.126.225:4022/rtp/239.254.200.41:6000
+#EXTINF:-1 group-title="其他频道",秦皇岛影视
+http://27.189.127.201:4022/rtp/239.254.200.41:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.39:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛新闻综合
@@ -1850,7 +2754,11 @@ http://111.227.194.105:4022/rtp/239.254.200.39:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.39:6000
 #EXTINF:-1 group-title="其他频道",秦皇岛新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.39:6000
+#EXTINF:-1 group-title="其他频道",秦皇岛新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.39:6000
+#EXTINF:-1 group-title="其他频道",秦皇岛新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.39:6000
 #EXTINF:-1 group-title="其他频道",第一剧场
 http://111.227.191.152:4000/rtp/239.254.200.93:6227
 #EXTINF:-1 group-title="其他频道",第一剧场
@@ -1858,7 +2766,11 @@ http://111.227.194.105:4022/rtp/239.254.200.93:6227
 #EXTINF:-1 group-title="其他频道",第一剧场
 http://27.190.25.109:11001/rtp/239.254.200.93:6227
 #EXTINF:-1 group-title="其他频道",第一剧场
+http://27.190.25.109:11001/rtp/239.254.200.93:6227
+#EXTINF:-1 group-title="其他频道",第一剧场
 http://106.8.126.225:4022/rtp/239.254.200.93:6227
+#EXTINF:-1 group-title="其他频道",第一剧场
+http://27.189.127.201:4022/rtp/239.254.200.93:6227
 #EXTINF:-1 group-title="其他频道",第一剧场高清
 http://111.227.191.152:4000/rtp/239.254.201.218:7258
 #EXTINF:-1 group-title="其他频道",第一剧场高清
@@ -1866,7 +2778,11 @@ http://111.227.194.105:4022/rtp/239.254.201.218:7258
 #EXTINF:-1 group-title="其他频道",第一剧场高清
 http://27.190.25.109:11001/rtp/239.254.201.218:7258
 #EXTINF:-1 group-title="其他频道",第一剧场高清
+http://27.190.25.109:11001/rtp/239.254.201.218:7258
+#EXTINF:-1 group-title="其他频道",第一剧场高清
 http://106.8.126.225:4022/rtp/239.254.201.218:7258
+#EXTINF:-1 group-title="其他频道",第一剧场高清
+http://27.189.127.201:4022/rtp/239.254.201.218:7258
 #EXTINF:-1 group-title="其他频道",纪实人文
 http://111.227.191.152:4000/rtp/239.254.200.58:8060
 #EXTINF:-1 group-title="其他频道",纪实人文
@@ -1874,7 +2790,11 @@ http://111.227.194.105:4022/rtp/239.254.200.58:8060
 #EXTINF:-1 group-title="其他频道",纪实人文
 http://27.190.25.109:11001/rtp/239.254.200.58:8060
 #EXTINF:-1 group-title="其他频道",纪实人文
+http://27.190.25.109:11001/rtp/239.254.200.58:8060
+#EXTINF:-1 group-title="其他频道",纪实人文
 http://106.8.126.225:4022/rtp/239.254.200.58:8060
+#EXTINF:-1 group-title="其他频道",纪实人文
+http://27.189.127.201:4022/rtp/239.254.200.58:8060
 #EXTINF:-1 group-title="其他频道",网络棋牌
 http://111.227.191.152:4000/rtp/239.254.201.159:7169
 #EXTINF:-1 group-title="其他频道",网络棋牌
@@ -1882,7 +2802,11 @@ http://111.227.194.105:4022/rtp/239.254.201.159:7169
 #EXTINF:-1 group-title="其他频道",网络棋牌
 http://27.190.25.109:11001/rtp/239.254.201.159:7169
 #EXTINF:-1 group-title="其他频道",网络棋牌
+http://27.190.25.109:11001/rtp/239.254.201.159:7169
+#EXTINF:-1 group-title="其他频道",网络棋牌
 http://106.8.126.225:4022/rtp/239.254.201.159:7169
+#EXTINF:-1 group-title="其他频道",网络棋牌
+http://27.189.127.201:4022/rtp/239.254.201.159:7169
 #EXTINF:-1 group-title="其他频道",羽毛球专区
 http://111.227.191.152:4000/rtp/239.254.201.214:7264
 #EXTINF:-1 group-title="其他频道",羽毛球专区
@@ -1890,7 +2814,11 @@ http://111.227.194.105:4022/rtp/239.254.201.214:7264
 #EXTINF:-1 group-title="其他频道",羽毛球专区
 http://27.190.25.109:11001/rtp/239.254.201.214:7264
 #EXTINF:-1 group-title="其他频道",羽毛球专区
+http://27.190.25.109:11001/rtp/239.254.201.214:7264
+#EXTINF:-1 group-title="其他频道",羽毛球专区
 http://106.8.126.225:4022/rtp/239.254.201.214:7264
+#EXTINF:-1 group-title="其他频道",羽毛球专区
+http://27.189.127.201:4022/rtp/239.254.201.214:7264
 #EXTINF:-1 group-title="其他频道",老故事
 http://111.227.191.152:4000/rtp/239.254.200.104:6237
 #EXTINF:-1 group-title="其他频道",老故事
@@ -1898,7 +2826,11 @@ http://111.227.194.105:4022/rtp/239.254.200.104:6237
 #EXTINF:-1 group-title="其他频道",老故事
 http://27.190.25.109:11001/rtp/239.254.200.104:6237
 #EXTINF:-1 group-title="其他频道",老故事
+http://27.190.25.109:11001/rtp/239.254.200.104:6237
+#EXTINF:-1 group-title="其他频道",老故事
 http://106.8.126.225:4022/rtp/239.254.200.104:6237
+#EXTINF:-1 group-title="其他频道",老故事
+http://27.189.127.201:4022/rtp/239.254.200.104:6237
 #EXTINF:-1 group-title="其他频道",聚鲨环球精选
 http://111.227.191.152:4000/rtp/239.254.201.81:7191
 #EXTINF:-1 group-title="其他频道",聚鲨环球精选
@@ -1906,7 +2838,11 @@ http://111.227.194.105:4022/rtp/239.254.201.81:7191
 #EXTINF:-1 group-title="其他频道",聚鲨环球精选
 http://27.190.25.109:11001/rtp/239.254.201.81:7191
 #EXTINF:-1 group-title="其他频道",聚鲨环球精选
+http://27.190.25.109:11001/rtp/239.254.201.81:7191
+#EXTINF:-1 group-title="其他频道",聚鲨环球精选
 http://106.8.126.225:4022/rtp/239.254.201.81:7191
+#EXTINF:-1 group-title="其他频道",聚鲨环球精选
+http://27.189.127.201:4022/rtp/239.254.201.81:7191
 #EXTINF:-1 group-title="其他频道",肃宁电视
 http://111.227.191.152:4000/rtp/239.254.201.122:5336
 #EXTINF:-1 group-title="其他频道",肃宁电视
@@ -1914,7 +2850,11 @@ http://111.227.194.105:4022/rtp/239.254.201.122:5336
 #EXTINF:-1 group-title="其他频道",肃宁电视
 http://27.190.25.109:11001/rtp/239.254.201.122:5336
 #EXTINF:-1 group-title="其他频道",肃宁电视
+http://27.190.25.109:11001/rtp/239.254.201.122:5336
+#EXTINF:-1 group-title="其他频道",肃宁电视
 http://106.8.126.225:4022/rtp/239.254.201.122:5336
+#EXTINF:-1 group-title="其他频道",肃宁电视
+http://27.189.127.201:4022/rtp/239.254.201.122:5336
 #EXTINF:-1 group-title="其他频道",肥乡电视
 http://111.227.191.152:4000/rtp/239.254.201.105:5223
 #EXTINF:-1 group-title="其他频道",肥乡电视
@@ -1922,7 +2862,11 @@ http://111.227.194.105:4022/rtp/239.254.201.105:5223
 #EXTINF:-1 group-title="其他频道",肥乡电视
 http://27.190.25.109:11001/rtp/239.254.201.105:5223
 #EXTINF:-1 group-title="其他频道",肥乡电视
+http://27.190.25.109:11001/rtp/239.254.201.105:5223
+#EXTINF:-1 group-title="其他频道",肥乡电视
 http://106.8.126.225:4022/rtp/239.254.201.105:5223
+#EXTINF:-1 group-title="其他频道",肥乡电视
+http://27.189.127.201:4022/rtp/239.254.201.105:5223
 #EXTINF:-1 group-title="其他频道",茶频道
 http://111.227.191.152:4000/rtp/239.254.200.228:6258
 #EXTINF:-1 group-title="其他频道",茶频道
@@ -1930,7 +2874,11 @@ http://111.227.194.105:4022/rtp/239.254.200.228:6258
 #EXTINF:-1 group-title="其他频道",茶频道
 http://27.190.25.109:11001/rtp/239.254.200.228:6258
 #EXTINF:-1 group-title="其他频道",茶频道
+http://27.190.25.109:11001/rtp/239.254.200.228:6258
+#EXTINF:-1 group-title="其他频道",茶频道
 http://106.8.126.225:4022/rtp/239.254.200.228:6258
+#EXTINF:-1 group-title="其他频道",茶频道
+http://27.189.127.201:4022/rtp/239.254.200.228:6258
 #EXTINF:-1 group-title="其他频道",衡水公共
 http://111.227.191.152:4000/rtp/239.254.200.149:6000
 #EXTINF:-1 group-title="其他频道",衡水公共
@@ -1938,7 +2886,11 @@ http://111.227.194.105:4022/rtp/239.254.200.149:6000
 #EXTINF:-1 group-title="其他频道",衡水公共
 http://27.190.25.109:11001/rtp/239.254.200.149:6000
 #EXTINF:-1 group-title="其他频道",衡水公共
+http://27.190.25.109:11001/rtp/239.254.200.149:6000
+#EXTINF:-1 group-title="其他频道",衡水公共
 http://106.8.126.225:4022/rtp/239.254.200.149:6000
+#EXTINF:-1 group-title="其他频道",衡水公共
+http://27.189.127.201:4022/rtp/239.254.200.149:6000
 #EXTINF:-1 group-title="其他频道",衡水新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.147:6000
 #EXTINF:-1 group-title="其他频道",衡水新闻综合
@@ -1946,7 +2898,11 @@ http://111.227.194.105:4022/rtp/239.254.200.147:6000
 #EXTINF:-1 group-title="其他频道",衡水新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.147:6000
 #EXTINF:-1 group-title="其他频道",衡水新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.147:6000
+#EXTINF:-1 group-title="其他频道",衡水新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.147:6000
+#EXTINF:-1 group-title="其他频道",衡水新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.147:6000
 #EXTINF:-1 group-title="其他频道",财富天下
 http://111.227.191.152:4000/rtp/239.254.200.124:6370
 #EXTINF:-1 group-title="其他频道",财富天下
@@ -1954,7 +2910,11 @@ http://111.227.194.105:4022/rtp/239.254.200.124:6370
 #EXTINF:-1 group-title="其他频道",财富天下
 http://27.190.25.109:11001/rtp/239.254.200.124:6370
 #EXTINF:-1 group-title="其他频道",财富天下
+http://27.190.25.109:11001/rtp/239.254.200.124:6370
+#EXTINF:-1 group-title="其他频道",财富天下
 http://106.8.126.225:4022/rtp/239.254.200.124:6370
+#EXTINF:-1 group-title="其他频道",财富天下
+http://27.189.127.201:4022/rtp/239.254.200.124:6370
 #EXTINF:-1 group-title="其他频道",赞皇电视
 http://111.227.191.152:4000/rtp/239.254.200.244:5177
 #EXTINF:-1 group-title="其他频道",赞皇电视
@@ -1962,7 +2922,11 @@ http://111.227.194.105:4022/rtp/239.254.200.244:5177
 #EXTINF:-1 group-title="其他频道",赞皇电视
 http://27.190.25.109:11001/rtp/239.254.200.244:5177
 #EXTINF:-1 group-title="其他频道",赞皇电视
+http://27.190.25.109:11001/rtp/239.254.200.244:5177
+#EXTINF:-1 group-title="其他频道",赞皇电视
 http://106.8.126.225:4022/rtp/239.254.200.244:5177
+#EXTINF:-1 group-title="其他频道",赞皇电视
+http://27.189.127.201:4022/rtp/239.254.200.244:5177
 #EXTINF:-1 group-title="其他频道",赤城电视
 http://111.227.191.152:4000/rtp/239.254.201.131:5269
 #EXTINF:-1 group-title="其他频道",赤城电视
@@ -1970,7 +2934,11 @@ http://111.227.194.105:4022/rtp/239.254.201.131:5269
 #EXTINF:-1 group-title="其他频道",赤城电视
 http://27.190.25.109:11001/rtp/239.254.201.131:5269
 #EXTINF:-1 group-title="其他频道",赤城电视
+http://27.190.25.109:11001/rtp/239.254.201.131:5269
+#EXTINF:-1 group-title="其他频道",赤城电视
 http://106.8.126.225:4022/rtp/239.254.201.131:5269
+#EXTINF:-1 group-title="其他频道",赤城电视
+http://27.189.127.201:4022/rtp/239.254.201.131:5269
 #EXTINF:-1 group-title="其他频道",赵县电视
 http://111.227.191.152:4000/rtp/239.254.201.111:5183
 #EXTINF:-1 group-title="其他频道",赵县电视
@@ -1978,7 +2946,11 @@ http://111.227.194.105:4022/rtp/239.254.201.111:5183
 #EXTINF:-1 group-title="其他频道",赵县电视
 http://27.190.25.109:11001/rtp/239.254.201.111:5183
 #EXTINF:-1 group-title="其他频道",赵县电视
+http://27.190.25.109:11001/rtp/239.254.201.111:5183
+#EXTINF:-1 group-title="其他频道",赵县电视
 http://106.8.126.225:4022/rtp/239.254.201.111:5183
+#EXTINF:-1 group-title="其他频道",赵县电视
+http://27.189.127.201:4022/rtp/239.254.201.111:5183
 #EXTINF:-1 group-title="其他频道",足球频道
 http://111.227.191.152:4000/rtp/239.254.201.169:6341
 #EXTINF:-1 group-title="其他频道",足球频道
@@ -1986,7 +2958,11 @@ http://111.227.194.105:4022/rtp/239.254.201.169:6341
 #EXTINF:-1 group-title="其他频道",足球频道
 http://27.190.25.109:11001/rtp/239.254.201.169:6341
 #EXTINF:-1 group-title="其他频道",足球频道
+http://27.190.25.109:11001/rtp/239.254.201.169:6341
+#EXTINF:-1 group-title="其他频道",足球频道
 http://106.8.126.225:4022/rtp/239.254.201.169:6341
+#EXTINF:-1 group-title="其他频道",足球频道
+http://27.189.127.201:4022/rtp/239.254.201.169:6341
 #EXTINF:-1 group-title="其他频道",车迷
 http://111.227.191.152:4000/rtp/239.254.201.162:6266
 #EXTINF:-1 group-title="其他频道",车迷
@@ -1994,7 +2970,11 @@ http://111.227.194.105:4022/rtp/239.254.201.162:6266
 #EXTINF:-1 group-title="其他频道",车迷
 http://27.190.25.109:11001/rtp/239.254.201.162:6266
 #EXTINF:-1 group-title="其他频道",车迷
+http://27.190.25.109:11001/rtp/239.254.201.162:6266
+#EXTINF:-1 group-title="其他频道",车迷
 http://106.8.126.225:4022/rtp/239.254.201.162:6266
+#EXTINF:-1 group-title="其他频道",车迷
+http://27.189.127.201:4022/rtp/239.254.201.162:6266
 #EXTINF:-1 group-title="其他频道",迁安电视
 http://111.227.191.152:4000/rtp/239.254.201.109:5199
 #EXTINF:-1 group-title="其他频道",迁安电视
@@ -2002,7 +2982,11 @@ http://111.227.194.105:4022/rtp/239.254.201.109:5199
 #EXTINF:-1 group-title="其他频道",迁安电视
 http://27.190.25.109:11001/rtp/239.254.201.109:5199
 #EXTINF:-1 group-title="其他频道",迁安电视
+http://27.190.25.109:11001/rtp/239.254.201.109:5199
+#EXTINF:-1 group-title="其他频道",迁安电视
 http://106.8.126.225:4022/rtp/239.254.201.109:5199
+#EXTINF:-1 group-title="其他频道",迁安电视
+http://27.189.127.201:4022/rtp/239.254.201.109:5199
 #EXTINF:-1 group-title="其他频道",迁西电视
 http://111.227.191.152:4000/rtp/239.254.201.26:5188
 #EXTINF:-1 group-title="其他频道",迁西电视
@@ -2010,7 +2994,11 @@ http://111.227.194.105:4022/rtp/239.254.201.26:5188
 #EXTINF:-1 group-title="其他频道",迁西电视
 http://27.190.25.109:11001/rtp/239.254.201.26:5188
 #EXTINF:-1 group-title="其他频道",迁西电视
+http://27.190.25.109:11001/rtp/239.254.201.26:5188
+#EXTINF:-1 group-title="其他频道",迁西电视
 http://106.8.126.225:4022/rtp/239.254.201.26:5188
+#EXTINF:-1 group-title="其他频道",迁西电视
+http://27.189.127.201:4022/rtp/239.254.201.26:5188
 #EXTINF:-1 group-title="其他频道",遵化电视
 http://111.227.191.152:4000/rtp/239.254.201.146:5202
 #EXTINF:-1 group-title="其他频道",遵化电视
@@ -2018,7 +3006,11 @@ http://111.227.194.105:4022/rtp/239.254.201.146:5202
 #EXTINF:-1 group-title="其他频道",遵化电视
 http://27.190.25.109:11001/rtp/239.254.201.146:5202
 #EXTINF:-1 group-title="其他频道",遵化电视
+http://27.190.25.109:11001/rtp/239.254.201.146:5202
+#EXTINF:-1 group-title="其他频道",遵化电视
 http://106.8.126.225:4022/rtp/239.254.201.146:5202
+#EXTINF:-1 group-title="其他频道",遵化电视
+http://27.189.127.201:4022/rtp/239.254.201.146:5202
 #EXTINF:-1 group-title="其他频道",邢台城市生活
 http://111.227.191.152:4000/rtp/239.254.200.152:6000
 #EXTINF:-1 group-title="其他频道",邢台城市生活
@@ -2026,7 +3018,11 @@ http://111.227.194.105:4022/rtp/239.254.200.152:6000
 #EXTINF:-1 group-title="其他频道",邢台城市生活
 http://27.190.25.109:11001/rtp/239.254.200.152:6000
 #EXTINF:-1 group-title="其他频道",邢台城市生活
+http://27.190.25.109:11001/rtp/239.254.200.152:6000
+#EXTINF:-1 group-title="其他频道",邢台城市生活
 http://106.8.126.225:4022/rtp/239.254.200.152:6000
+#EXTINF:-1 group-title="其他频道",邢台城市生活
+http://27.189.127.201:4022/rtp/239.254.200.152:6000
 #EXTINF:-1 group-title="其他频道",邢台综合
 http://111.227.191.152:4000/rtp/239.254.200.150:6000
 #EXTINF:-1 group-title="其他频道",邢台综合
@@ -2034,7 +3030,11 @@ http://111.227.194.105:4022/rtp/239.254.200.150:6000
 #EXTINF:-1 group-title="其他频道",邢台综合
 http://27.190.25.109:11001/rtp/239.254.200.150:6000
 #EXTINF:-1 group-title="其他频道",邢台综合
+http://27.190.25.109:11001/rtp/239.254.200.150:6000
+#EXTINF:-1 group-title="其他频道",邢台综合
 http://106.8.126.225:4022/rtp/239.254.200.150:6000
+#EXTINF:-1 group-title="其他频道",邢台综合
+http://27.189.127.201:4022/rtp/239.254.200.150:6000
 #EXTINF:-1 group-title="其他频道",邯山电视
 http://111.227.191.152:4000/rtp/239.254.201.116:5225
 #EXTINF:-1 group-title="其他频道",邯山电视
@@ -2042,7 +3042,11 @@ http://111.227.194.105:4022/rtp/239.254.201.116:5225
 #EXTINF:-1 group-title="其他频道",邯山电视
 http://27.190.25.109:11001/rtp/239.254.201.116:5225
 #EXTINF:-1 group-title="其他频道",邯山电视
+http://27.190.25.109:11001/rtp/239.254.201.116:5225
+#EXTINF:-1 group-title="其他频道",邯山电视
 http://106.8.126.225:4022/rtp/239.254.201.116:5225
+#EXTINF:-1 group-title="其他频道",邯山电视
+http://27.189.127.201:4022/rtp/239.254.201.116:5225
 #EXTINF:-1 group-title="其他频道",邯郸公共
 http://111.227.191.152:4000/rtp/239.254.200.154:6000
 #EXTINF:-1 group-title="其他频道",邯郸公共
@@ -2050,7 +3054,11 @@ http://111.227.194.105:4022/rtp/239.254.200.154:6000
 #EXTINF:-1 group-title="其他频道",邯郸公共
 http://27.190.25.109:11001/rtp/239.254.200.154:6000
 #EXTINF:-1 group-title="其他频道",邯郸公共
+http://27.190.25.109:11001/rtp/239.254.200.154:6000
+#EXTINF:-1 group-title="其他频道",邯郸公共
 http://106.8.126.225:4022/rtp/239.254.200.154:6000
+#EXTINF:-1 group-title="其他频道",邯郸公共
+http://27.189.127.201:4022/rtp/239.254.200.154:6000
 #EXTINF:-1 group-title="其他频道",邯郸新闻综合
 http://111.227.191.152:4000/rtp/239.254.200.153:6000
 #EXTINF:-1 group-title="其他频道",邯郸新闻综合
@@ -2058,7 +3066,11 @@ http://111.227.194.105:4022/rtp/239.254.200.153:6000
 #EXTINF:-1 group-title="其他频道",邯郸新闻综合
 http://27.190.25.109:11001/rtp/239.254.200.153:6000
 #EXTINF:-1 group-title="其他频道",邯郸新闻综合
+http://27.190.25.109:11001/rtp/239.254.200.153:6000
+#EXTINF:-1 group-title="其他频道",邯郸新闻综合
 http://106.8.126.225:4022/rtp/239.254.200.153:6000
+#EXTINF:-1 group-title="其他频道",邯郸新闻综合
+http://27.189.127.201:4022/rtp/239.254.200.153:6000
 #EXTINF:-1 group-title="其他频道",邯郸科技教育
 http://111.227.191.152:4000/rtp/239.254.200.155:6000
 #EXTINF:-1 group-title="其他频道",邯郸科技教育
@@ -2066,7 +3078,11 @@ http://111.227.194.105:4022/rtp/239.254.200.155:6000
 #EXTINF:-1 group-title="其他频道",邯郸科技教育
 http://27.190.25.109:11001/rtp/239.254.200.155:6000
 #EXTINF:-1 group-title="其他频道",邯郸科技教育
+http://27.190.25.109:11001/rtp/239.254.200.155:6000
+#EXTINF:-1 group-title="其他频道",邯郸科技教育
 http://106.8.126.225:4022/rtp/239.254.200.155:6000
+#EXTINF:-1 group-title="其他频道",邯郸科技教育
+http://27.189.127.201:4022/rtp/239.254.200.155:6000
 #EXTINF:-1 group-title="其他频道",邱县电视
 http://111.227.191.152:4000/rtp/239.254.201.129:6209
 #EXTINF:-1 group-title="其他频道",邱县电视
@@ -2074,7 +3090,11 @@ http://111.227.194.105:4022/rtp/239.254.201.129:6209
 #EXTINF:-1 group-title="其他频道",邱县电视
 http://27.190.25.109:11001/rtp/239.254.201.129:6209
 #EXTINF:-1 group-title="其他频道",邱县电视
+http://27.190.25.109:11001/rtp/239.254.201.129:6209
+#EXTINF:-1 group-title="其他频道",邱县电视
 http://106.8.126.225:4022/rtp/239.254.201.129:6209
+#EXTINF:-1 group-title="其他频道",邱县电视
+http://27.189.127.201:4022/rtp/239.254.201.129:6209
 #EXTINF:-1 group-title="其他频道",都市剧场
 http://111.227.191.152:4000/rtp/239.254.201.167:6360
 #EXTINF:-1 group-title="其他频道",都市剧场
@@ -2082,7 +3102,11 @@ http://111.227.194.105:4022/rtp/239.254.201.167:6360
 #EXTINF:-1 group-title="其他频道",都市剧场
 http://27.190.25.109:11001/rtp/239.254.201.167:6360
 #EXTINF:-1 group-title="其他频道",都市剧场
+http://27.190.25.109:11001/rtp/239.254.201.167:6360
+#EXTINF:-1 group-title="其他频道",都市剧场
 http://106.8.126.225:4022/rtp/239.254.201.167:6360
+#EXTINF:-1 group-title="其他频道",都市剧场
+http://27.189.127.201:4022/rtp/239.254.201.167:6360
 #EXTINF:-1 group-title="其他频道",金色学堂
 http://111.227.191.152:4000/rtp/239.254.201.182:7227
 #EXTINF:-1 group-title="其他频道",金色学堂
@@ -2090,7 +3114,11 @@ http://111.227.194.105:4022/rtp/239.254.201.182:7227
 #EXTINF:-1 group-title="其他频道",金色学堂
 http://27.190.25.109:11001/rtp/239.254.201.182:7227
 #EXTINF:-1 group-title="其他频道",金色学堂
+http://27.190.25.109:11001/rtp/239.254.201.182:7227
+#EXTINF:-1 group-title="其他频道",金色学堂
 http://106.8.126.225:4022/rtp/239.254.201.182:7227
+#EXTINF:-1 group-title="其他频道",金色学堂
+http://27.189.127.201:4022/rtp/239.254.201.182:7227
 #EXTINF:-1 group-title="其他频道",金鹰卡通
 http://111.227.191.152:4000/rtp/239.254.200.92:9252
 #EXTINF:-1 group-title="其他频道",金鹰卡通
@@ -2098,7 +3126,11 @@ http://111.227.194.105:4022/rtp/239.254.200.92:9252
 #EXTINF:-1 group-title="其他频道",金鹰卡通
 http://27.190.25.109:11001/rtp/239.254.200.92:9252
 #EXTINF:-1 group-title="其他频道",金鹰卡通
+http://27.190.25.109:11001/rtp/239.254.200.92:9252
+#EXTINF:-1 group-title="其他频道",金鹰卡通
 http://106.8.126.225:4022/rtp/239.254.200.92:9252
+#EXTINF:-1 group-title="其他频道",金鹰卡通
+http://27.189.127.201:4022/rtp/239.254.200.92:9252
 #EXTINF:-1 group-title="其他频道",金鹰纪实
 http://111.227.191.152:4000/rtp/239.254.200.189:6293
 #EXTINF:-1 group-title="其他频道",金鹰纪实
@@ -2106,7 +3138,11 @@ http://111.227.194.105:4022/rtp/239.254.200.189:6293
 #EXTINF:-1 group-title="其他频道",金鹰纪实
 http://27.190.25.109:11001/rtp/239.254.200.189:6293
 #EXTINF:-1 group-title="其他频道",金鹰纪实
+http://27.190.25.109:11001/rtp/239.254.200.189:6293
+#EXTINF:-1 group-title="其他频道",金鹰纪实
 http://106.8.126.225:4022/rtp/239.254.200.189:6293
+#EXTINF:-1 group-title="其他频道",金鹰纪实
+http://27.189.127.201:4022/rtp/239.254.200.189:6293
 #EXTINF:-1 group-title="其他频道",阜城电视
 http://111.227.191.152:4000/rtp/239.254.201.98:5361
 #EXTINF:-1 group-title="其他频道",阜城电视
@@ -2114,7 +3150,11 @@ http://111.227.194.105:4022/rtp/239.254.201.98:5361
 #EXTINF:-1 group-title="其他频道",阜城电视
 http://27.190.25.109:11001/rtp/239.254.201.98:5361
 #EXTINF:-1 group-title="其他频道",阜城电视
+http://27.190.25.109:11001/rtp/239.254.201.98:5361
+#EXTINF:-1 group-title="其他频道",阜城电视
 http://106.8.126.225:4022/rtp/239.254.201.98:5361
+#EXTINF:-1 group-title="其他频道",阜城电视
+http://27.189.127.201:4022/rtp/239.254.201.98:5361
 #EXTINF:-1 group-title="其他频道",阜平电视
 http://111.227.191.152:4000/rtp/239.254.201.40:5248
 #EXTINF:-1 group-title="其他频道",阜平电视
@@ -2122,7 +3162,11 @@ http://111.227.194.105:4022/rtp/239.254.201.40:5248
 #EXTINF:-1 group-title="其他频道",阜平电视
 http://27.190.25.109:11001/rtp/239.254.201.40:5248
 #EXTINF:-1 group-title="其他频道",阜平电视
+http://27.190.25.109:11001/rtp/239.254.201.40:5248
+#EXTINF:-1 group-title="其他频道",阜平电视
 http://106.8.126.225:4022/rtp/239.254.201.40:5248
+#EXTINF:-1 group-title="其他频道",阜平电视
+http://27.189.127.201:4022/rtp/239.254.201.40:5248
 #EXTINF:-1 group-title="其他频道",陶瓷
 http://111.227.191.152:4000/rtp/239.254.201.21:7175
 #EXTINF:-1 group-title="其他频道",陶瓷
@@ -2130,7 +3174,11 @@ http://111.227.194.105:4022/rtp/239.254.201.21:7175
 #EXTINF:-1 group-title="其他频道",陶瓷
 http://27.190.25.109:11001/rtp/239.254.201.21:7175
 #EXTINF:-1 group-title="其他频道",陶瓷
+http://27.190.25.109:11001/rtp/239.254.201.21:7175
+#EXTINF:-1 group-title="其他频道",陶瓷
 http://106.8.126.225:4022/rtp/239.254.201.21:7175
+#EXTINF:-1 group-title="其他频道",陶瓷
+http://27.189.127.201:4022/rtp/239.254.201.21:7175
 #EXTINF:-1 group-title="其他频道",隆化电视
 http://111.227.191.152:4000/rtp/239.254.201.142:5296
 #EXTINF:-1 group-title="其他频道",隆化电视
@@ -2138,7 +3186,11 @@ http://111.227.194.105:4022/rtp/239.254.201.142:5296
 #EXTINF:-1 group-title="其他频道",隆化电视
 http://27.190.25.109:11001/rtp/239.254.201.142:5296
 #EXTINF:-1 group-title="其他频道",隆化电视
+http://27.190.25.109:11001/rtp/239.254.201.142:5296
+#EXTINF:-1 group-title="其他频道",隆化电视
 http://106.8.126.225:4022/rtp/239.254.201.142:5296
+#EXTINF:-1 group-title="其他频道",隆化电视
+http://27.189.127.201:4022/rtp/239.254.201.142:5296
 #EXTINF:-1 group-title="其他频道",隆尧电视
 http://111.227.191.152:4000/rtp/239.254.201.69:5379
 #EXTINF:-1 group-title="其他频道",隆尧电视
@@ -2146,7 +3198,11 @@ http://111.227.194.105:4022/rtp/239.254.201.69:5379
 #EXTINF:-1 group-title="其他频道",隆尧电视
 http://27.190.25.109:11001/rtp/239.254.201.69:5379
 #EXTINF:-1 group-title="其他频道",隆尧电视
+http://27.190.25.109:11001/rtp/239.254.201.69:5379
+#EXTINF:-1 group-title="其他频道",隆尧电视
 http://106.8.126.225:4022/rtp/239.254.201.69:5379
+#EXTINF:-1 group-title="其他频道",隆尧电视
+http://27.189.127.201:4022/rtp/239.254.201.69:5379
 #EXTINF:-1 group-title="其他频道",雄县电视
 http://111.227.191.152:4000/rtp/239.254.201.94:6254
 #EXTINF:-1 group-title="其他频道",雄县电视
@@ -2154,7 +3210,11 @@ http://111.227.194.105:4022/rtp/239.254.201.94:6254
 #EXTINF:-1 group-title="其他频道",雄县电视
 http://27.190.25.109:11001/rtp/239.254.201.94:6254
 #EXTINF:-1 group-title="其他频道",雄县电视
+http://27.190.25.109:11001/rtp/239.254.201.94:6254
+#EXTINF:-1 group-title="其他频道",雄县电视
 http://106.8.126.225:4022/rtp/239.254.201.94:6254
+#EXTINF:-1 group-title="其他频道",雄县电视
+http://27.189.127.201:4022/rtp/239.254.201.94:6254
 #EXTINF:-1 group-title="其他频道",霸州电视
 http://111.227.191.152:4000/rtp/239.254.200.4:5313
 #EXTINF:-1 group-title="其他频道",霸州电视
@@ -2162,7 +3222,11 @@ http://111.227.194.105:4022/rtp/239.254.200.4:5313
 #EXTINF:-1 group-title="其他频道",霸州电视
 http://27.190.25.109:11001/rtp/239.254.200.4:5313
 #EXTINF:-1 group-title="其他频道",霸州电视
+http://27.190.25.109:11001/rtp/239.254.200.4:5313
+#EXTINF:-1 group-title="其他频道",霸州电视
 http://106.8.126.225:4022/rtp/239.254.200.4:5313
+#EXTINF:-1 group-title="其他频道",霸州电视
+http://27.189.127.201:4022/rtp/239.254.200.4:5313
 #EXTINF:-1 group-title="其他频道",青县电视
 http://111.227.191.152:4000/rtp/239.254.201.112:5333
 #EXTINF:-1 group-title="其他频道",青县电视
@@ -2170,7 +3234,11 @@ http://111.227.194.105:4022/rtp/239.254.201.112:5333
 #EXTINF:-1 group-title="其他频道",青县电视
 http://27.190.25.109:11001/rtp/239.254.201.112:5333
 #EXTINF:-1 group-title="其他频道",青县电视
+http://27.190.25.109:11001/rtp/239.254.201.112:5333
+#EXTINF:-1 group-title="其他频道",青县电视
 http://106.8.126.225:4022/rtp/239.254.201.112:5333
+#EXTINF:-1 group-title="其他频道",青县电视
+http://27.189.127.201:4022/rtp/239.254.201.112:5333
 #EXTINF:-1 group-title="其他频道",靓妆
 http://111.227.191.152:4000/rtp/239.254.200.122:6249
 #EXTINF:-1 group-title="其他频道",靓妆
@@ -2178,7 +3246,11 @@ http://111.227.194.105:4022/rtp/239.254.200.122:6249
 #EXTINF:-1 group-title="其他频道",靓妆
 http://27.190.25.109:11001/rtp/239.254.200.122:6249
 #EXTINF:-1 group-title="其他频道",靓妆
+http://27.190.25.109:11001/rtp/239.254.200.122:6249
+#EXTINF:-1 group-title="其他频道",靓妆
 http://106.8.126.225:4022/rtp/239.254.200.122:6249
+#EXTINF:-1 group-title="其他频道",靓妆
+http://27.189.127.201:4022/rtp/239.254.200.122:6249
 #EXTINF:-1 group-title="其他频道",音像世界（DOXTV）
 http://111.227.191.152:4000/rtp/239.254.201.175:7243
 #EXTINF:-1 group-title="其他频道",音像世界（DOXTV）
@@ -2186,7 +3258,11 @@ http://111.227.194.105:4022/rtp/239.254.201.175:7243
 #EXTINF:-1 group-title="其他频道",音像世界（DOXTV）
 http://27.190.25.109:11001/rtp/239.254.201.175:7243
 #EXTINF:-1 group-title="其他频道",音像世界（DOXTV）
+http://27.190.25.109:11001/rtp/239.254.201.175:7243
+#EXTINF:-1 group-title="其他频道",音像世界（DOXTV）
 http://106.8.126.225:4022/rtp/239.254.201.175:7243
+#EXTINF:-1 group-title="其他频道",音像世界（DOXTV）
+http://27.189.127.201:4022/rtp/239.254.201.175:7243
 #EXTINF:-1 group-title="其他频道",顺平电视
 http://111.227.191.152:4000/rtp/239.254.201.118:6257
 #EXTINF:-1 group-title="其他频道",顺平电视
@@ -2194,7 +3270,11 @@ http://111.227.194.105:4022/rtp/239.254.201.118:6257
 #EXTINF:-1 group-title="其他频道",顺平电视
 http://27.190.25.109:11001/rtp/239.254.201.118:6257
 #EXTINF:-1 group-title="其他频道",顺平电视
+http://27.190.25.109:11001/rtp/239.254.201.118:6257
+#EXTINF:-1 group-title="其他频道",顺平电视
 http://106.8.126.225:4022/rtp/239.254.201.118:6257
+#EXTINF:-1 group-title="其他频道",顺平电视
+http://27.189.127.201:4022/rtp/239.254.201.118:6257
 #EXTINF:-1 group-title="其他频道",风云剧场
 http://111.227.191.152:4000/rtp/239.254.200.94:6228
 #EXTINF:-1 group-title="其他频道",风云剧场
@@ -2202,7 +3282,11 @@ http://111.227.194.105:4022/rtp/239.254.200.94:6228
 #EXTINF:-1 group-title="其他频道",风云剧场
 http://27.190.25.109:11001/rtp/239.254.200.94:6228
 #EXTINF:-1 group-title="其他频道",风云剧场
+http://27.190.25.109:11001/rtp/239.254.200.94:6228
+#EXTINF:-1 group-title="其他频道",风云剧场
 http://106.8.126.225:4022/rtp/239.254.200.94:6228
+#EXTINF:-1 group-title="其他频道",风云剧场
+http://27.189.127.201:4022/rtp/239.254.200.94:6228
 #EXTINF:-1 group-title="其他频道",风云剧场高清
 http://111.227.191.152:4000/rtp/239.254.201.219:7257
 #EXTINF:-1 group-title="其他频道",风云剧场高清
@@ -2210,7 +3294,11 @@ http://111.227.194.105:4022/rtp/239.254.201.219:7257
 #EXTINF:-1 group-title="其他频道",风云剧场高清
 http://27.190.25.109:11001/rtp/239.254.201.219:7257
 #EXTINF:-1 group-title="其他频道",风云剧场高清
+http://27.190.25.109:11001/rtp/239.254.201.219:7257
+#EXTINF:-1 group-title="其他频道",风云剧场高清
 http://106.8.126.225:4022/rtp/239.254.201.219:7257
+#EXTINF:-1 group-title="其他频道",风云剧场高清
+http://27.189.127.201:4022/rtp/239.254.201.219:7257
 #EXTINF:-1 group-title="其他频道",风云足球
 http://111.227.191.152:4000/rtp/239.254.200.97:6231
 #EXTINF:-1 group-title="其他频道",风云足球
@@ -2218,7 +3306,11 @@ http://111.227.194.105:4022/rtp/239.254.200.97:6231
 #EXTINF:-1 group-title="其他频道",风云足球
 http://27.190.25.109:11001/rtp/239.254.200.97:6231
 #EXTINF:-1 group-title="其他频道",风云足球
+http://27.190.25.109:11001/rtp/239.254.200.97:6231
+#EXTINF:-1 group-title="其他频道",风云足球
 http://106.8.126.225:4022/rtp/239.254.200.97:6231
+#EXTINF:-1 group-title="其他频道",风云足球
+http://27.189.127.201:4022/rtp/239.254.200.97:6231
 #EXTINF:-1 group-title="其他频道",风云足球高清
 http://111.227.191.152:4000/rtp/239.254.201.222:7251
 #EXTINF:-1 group-title="其他频道",风云足球高清
@@ -2226,7 +3318,11 @@ http://111.227.194.105:4022/rtp/239.254.201.222:7251
 #EXTINF:-1 group-title="其他频道",风云足球高清
 http://27.190.25.109:11001/rtp/239.254.201.222:7251
 #EXTINF:-1 group-title="其他频道",风云足球高清
+http://27.190.25.109:11001/rtp/239.254.201.222:7251
+#EXTINF:-1 group-title="其他频道",风云足球高清
 http://106.8.126.225:4022/rtp/239.254.201.222:7251
+#EXTINF:-1 group-title="其他频道",风云足球高清
+http://27.189.127.201:4022/rtp/239.254.201.222:7251
 #EXTINF:-1 group-title="其他频道",风云音乐
 http://111.227.191.152:4000/rtp/239.254.200.96:6230
 #EXTINF:-1 group-title="其他频道",风云音乐
@@ -2234,7 +3330,11 @@ http://111.227.194.105:4022/rtp/239.254.200.96:6230
 #EXTINF:-1 group-title="其他频道",风云音乐
 http://27.190.25.109:11001/rtp/239.254.200.96:6230
 #EXTINF:-1 group-title="其他频道",风云音乐
+http://27.190.25.109:11001/rtp/239.254.200.96:6230
+#EXTINF:-1 group-title="其他频道",风云音乐
 http://106.8.126.225:4022/rtp/239.254.200.96:6230
+#EXTINF:-1 group-title="其他频道",风云音乐
+http://27.189.127.201:4022/rtp/239.254.200.96:6230
 #EXTINF:-1 group-title="其他频道",风云音乐高清
 http://111.227.191.152:4000/rtp/239.254.201.221:7259
 #EXTINF:-1 group-title="其他频道",风云音乐高清
@@ -2242,7 +3342,11 @@ http://111.227.194.105:4022/rtp/239.254.201.221:7259
 #EXTINF:-1 group-title="其他频道",风云音乐高清
 http://27.190.25.109:11001/rtp/239.254.201.221:7259
 #EXTINF:-1 group-title="其他频道",风云音乐高清
+http://27.190.25.109:11001/rtp/239.254.201.221:7259
+#EXTINF:-1 group-title="其他频道",风云音乐高清
 http://106.8.126.225:4022/rtp/239.254.201.221:7259
+#EXTINF:-1 group-title="其他频道",风云音乐高清
+http://27.189.127.201:4022/rtp/239.254.201.221:7259
 #EXTINF:-1 group-title="其他频道",饶阳电视
 http://111.227.191.152:4000/rtp/239.254.201.44:5353
 #EXTINF:-1 group-title="其他频道",饶阳电视
@@ -2250,7 +3354,11 @@ http://111.227.194.105:4022/rtp/239.254.201.44:5353
 #EXTINF:-1 group-title="其他频道",饶阳电视
 http://27.190.25.109:11001/rtp/239.254.201.44:5353
 #EXTINF:-1 group-title="其他频道",饶阳电视
+http://27.190.25.109:11001/rtp/239.254.201.44:5353
+#EXTINF:-1 group-title="其他频道",饶阳电视
 http://106.8.126.225:4022/rtp/239.254.201.44:5353
+#EXTINF:-1 group-title="其他频道",饶阳电视
+http://27.189.127.201:4022/rtp/239.254.201.44:5353
 #EXTINF:-1 group-title="其他频道",馆陶电视
 http://111.227.191.152:4000/rtp/239.254.201.106:5224
 #EXTINF:-1 group-title="其他频道",馆陶电视
@@ -2258,7 +3366,11 @@ http://111.227.194.105:4022/rtp/239.254.201.106:5224
 #EXTINF:-1 group-title="其他频道",馆陶电视
 http://27.190.25.109:11001/rtp/239.254.201.106:5224
 #EXTINF:-1 group-title="其他频道",馆陶电视
+http://27.190.25.109:11001/rtp/239.254.201.106:5224
+#EXTINF:-1 group-title="其他频道",馆陶电视
 http://106.8.126.225:4022/rtp/239.254.201.106:5224
+#EXTINF:-1 group-title="其他频道",馆陶电视
+http://27.189.127.201:4022/rtp/239.254.201.106:5224
 #EXTINF:-1 group-title="其他频道",香河电视
 http://111.227.191.152:4000/rtp/239.254.201.32:5306
 #EXTINF:-1 group-title="其他频道",香河电视
@@ -2266,7 +3378,11 @@ http://111.227.194.105:4022/rtp/239.254.201.32:5306
 #EXTINF:-1 group-title="其他频道",香河电视
 http://27.190.25.109:11001/rtp/239.254.201.32:5306
 #EXTINF:-1 group-title="其他频道",香河电视
+http://27.190.25.109:11001/rtp/239.254.201.32:5306
+#EXTINF:-1 group-title="其他频道",香河电视
 http://106.8.126.225:4022/rtp/239.254.201.32:5306
+#EXTINF:-1 group-title="其他频道",香河电视
+http://27.189.127.201:4022/rtp/239.254.201.32:5306
 #EXTINF:-1 group-title="其他频道",马拉松
 http://111.227.191.152:4000/rtp/239.254.201.173:7246
 #EXTINF:-1 group-title="其他频道",马拉松
@@ -2274,7 +3390,11 @@ http://111.227.194.105:4022/rtp/239.254.201.173:7246
 #EXTINF:-1 group-title="其他频道",马拉松
 http://27.190.25.109:11001/rtp/239.254.201.173:7246
 #EXTINF:-1 group-title="其他频道",马拉松
+http://27.190.25.109:11001/rtp/239.254.201.173:7246
+#EXTINF:-1 group-title="其他频道",马拉松
 http://106.8.126.225:4022/rtp/239.254.201.173:7246
+#EXTINF:-1 group-title="其他频道",马拉松
+http://27.189.127.201:4022/rtp/239.254.201.173:7246
 #EXTINF:-1 group-title="其他频道",高尔夫网球
 http://111.227.191.152:4000/rtp/239.254.200.98:6232
 #EXTINF:-1 group-title="其他频道",高尔夫网球
@@ -2282,7 +3402,11 @@ http://111.227.194.105:4022/rtp/239.254.200.98:6232
 #EXTINF:-1 group-title="其他频道",高尔夫网球
 http://27.190.25.109:11001/rtp/239.254.200.98:6232
 #EXTINF:-1 group-title="其他频道",高尔夫网球
+http://27.190.25.109:11001/rtp/239.254.200.98:6232
+#EXTINF:-1 group-title="其他频道",高尔夫网球
 http://106.8.126.225:4022/rtp/239.254.200.98:6232
+#EXTINF:-1 group-title="其他频道",高尔夫网球
+http://27.189.127.201:4022/rtp/239.254.200.98:6232
 #EXTINF:-1 group-title="其他频道",高尔夫网球高清
 http://111.227.191.152:4000/rtp/239.254.201.223:7252
 #EXTINF:-1 group-title="其他频道",高尔夫网球高清
@@ -2290,7 +3414,11 @@ http://111.227.194.105:4022/rtp/239.254.201.223:7252
 #EXTINF:-1 group-title="其他频道",高尔夫网球高清
 http://27.190.25.109:11001/rtp/239.254.201.223:7252
 #EXTINF:-1 group-title="其他频道",高尔夫网球高清
+http://27.190.25.109:11001/rtp/239.254.201.223:7252
+#EXTINF:-1 group-title="其他频道",高尔夫网球高清
 http://106.8.126.225:4022/rtp/239.254.201.223:7252
+#EXTINF:-1 group-title="其他频道",高尔夫网球高清
+http://27.189.127.201:4022/rtp/239.254.201.223:7252
 #EXTINF:-1 group-title="其他频道",高碑店电视
 http://111.227.191.152:4000/rtp/239.254.200.210:5254
 #EXTINF:-1 group-title="其他频道",高碑店电视
@@ -2298,7 +3426,11 @@ http://111.227.194.105:4022/rtp/239.254.200.210:5254
 #EXTINF:-1 group-title="其他频道",高碑店电视
 http://27.190.25.109:11001/rtp/239.254.200.210:5254
 #EXTINF:-1 group-title="其他频道",高碑店电视
+http://27.190.25.109:11001/rtp/239.254.200.210:5254
+#EXTINF:-1 group-title="其他频道",高碑店电视
 http://106.8.126.225:4022/rtp/239.254.200.210:5254
+#EXTINF:-1 group-title="其他频道",高碑店电视
+http://27.189.127.201:4022/rtp/239.254.200.210:5254
 #EXTINF:-1 group-title="其他频道",高邑电视
 http://111.227.191.152:4000/rtp/239.254.201.24:5170
 #EXTINF:-1 group-title="其他频道",高邑电视
@@ -2306,7 +3438,11 @@ http://111.227.194.105:4022/rtp/239.254.201.24:5170
 #EXTINF:-1 group-title="其他频道",高邑电视
 http://27.190.25.109:11001/rtp/239.254.201.24:5170
 #EXTINF:-1 group-title="其他频道",高邑电视
+http://27.190.25.109:11001/rtp/239.254.201.24:5170
+#EXTINF:-1 group-title="其他频道",高邑电视
 http://106.8.126.225:4022/rtp/239.254.201.24:5170
+#EXTINF:-1 group-title="其他频道",高邑电视
+http://27.189.127.201:4022/rtp/239.254.201.24:5170
 #EXTINF:-1 group-title="其他频道",高阳电视
 http://111.227.191.152:4000/rtp/239.254.201.96:6253
 #EXTINF:-1 group-title="其他频道",高阳电视
@@ -2314,7 +3450,11 @@ http://111.227.194.105:4022/rtp/239.254.201.96:6253
 #EXTINF:-1 group-title="其他频道",高阳电视
 http://27.190.25.109:11001/rtp/239.254.201.96:6253
 #EXTINF:-1 group-title="其他频道",高阳电视
+http://27.190.25.109:11001/rtp/239.254.201.96:6253
+#EXTINF:-1 group-title="其他频道",高阳电视
 http://106.8.126.225:4022/rtp/239.254.201.96:6253
+#EXTINF:-1 group-title="其他频道",高阳电视
+http://27.189.127.201:4022/rtp/239.254.201.96:6253
 #EXTINF:-1 group-title="其他频道",魏县电视
 http://111.227.191.152:4000/rtp/239.254.201.148:6211
 #EXTINF:-1 group-title="其他频道",魏县电视
@@ -2322,7 +3462,11 @@ http://111.227.194.105:4022/rtp/239.254.201.148:6211
 #EXTINF:-1 group-title="其他频道",魏县电视
 http://27.190.25.109:11001/rtp/239.254.201.148:6211
 #EXTINF:-1 group-title="其他频道",魏县电视
+http://27.190.25.109:11001/rtp/239.254.201.148:6211
+#EXTINF:-1 group-title="其他频道",魏县电视
 http://106.8.126.225:4022/rtp/239.254.201.148:6211
+#EXTINF:-1 group-title="其他频道",魏县电视
+http://27.189.127.201:4022/rtp/239.254.201.148:6211
 #EXTINF:-1 group-title="其他频道",鸡泽电视
 http://111.227.191.152:4000/rtp/239.254.201.60:5218
 #EXTINF:-1 group-title="其他频道",鸡泽电视
@@ -2330,7 +3474,11 @@ http://111.227.194.105:4022/rtp/239.254.201.60:5218
 #EXTINF:-1 group-title="其他频道",鸡泽电视
 http://27.190.25.109:11001/rtp/239.254.201.60:5218
 #EXTINF:-1 group-title="其他频道",鸡泽电视
+http://27.190.25.109:11001/rtp/239.254.201.60:5218
+#EXTINF:-1 group-title="其他频道",鸡泽电视
 http://106.8.126.225:4022/rtp/239.254.201.60:5218
+#EXTINF:-1 group-title="其他频道",鸡泽电视
+http://27.189.127.201:4022/rtp/239.254.201.60:5218
 #EXTINF:-1 group-title="其他频道",鹿泉电视
 http://111.227.191.152:4000/rtp/239.254.201.204:6166
 #EXTINF:-1 group-title="其他频道",鹿泉电视
@@ -2338,7 +3486,11 @@ http://111.227.194.105:4022/rtp/239.254.201.204:6166
 #EXTINF:-1 group-title="其他频道",鹿泉电视
 http://27.190.25.109:11001/rtp/239.254.201.204:6166
 #EXTINF:-1 group-title="其他频道",鹿泉电视
+http://27.190.25.109:11001/rtp/239.254.201.204:6166
+#EXTINF:-1 group-title="其他频道",鹿泉电视
 http://106.8.126.225:4022/rtp/239.254.201.204:6166
+#EXTINF:-1 group-title="其他频道",鹿泉电视
+http://27.189.127.201:4022/rtp/239.254.201.204:6166
 #EXTINF:-1 group-title="其他频道",黄骅电视
 http://111.227.191.152:4000/rtp/239.254.201.36:5325
 #EXTINF:-1 group-title="其他频道",黄骅电视
@@ -2346,4 +3498,8 @@ http://111.227.194.105:4022/rtp/239.254.201.36:5325
 #EXTINF:-1 group-title="其他频道",黄骅电视
 http://27.190.25.109:11001/rtp/239.254.201.36:5325
 #EXTINF:-1 group-title="其他频道",黄骅电视
+http://27.190.25.109:11001/rtp/239.254.201.36:5325
+#EXTINF:-1 group-title="其他频道",黄骅电视
 http://106.8.126.225:4022/rtp/239.254.201.36:5325
+#EXTINF:-1 group-title="其他频道",黄骅电视
+http://27.189.127.201:4022/rtp/239.254.201.36:5325
