@@ -26,8 +26,8 @@ jobs:
       #- name: Run a
        # run: python ${{ github.workspace }}/a.py
 
-      - name: Run a.py
-        run: python ${{ github.workspace }}/a.py
+      - name: Run iptv6.py
+        run: python ${{ github.workspace }}/iptv6.py
         
       #- name: Run b
       #  run: python ${{ github.workspace }}/b.py
