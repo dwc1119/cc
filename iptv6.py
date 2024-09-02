@@ -10,7 +10,7 @@ from queue import Queue
 
 ###urls城市根据自己所处的地理位置修改
 urls = [
-    "https://h.xinhuaxmt.com/vh512/share/12171136?homeshow=1&newstype=1001",#北京联通
+    "https://m.baidu.com/?from=1012852z",#北京联通
     #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImNhbmd6aG91Ig%3D%3D",#北京联通
     #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
     #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
