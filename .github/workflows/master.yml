@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
     
       - name: Set up Python
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v5
         with:
           python-version: 3.x
 
@@ -27,7 +27,7 @@ jobs:
        # run: python ${{ github.workspace }}/a.py
 
       - name: Run itv.py
-        run: python ${{ github.workspace }}/iptv6.py
+        run: python ${{ github.workspace }}/itv.py
         
       #- name: Run b
       #  run: python ${{ github.workspace }}/b.py
