@@ -20,7 +20,7 @@ results = []
 channels = []
 error_channels = []
 
-with open("itvlist.txt", 'r', encoding='utf-8') as file:
+with open("iptv6.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         line = line.strip()
