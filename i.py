@@ -60,6 +60,7 @@ urls_udp = "/rtp/239.254.200.45:8008"
 
 # 提取唯一的IP地址和端口号
 ip_ports = []
+valid_ips = []
 for url in urls:
     ip_port = extract_unique_ip_ports(url)
     ip_ports.append(ip_port)
@@ -67,14 +68,16 @@ for url in urls:
     print("提取到的唯一IP地址和端口号：")
 
     print(ip_port)
-    
-    # 测试每个IP地址和端口号，直到找到一个可访问的视频流
-valid_ips = []
-for ip_port in ip_ports:
+    #测试每个IP地址和端口号，直到找到一个可访问的视频流
+    for ip_port in ip_ports:
     valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
     if valid_ip:
         print(f"找到可访问的视频流服务: {valid_ip}")
         valid_ips.append(valid_ip)
+    
+    
+
+
 
 channels = []
 with open("iptv.txt", 'r', encoding='utf-8') as file:
