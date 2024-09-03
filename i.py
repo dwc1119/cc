@@ -1,52 +1,48 @@
 import time
+import os
 import concurrent.futures
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 import requests
 import re
-import os
 import threading
 from queue import Queue
 import eventlet
-import sys
-sys.setrecursionlimit(10000) 
 eventlet.monkey_patch()
 
+###urls城市根据自己所处的地理位置修改
 urls = [
-   # "https://fofa.info/result?qbase64=ImlwdHYvbGl2ZS96aF9jbi5qcyIgJiYgY291bnRyeT0iQ04iICYmIHJlZ2lvbj0iSGViZWki",  # Hebei (河北)
-    "http://111.227.194.117:4022/status",  # Beijing (北京)
-    "http://111.227.194.117:4022/status"
-     "http://111.227.194.117:4022/status"
-     "http://111.227.204.111:4022/status"
-     "http://106.116.2.100:8890/status"
-     "http://123.180.177.20:16000/status"
-     "http://106.8.126.232:4022/status"
-     "http://139.189.80.76:4022/status"
-      "http://111.227.204.111:4022/status"
-    ]
-for url in urls:
-    # 创建一个Chrome WebDriver实例
-    chrome_options = Options()
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--no-sandbox')
-    chrome_options.add_argument('--disable-dev-shm-usage')
-
-    driver = webdriver.Chrome(options=chrome_options)
-    # 使用WebDriver访问网页
-    driver.get(url)  # 将网址替换为你要访问的网页地址
-    time.sleep(10)
-    # 获取网页内容
-    page_content = driver.page_source
-
-    # 关闭WebDriver
-    driver.quit()
-
-    # 查找所有符合指定格式的网址
-    if "<td>2</td>" in page_content:
-       print(url)
-   
-   
-   
-    
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIHJlZ2lvbj0iaGViZWki",#河北
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImxhbmdmYW5nIg%3D%3D",#廊坊
+    "https://site.ip138.com/mail.petzhu.top/"#河北
+]
 
 
+def modify_urls(url):
+    modified_urls = []
+    ip_start_index = url.find("//") + 2
+    ip_end_index = url.find(":", ip_start_index)
+    base_url = url[:ip_start_index]  # http:// or https://
+    ip_address = url[ip_start_index:ip_end_index]
+    port = url[ip_end_index:]
+    ip_end = "/status"
+    for i in range(1, 256):
+        modified_ip = f"{ip_address[:-1]}{i}"
+        modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
+        modified_urls.append(modified_url)
+
+    return modified_urls
+
+
+def is_url_accessible(url):
+    try:
+        response = requests.get(url, timeout=0.5)
+        if response.status_code == 200:
+            return url
+            print(url)
+    except requests.exceptions.RequestException:
+        pass
+    return None
+   print(error)
