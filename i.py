@@ -15,9 +15,9 @@ urls = [
 # fofa_url = 'http://tonkiang.us/hoteliptv.php?page=1&pv=%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A'
 
 # 尝试从fofa链接提取IP地址和端口号，并去除重复项
-def extract_unique_ip_ports(fofa_url):
+def extract_unique_ip_ports(url):
     try:
-        response = requests.get(fofa_url)
+        response = requests.get(url)
         html_content = response.text
         # 使用正则表达式匹配IP地址和端口号
         ips_ports = re.findall(r'(\d+\.\d+\.\d+\.\d+:\d+)', html_content)
@@ -51,28 +51,7 @@ def check_video_stream_connectivity(ip_port, urls_udp):
             cap.release()
     except Exception as e:
         print(f"访问 {ip_port} 失败: {e}")
-    return None
-
-# 更新文件中的IP地址和端口号
-def update_files(accessible_ip_port, files_to_update):
-    for file_info in files_to_update:
-        try:
-            # 读取原始文件内容
-            response = requests.get(file_info['url'])
-            file_content = response.text
-
-            # 替换文件中的IP地址和端口号
-            # 假设文件中的IP地址和端口号格式为 http://IP:PORT
-            ip_port_pattern = r'(http://\d+\.\d+\.\d+\.\d+:\d+)'
-            updated_content = re.sub(ip_port_pattern, f'http://{accessible_ip_port}', file_content)
-
-            # 保存更新后的内容到新文件
-            with open(file_info['filename'], 'w', encoding='utf-8') as file:
-                file.write(updated_content)
-
-            print(f"文件 {file_info['filename']} 已更新并保存。")
-        except requests.RequestException as e:
-            print(f"无法更新文件 {file_info['filename']}，错误: {e}")
+    return None           
 
 # 定义组播地址和端口
 urls_udp = "/rtp/239.254.200.45:8008"
