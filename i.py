@@ -16,16 +16,18 @@ urls = [
 
 # 尝试从fofa链接提取IP地址和端口号，并去除重复项
 def extract_unique_ip_ports(url):
-    try:
-        response = requests.get(url)
-        html_content = response.text
+    for url in urls:
+        try:
+            response = requests.get(url)
+            time.sleep(10)
+            html_content = response.text
         # 使用正则表达式匹配IP地址和端口号
-        ips_ports = re.findall(r'(\d+\.\d+\.\d+\.\d+:\d+)', html_content)
-        unique_ips_ports = list(set(ips_ports))  # 去除重复的IP地址和端口号
-        return unique_ips_ports if unique_ips_ports else None
-    except requests.RequestException as e:
-        print(f"请求错误: {e}")
-        return None
+            ips_ports = re.findall(r'(\d+\.\d+\.\d+\.\d+:\d+)', html_content)
+            unique_ips_ports = list(set(ips_ports))  # 去除重复的IP地址和端口号
+            return unique_ips_ports if unique_ips_ports else None
+        except requests.RequestException as e:
+            print(f"请求错误: {e}")
+            return None
 
 # 检查视频流的可达性
 def check_video_stream_connectivity(ip_port, urls_udp):
@@ -57,8 +59,7 @@ def check_video_stream_connectivity(ip_port, urls_udp):
 urls_udp = "/rtp/239.254.200.45:8008"
 
 # 提取唯一的IP地址和端口号
-for url in urls:
-    unique_ips_ports = extract_unique_ip_ports(url)
+unique_ips_ports = extract_unique_ip_ports(url)
 
 if unique_ips_ports:
     print("提取到的唯一IP地址和端口号：")
