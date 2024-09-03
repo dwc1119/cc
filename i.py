@@ -61,7 +61,7 @@ urls_udp = "/rtp/239.254.200.45:8008"
 
 # 提取唯一的IP地址和端口号
 ip_ports = []
-for ip_port in ip_ports:
+for url in urls:
     ip_port = extract_unique_ip_ports(url)
     ip_ports.append(ip_port)
 
