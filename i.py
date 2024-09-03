@@ -27,8 +27,6 @@ def extract_unique_ip_ports(url):
          
         if unique_ips_ports:
             return unique_ips_ports
-        else:
-            continue
 
     except requests.RequestException as e:
         print(f"请求错误: {e}")
