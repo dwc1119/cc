@@ -26,5 +26,4 @@ for url in urls:
             print(url)
     except requests.exceptions.RequestException:
         pass
-    return None
     print(error)
