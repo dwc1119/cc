@@ -79,11 +79,11 @@ if unique_ips_ports:
     
     # 测试每个IP地址和端口号，直到找到一个可访问的视频流
 valid_ips = []
-    for ip_port in unique_ips_ports:
-        valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
-        if valid_ip:
-            print(f"找到可访问的视频流服务: {valid_ip}")
-            valid_ips.append(valid_ip)
+for ip_port in unique_ips_ports:
+    valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
+    if valid_ip:
+        print(f"找到可访问的视频流服务: {valid_ip}")
+        valid_ips.append(valid_ip)
 
 channels = []
 with open("iptv.txt", 'r', encoding='utf-8') as file:
