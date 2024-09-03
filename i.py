@@ -15,7 +15,7 @@ urls = [
 ]
 # fofa_url = 'http://tonkiang.us/hoteliptv.php?page=1&pv=%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A'
 
-# 尝试从fofa链接提取IP地址和端口号，并去除重复项
+# 尝试从fofa链接提取IP地址和端口号，并除重复项
 def extract_unique_ip_ports(url):
     for url in urls:
         try:
