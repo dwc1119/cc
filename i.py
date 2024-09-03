@@ -17,18 +17,17 @@ urls = [
 
 # 尝试从fofa链接提取IP地址和端口号，并除重复项
 def extract_unique_ip_ports(url):
-    for url in urls:
-        try:
-            response = requests.get(url)
-            time.sleep(10)
-            html_content = response.text
+    try:
+        response = requests.get(url)
+        time.sleep(10)
+        html_content = response.text
         # 使用正则表达式匹配IP地址和端口号
-            ips_ports = re.findall(r'(\d+\.\d+\.\d+\.\d+:\d+)', html_content)
-            unique_ips_ports = list(set(ips_ports))  # 去除重复的IP地址和端口号
+        ips_ports = re.findall(r'(\d+\.\d+\.\d+\.\d+:\d+)', html_content)
+        unique_ips_ports = list(set(ips_ports))  # 去除重复的IP地址和端口号
 
-        except requests.RequestException as e:
-            print(f"请求错误: {e}")
-            return None
+    except requests.RequestException as e:
+        print(f"请求错误: {e}")
+        return None
 
 # 检查视频流的可达性
 def check_video_stream_connectivity(ip_port, urls_udp):
