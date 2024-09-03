@@ -3,7 +3,7 @@ import re
 import cv2  # 导入OpenCV库
 
 # 定义fofa链接
-fofa_url = [
+urls = [
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
     "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InNoaWppYXpodWFuZyI%3D",#石家庄
@@ -78,7 +78,8 @@ def update_files(accessible_ip_port, files_to_update):
 urls_udp = "/rtp/239.254.200.45:8008"
 
 # 提取唯一的IP地址和端口号
-unique_ips_ports = extract_unique_ip_ports(fofa_url)
+for url in urls:
+    unique_ips_ports = extract_unique_ip_ports(url)
 
 if unique_ips_ports:
     print("提取到的唯一IP地址和端口号：")
