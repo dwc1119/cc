@@ -24,6 +24,8 @@ for url in urls:
         response = requests.get(url, timeout=0.5)
         if response.status_code == 200:
             print(url)
+        else
+        continue
     except requests.exceptions.RequestException:
         pass
     print(error)
