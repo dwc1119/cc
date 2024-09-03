@@ -19,7 +19,7 @@ urls = [
     "https://site.ip138.com/mail.petzhu.top/"#河北
 ]
 
-def is_url_accessible(url):
+for url in urls:
     try:
         response = requests.get(url, timeout=0.5)
         if response.status_code == 200:
