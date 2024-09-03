@@ -9,6 +9,8 @@ import threading
 from queue import Queue
 import eventlet
 eventlet.monkey_patch()
+import sys
+sys.setrecursionlimit(100000000)
 
 ###urls城市根据自己所处的地理位置修改
 #urls = [
