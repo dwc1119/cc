@@ -22,6 +22,7 @@ sys.setrecursionlimit(100000000)
 #]
 
 url = 'https://example.com'
+print(url)
 try:
     response = requests.get(url, timeout=5)  # 设置超时时间为5秒
     response.raise_for_status()  # 检查是否请求成功
