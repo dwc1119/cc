@@ -65,7 +65,7 @@ for url in urls:
     ip_port = extract_unique_ip_ports(url)
     ip_ports.append(ip_port)
 
-    print("提取到的唯一IP地址和端口号：")
+    print("IP地址和端口号：")
 
     print(ip_port)
     #测试每个IP地址和端口号，直到找到一个可访问的视频流
