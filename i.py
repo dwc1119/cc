@@ -19,24 +19,6 @@ urls = [
     "https://site.ip138.com/mail.petzhu.top/"#河北
 ]
 
-
-def modify_urls(url):
-    modified_urls = []
-    ip_start_index = url.find("//") + 2
-    ip_end_index = url.find(":", ip_start_index)
-    base_url = url[:ip_start_index]  # http:// or https://
-    ip_address = url[ip_start_index:ip_end_index]
-    port = url[ip_end_index:]
-    ip_end = "/status"
-    for i in range(1, 256):
-        modified_ip = f"{ip_address[:-1]}{i}"
-        modified_url = f"{base_url}{modified_ip}{port}{ip_end}"
-        modified_urls.append(modified_url)
-
-    return modified_urls
-    print(modified_urls)
-
-
 def is_url_accessible(url):
     try:
         response = requests.get(url, timeout=0.5)
