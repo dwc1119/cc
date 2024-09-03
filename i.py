@@ -62,11 +62,10 @@ urls_udp = "/rtp/239.254.200.45:8008"
 # 提取唯一的IP地址和端口号
 for url in urls:
     unique_ips_ports = extract_unique_ip_ports(url)
-
-if unique_ips_ports:
-    print("提取到的唯一IP地址和端口号：")
-    for ip_port in unique_ips_ports:
-        print(ip_port)
+    if unique_ips_ports:
+        print("提取到的唯一IP地址和端口号：")
+        for ip_port in unique_ips_ports:
+            print(ip_port)
     
     # 测试每个IP地址和端口号，直到找到一个可访问的视频流
 valid_ips = []
