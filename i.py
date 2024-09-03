@@ -59,7 +59,8 @@ def check_video_stream_connectivity(ip_port, urls_udp):
 urls_udp = "/rtp/239.254.200.45:8008"
 
 # 提取唯一的IP地址和端口号
-unique_ips_ports = extract_unique_ip_ports(url)
+for url in urls:
+    unique_ips_ports = extract_unique_ip_ports(url)
 
 if unique_ips_ports:
     print("提取到的唯一IP地址和端口号：")
