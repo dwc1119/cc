@@ -24,5 +24,5 @@ for url in urls:
     if response.status_code == 200:
         print(url)
     else:
-        print(error)
+        continue
     
