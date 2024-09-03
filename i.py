@@ -70,10 +70,10 @@ for url in urls:
     print(ip_port)
     #测试每个IP地址和端口号，直到找到一个可访问的视频流
     for ip_port in ip_ports:
-    valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
-    if valid_ip:
-        print(f"找到可访问的视频流服务: {valid_ip}")
-        valid_ips.append(valid_ip)
+        valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
+        if valid_ip:
+            print(f"找到可访问的视频流服务: {valid_ip}")
+            valid_ips.append(valid_ip)
     
     
 
