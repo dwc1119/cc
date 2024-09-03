@@ -23,7 +23,6 @@ for url in urls:
     try:
         response = requests.get(url, timeout=0.5)
         if response.status_code == 200:
-            return url
             print(url)
     except requests.exceptions.RequestException:
         pass
