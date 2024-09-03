@@ -45,4 +45,4 @@ def is_url_accessible(url):
     except requests.exceptions.RequestException:
         pass
     return None
-   print(error)
+    print(error)
