@@ -5,13 +5,13 @@ import cv2  # 导入OpenCV库
 
 # 定义fofa链接
 urls = [
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9cWluaHVhbmdkYW8%3D",#秦皇岛
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InNoaWppYXpodWFuZyI%3D",#石家庄
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImxhbmdmYW5nIg%3D%3D",#廊坊
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImhhbmRhbiI%3D",#邯郸
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImNhbmd6aG91Ig%3D%3D",#沧州
-    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjE0MDkwMyIgJiYgY2l0eT0iYmFvZGluZyI%3D"#保定
+    "https://m.youtube.com/@wangzhian/videos",#秦皇岛
+   # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
+   # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InNoaWppYXpodWFuZyI%3D",#石家庄
+   # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImxhbmdmYW5nIg%3D%3D",#廊坊
+   # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImhhbmRhbiI%3D",#邯郸
+  #  "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImNhbmd6aG91Ig%3D%3D",#沧州
+    #"https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjE0MDkwMyIgJiYgY2l0eT0iYmFvZGluZyI%3D"#保定
 ]
 # fofa_url = 'http://tonkiang.us/hoteliptv.php?page=1&pv=%E9%87%8D%E5%BA%86%E8%81%94%E9%80%9A'
 
@@ -81,7 +81,7 @@ for url in urls:
 
 
 channels = []
-with open("iptv.txt", 'r', encoding='utf-8') as file:
+with open("iptv6.txt", 'r', encoding='utf-8') as file:
     lines = file.readlines()
     for line in lines:
         #print(line)
