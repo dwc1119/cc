@@ -59,7 +59,7 @@ def check_video_stream_connectivity(ip_port, urls_udp):
     return None           
 
 # 定义组播地址和端口
-urls_udp = "/rtp/239.254.200.45:8008"
+urls_udp = "/rtp/239.3.1.129:8008"
 
 # 提取唯一的IP地址和端口号
 ip_ports = []
