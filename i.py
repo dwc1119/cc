@@ -5,7 +5,7 @@ import cv2  # 导入OpenCV库
 
 # 定义fofa链接
 urls = [
-    "https://m.youtube.com/@wangzhian/videos",#秦皇岛
+    "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IuWMl%2BS6rCI%3D",#北京联通
    # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InRhbmdzaGFuIg%3D%3D",#唐山
    # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InNoaWppYXpodWFuZyI%3D",#石家庄
    # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImxhbmdmYW5nIg%3D%3D",#廊坊
