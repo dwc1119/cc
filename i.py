@@ -6,7 +6,7 @@ import cv2  # 导入OpenCV库
 # 定义fofa链接
 urls = [
    # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiByZWdpb249IuWMl%2BS6rCI%3D",#北京联通
-   "http://tonkiang.us/hoteliptv.php?s=178.163.16.195",#唐山
+   "http://tonkiang.us/hoteliptv.php",#唐山
    # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9InNoaWppYXpodWFuZyI%3D",#石家庄
    # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImxhbmdmYW5nIg%3D%3D",#廊坊
    # "https://fofa.info/result?qbase64=InVkcHh5IiAmJiBhc249IjQxMzQiICYmIGNpdHk9ImhhbmRhbiI%3D",#邯郸
