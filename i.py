@@ -33,7 +33,7 @@ chrome_options.add_argument('--disable-dev-shm-usage')
     
 driver = webdriver.Chrome(options=chrome_options)
         # 使用WebDriver访问网页
-driver.post(url, data=payload)  # 将网址替换为你要访问的网页地址
+driver.POST(url, data=payload)  # 将网址替换为你要访问的网页地址
    # time.sleep(10)
         # 获取网页内容
 response = driver.page_source
