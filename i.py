@@ -1,5 +1,6 @@
 import sys
 import requests
+import re
 
 import os
 import shutil
