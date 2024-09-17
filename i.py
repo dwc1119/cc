@@ -34,10 +34,6 @@ unique_ips_ports = list(set(ips_ports))  # 去除重复的IP地址和端口号
 if unique_ips_ports:
     return unique_ips_ports
 
-except requests.RequestException as e:
-print(f"请求错误: {e}")
-return None
-
 # 检查视频流的可达性
 def check_video_stream_connectivity(ip_port, urls_udp):
     try:
