@@ -64,16 +64,10 @@ def check_video_stream_connectivity(ip_port, urls_udp):
 urls_udp = "/rtp/239.254.200.45:8008"
 
 # 提取唯一的IP地址和端口号
-ip_ports = []
-valid_ips = []
-for url in urls:
-    ip_ports = extract_unique_ip_ports(url)
-    if ip_ports:
-        print("IP地址和端口号：")
-        print(ip_ports)
+
     #测试每个IP地址和端口号，直到找到一个可访问的视频流
-    for ip_port in ip_ports:
-        valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
-        if valid_ip:
-            print(f"找到可访问的视频流服务: {valid_ip}")
-            valid_ips.append(valid_ip)
+for unique_ips_port in unique_ips_ports:
+    valid_ip = check_video_stream_connectivity(unique_ips_ports, urls_udp)
+    if valid_ip:
+        print(f"找到可访问的视频流服务: {valid_ip}")
+        valid_ips.append(valid_ip)
