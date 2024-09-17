@@ -1,6 +1,8 @@
 import sys
 import requests
 import re
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 
 import os
 import shutil
