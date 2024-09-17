@@ -15,11 +15,8 @@ def print_current_time(message):
 url = 'http://tonkiang.us/hoteliptv.php'
 
 # 从命令行参数中获取搜索关键字
-if len(sys.argv) < 2:
-    print("Usage: python test.py <search_keyword>")
-    sys.exit(1)
 
-keyword = sys.argv[1]
+keyword = 天元围棋
 
 # 构造 POST 请求参数
 payload = {'search': keyword}
