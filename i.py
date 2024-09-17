@@ -25,7 +25,7 @@ payload = {'search': keyword}
 response = requests.post(url, data=payload)
 
 # 打印响应内容
-print(response.text)
+#print(response.text)
 html_content = response.text
         # 使用正则表达式匹配IP地址和端口号
 ips_ports = re.findall(r'(\d+\.\d+\.\d+\.\d+:\d+)', html_content)
