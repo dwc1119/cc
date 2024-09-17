@@ -68,7 +68,7 @@ urls_udp = "/rtp/239.254.200.45:8008"
 
     #测试每个IP地址和端口号，直到找到一个可访问的视频流
 for unique_ips_port in unique_ips_ports:
-    valid_ip = check_video_stream_connectivity(unique_ips_ports, urls_udp)
+    valid_ip = check_video_stream_connectivity(unique_ips_port, urls_udp)
     if valid_ip:
         print(f"找到可访问的视频流服务: {valid_ip}")
         valid_ips.append(valid_ip)
