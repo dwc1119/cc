@@ -33,9 +33,26 @@ chrome_options.add_argument('--disable-dev-shm-usage')
     
 driver = webdriver.Chrome(options=chrome_options)
         # 使用WebDriver访问网页
-driver.POST(url, data=payload)  # 将网址替换为你要访问的网页地址
+driver.get(url)  # 将网址替换为你要访问的网页地址
    # time.sleep(10)
         # 获取网页内容
+# 定位搜索框并输入关键词\n
+search_box = driver.find_element_by_id("kw") 
+#百度搜索框的id为\"kw\
+search_box.send_keys("河北电信")
+# 模拟按下回车键进行搜索\n
+search_box.send_keys(Keys.RETURN)
+# 或者点击搜索按钮进行搜索（可选）
+search_button = driver.find_element_by_id("su")  
+# 百度搜索按钮的id为\"su\"
+search_button.click()
+# 等待搜索结果加载
+driver.implicitly_wait(10)  # 等待最多10秒钟，可根据实际情况调整\n \n# 
+输出当前页面标题和URL
+print("当前页面标题：", driver.title)
+print("当前页面URL：", driver.current_url)
+# 关闭浏览器
+
 response = driver.page_source
     
         # 关闭WebDriver
