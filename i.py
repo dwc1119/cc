@@ -16,9 +16,9 @@ def print_current_time(message):
 # 目标页面 URL
 url = 'http://tonkiang.us/hoteliptv.php'
 
-# 从命令行参数中获取搜索关键字
+# 搜索关键字
 
-keyword = '天元围棋'
+keyword = '河北电信'
 
 # 构造 POST 请求参数
 payload = {'search': keyword}
