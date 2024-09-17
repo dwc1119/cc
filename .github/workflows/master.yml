@@ -40,7 +40,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install opencv-python  # 根据需要安装opencv-python
-          pip install requests      # 安装requests库
+          pip install requests selenium      # 安装requests库
 
       #- name: Run a
        # run: python ${{ github.workspace }}/a.py
