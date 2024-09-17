@@ -16,7 +16,7 @@ url = 'http://tonkiang.us/hoteliptv.php'
 
 # 从命令行参数中获取搜索关键字
 
-keyword == 天元围棋
+keyword == [天元围棋]
 
 # 构造 POST 请求参数
 payload = {'search': keyword}
