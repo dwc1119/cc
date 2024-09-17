@@ -27,19 +27,19 @@ payload = {'search': keyword}
 
 # 发送 POST 请求
 chrome_options = Options()
-        chrome_options.add_argument('--headless')
-        chrome_options.add_argument('--no-sandbox')
-        chrome_options.add_argument('--disable-dev-shm-usage')
+    chrome_options.add_argument('--headless')
+    chrome_options.add_argument('--no-sandbox')
+    chrome_options.add_argument('--disable-dev-shm-usage')
     
-        driver = webdriver.Chrome(options=chrome_options)
+    driver = webdriver.Chrome(options=chrome_options)
         # 使用WebDriver访问网页
-        driver.get(url)  # 将网址替换为你要访问的网页地址
-        time.sleep(10)
+    driver.get(url)  # 将网址替换为你要访问的网页地址
+    time.sleep(10)
         # 获取网页内容
-        response = driver.page_source
+    response = driver.page_source
     
         # 关闭WebDriver
-        driver.quit()
+    driver.quit()
 #response = requests.post(url, data=payload)
 
 # 打印响应内容
