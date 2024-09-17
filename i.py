@@ -6,6 +6,7 @@ import os
 import shutil
 import filecmp
 import datetime
+import cv2
 
 # 打印当前时间的函数
 def print_current_time(message):
