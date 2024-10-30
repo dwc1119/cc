@@ -64,9 +64,11 @@ results = []
 with open("c.txt", 'a', encoding='utf-8') as file:
   #  for result in results:
     for url in urls:
-    #ip_ports = extract_unique_ip_ports(url)
+        ip_ports = extract_unique_ip_ports(url)
         print(url)
-        file.write(url + "\n")
+        for ip_port in ip_ports:
+            valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
+            file.write(valid_ip + "\n")
     
     #for ip_port in ip_ports:
        # results.append(ip_port)
