@@ -68,7 +68,7 @@ with open("c.txt", 'a', encoding='utf-8') as file:
         print(ip_ports)
         for ip_port in ip_ports:
             valid_ip = check_video_stream_connectivity(ip_port, urls_udp)
-            file.write(valid_ip + "\n")
+            file.write(valid_ip)
     
     #for ip_port in ip_ports:
        # results.append(ip_port)
